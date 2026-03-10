@@ -2,22 +2,21 @@
 
 import Link from "next/link";
 import { useState } from "react";
+import Button from "./common/Button";
+import { FiMenu, FiX, FiShoppingCart, FiUser } from "react-icons/fi";
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const navLinks = [
-    { name: "Home", href: "/" },
     { name: "Products", href: "/products" },
     { name: "Categories", href: "/categories" },
     { name: "Contact", href: "/contact" },
   ];
 
   return (
-    <header className="w-full border-b bg-white">
-      <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
-
-        {/* Logo */}
+    <header className="w-full fixed top-0 bg-linear-to-b  to-transparent via-black/75 from-black text-white z-50">
+      <div className="max-w-4xl mx-auto flex items-center justify-between px-6 py-4">
         <Link
           href="/"
           className="text-4xl md:text-5xl font-typefesse tracking-[-4px] md:tracking-[-6px]"
@@ -25,7 +24,6 @@ export default function Header() {
           Buyzo
         </Link>
 
-        {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center gap-8">
           {navLinks.map((link) => (
             <Link
@@ -38,25 +36,25 @@ export default function Header() {
           ))}
         </nav>
 
-        {/* Right Side */}
         <div className="flex items-center gap-4">
-
-          {/* Cart */}
-          <button className="hidden md:block px-4 py-2 border rounded-md hover:bg-gray-100 transition">
+          <Button variant="ghost" className="hidden md:flex items-center gap-2">
+            <FiUser size={18} />
+            Sign In
+          </Button>
+          <Button className="hidden md:flex items-center gap-2 px-5 py-2 text-sm">
+            <FiShoppingCart size={18} />
             Cart
-          </button>
-
-          {/* Mobile Menu Button */}
+          </Button>
           <button
             className="md:hidden text-2xl"
             onClick={() => setMenuOpen(!menuOpen)}
           >
-            ☰
+            {menuOpen ? <FiX /> : <FiMenu />}
           </button>
+
         </div>
       </div>
 
-      {/* Mobile Navigation */}
       {menuOpen && (
         <nav className="md:hidden border-t px-6 py-4 flex flex-col gap-4 bg-white">
           {navLinks.map((link) => (
@@ -70,9 +68,14 @@ export default function Header() {
             </Link>
           ))}
 
-          <button className="mt-2 px-4 py-2 border rounded-md hover:bg-gray-100">
+          <Button variant="ghost" className="w-full flex items-center gap-2">
+            <FiUser size={18} />
+            Sign In
+          </Button>
+          <Button className="w-full flex items-center gap-2">
+            <FiShoppingCart size={18} />
             Cart
-          </button>
+          </Button>
         </nav>
       )}
     </header>

@@ -13,6 +13,11 @@ const magnetik = localFont({
   variable: "--font-magnetik",
 });
 
+const bitcountPropDoubleInk = localFont({
+  src: "../public/fonts/BitcountPropDoubleInk.ttf",
+  variable: "--font-bitcountPropDoubleInk",
+});
+
 export const metadata: Metadata = {
   title: "Buyzo",
   description: "Buyzo ecommerce",
@@ -25,7 +30,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${typefesse.variable} ${magnetik.variable} antialiased`}>
+      <body className={`${typefesse.variable} ${magnetik.variable} ${bitcountPropDoubleInk.variable} antialiased font-magnetik`}>
         <Header />
         {children}
       </body>
