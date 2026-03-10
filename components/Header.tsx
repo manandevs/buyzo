@@ -15,7 +15,7 @@ export default function Header() {
   ];
 
   return (
-    <header className="w-full fixed top-0 bg-linear-to-b  to-transparent via-black/75 from-black text-white z-50">
+    <header className="w-full fixed top-0 left-1/2 -translate-x-1/2 bg-linear-to-b  to-transparent via-black/75 from-black text-white z-50">
       <div className="max-w-4xl mx-auto flex items-center justify-between px-6 py-4">
         <Link
           href="/"

@@ -22,15 +22,12 @@ const marqueeTexts2 = [
 
 export default function Marquee() {
   return (
-    <section className="w-full py-12 bg-black overflow-hidden h-screen relative flex flex-col justify-center items-center">
-      {/* Watermark text */}
+    <section className="w-full bg-black overflow-hidden py-36 md:py-48 lg:py-72 relative flex flex-col justify-center items-center">
       <h1 className="text-4xl md:text-[196px] font-typefesse tracking-tighter text-white opacity-25 absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2">
         Buyzo
       </h1>
 
-      {/* Marquee wrapper */}
       <div className="w-full overflow-hidden">
-        {/* First line */}
         <motion.div
           className="flex gap-16 whitespace-nowrap"
           animate={{ x: ["0%", "-100%"] }}
