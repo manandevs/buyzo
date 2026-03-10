@@ -7,23 +7,32 @@ interface Variation {
 }
 
 interface ProductCardProps {
-  title: string;
-  productUrl: string;
-  imageUrl: string;
-  price: string;
+  id?: string;
+  title?: string;
+  productUrl?: string;
+  imageUrl?: string;
+  price?: string;
   currencySymbol?: string;
   isNew?: boolean;
+  outOfStock?: boolean;
   variations?: Variation[];
+  isAd?: boolean;
+  type?: string;
+  subtitle?: string;
 }
 
 export default function ProductCard({
-  title,
-  productUrl,
-  imageUrl,
-  price,
+  title = "Product Title",
+  productUrl = "#",
+  imageUrl = "/images/toys.png",
+  price = "0.00",
   currencySymbol = "R",
   isNew = false,
+  outOfStock = false,
   variations = [],
+  isAd = false,
+  type,
+  subtitle,
 }: ProductCardProps) {
   return (
     <div className="flex flex-col">

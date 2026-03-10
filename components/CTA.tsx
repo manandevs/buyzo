@@ -10,19 +10,21 @@ export default function CTA() {
   );
 
   return (
-    <section className="relative w-full py-24 max-w-7xl mx-auto px-6 overflow-hidden">
-      <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
-        Brands that thrive invest in custom-designed packaging. Let us help
-        bring your vision to life.
-      </h2>
+    <section className="relative w-full py-24 overflow-hidden">
+      <div className="max-w-7xl mx-auto px-6">
+        <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
+          Brands that thrive invest in custom-designed packaging. Let us help
+          bring your vision to life.
+        </h2>
 
-      <div className="relative -rotate-6 ml-auto">
-        <Link
-          href="/"
-          className="text-6xl md:text-8xl font-typefesse"
-        >
-          Buyzo
-        </Link>
+        <div className="relative -rotate-6 ml-auto">
+          <Link
+            href="/"
+            className="text-6xl md:text-8xl font-typefesse"
+          >
+            Buyzo
+          </Link>
+        </div>
       </div>
 
       <div className="mt-20 border-y border-gray-800 py-10 overflow-hidden">

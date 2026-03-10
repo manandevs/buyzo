@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 const typefesse = localFont({
   src: "../public/fonts/Typefesse.otf",
@@ -33,6 +34,7 @@ export default function RootLayout({
       <body className={`${typefesse.variable} ${magnetik.variable} ${bitcountPropDoubleInk.variable} antialiased font-magnetik bg-black text-white`}>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
