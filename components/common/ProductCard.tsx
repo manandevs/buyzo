@@ -28,27 +28,21 @@ export default function ProductCard({
   price = "0.00",
   currencySymbol = "R",
   isNew = false,
-  outOfStock = false,
   variations = [],
-  isAd = false,
-  type,
-  subtitle,
 }: ProductCardProps) {
   return (
     <div className="flex flex-col">
       <div className="flex flex-col gap-2">
-
         <div className="relative">
-
           <Link
             aria-label={`Image Link for ${title}`}
             href={productUrl}
             className="block w-full aspect-square overflow-hidden"
           >
             <span className="block w-full h-full">
-              <img
-                width="600"
-                height="600"
+              <Image
+                width={600}
+                height={600}
                 className="w-full h-full object-cover"
                 alt={title}
                 src={imageUrl}
@@ -76,7 +70,6 @@ export default function ProductCard({
               ))}
             </div>
           )}
-
         </div>
 
         <h3 className="text-base font-medium">
@@ -98,7 +91,6 @@ export default function ProductCard({
             incl. vat
           </span>
         </span>
-
       </div>
     </div>
   );

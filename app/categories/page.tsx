@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import {
@@ -11,10 +11,6 @@ import {
   FiHome,
   FiHeart,
   FiArrowRight,
-  FiSearch,
-  FiGlobe,
-  FiShield,
-  FiTruck,
 } from "react-icons/fi";
 import Header from "@/components/Header";
 import ShopCTA from "@/components/ShopCTA";
@@ -59,14 +55,11 @@ const categoriesData = [
 ];
 
 export default function CategoriesPage() {
-  const [searchTerm, setSearchTerm] = useState("");
-
   return (
     <div className="min-h-screen w-full bg-black text-white flex flex-col">
       <Header />
 
       <main className="flex-1 max-w-7xl mx-auto w-full px-6 pt-32 pb-24 flex flex-col gap-16">
-
         {/* Page Header & Search */}
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-8">
           <div className="flex flex-col gap-4 max-w-2xl">
@@ -77,20 +70,6 @@ export default function CategoriesPage() {
               Browse our extensive range of packaging solutions. Find exactly what you need by exploring our dedicated categories or searching directly below.
             </p>
           </div>
-          {/* 
-          <div className="relative w-full md:w-80 shrink-0">
-            <input
-              type="text"
-              placeholder="Search categories..."
-              value={searchTerm}
-              onChange={(e) => setSearchTerm(e.target.value)}
-              className="w-full bg-gray-900 border border-gray-700 text-white rounded-full py-3 pl-12 pr-4 focus:outline-none focus:border-purple-500 focus:ring-1 focus:ring-purple-500 transition-all"
-            />
-            <FiSearch
-              className="absolute left-5 top-1/2 -translate-y-1/2 text-gray-400"
-              size={20}
-            />
-          </div> */}
         </div>
 
         <motion.div
@@ -106,7 +85,6 @@ export default function CategoriesPage() {
                 key={index}
                 className="group relative bg-gradient-to-br from-gray-900 to-black border border-gray-800 hover:border-purple-500/50 rounded-2xl p-4 flex flex-col transition-all duration-300 hover:shadow-[0_0_30px_rgba(123,31,162,0.1)] overflow-hidden"
               >
-
                 {/* Icon & Title */}
                 <div className="flex items-center gap-2 mb-2 relative z-10">
                   <div className="w-10 h-10 bg-black border border-gray-700 rounded-xl flex items-center justify-center text-white group-hover:scale-110 group-hover:bg-purple-900/20 group-hover:border-purple-500/50 group-hover:text-purple-400 transition-all duration-300 shrink-0 shadow-lg">

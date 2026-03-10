@@ -2,7 +2,8 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
-import { motion, AnimatePresence } from "framer-motion";
+import Image from "next/image";
+import { motion, AnimatePresence, Variants } from "framer-motion";
 import {
   FiChevronRight,
   FiMinus,
@@ -15,8 +16,6 @@ import Header from "@/components/Header";
 import ShopCTA from "@/components/ShopCTA";
 import Button from "@/components/common/Button";
 import ProductCard from "@/components/common/ProductCard";
-
-// --- Mock Data ---
 
 const MOCK_PRODUCT = {
   id: "1",
@@ -73,17 +72,22 @@ const RELATED_PRODUCTS = [
   },
 ];
 
-// --- Animation Variants ---
-const staggerContainer = {
-  hidden: { opacity: 0 },
-  show: { opacity: 1, transition: { staggerChildren: 0.1 } },
-};
-
-const fadeUpItem = {
+const fadeUpItem: Variants = {
   hidden: { opacity: 0, y: 20 },
-  show: { opacity: 1, y: 0, transition: { type: "spring", stiffness: 300, damping: 24 } },
+  show: {
+    opacity: 1,
+    y: 0,
+    transition: { type: "spring" as const, stiffness: 300, damping: 24 }
+  },
 };
 
+const staggerContainer: Variants = {
+  hidden: { opacity: 0 },
+  show: {
+    opacity: 1,
+    transition: { staggerChildren: 0.1 }
+  },
+};
 export default function ProductDetailsPage() {
   const [activeImage, setActiveImage] = useState(MOCK_PRODUCT.images[0]);
   const [selectedVariation, setSelectedVariation] = useState(MOCK_PRODUCT.variations[0]);
@@ -104,8 +108,6 @@ export default function ProductDetailsPage() {
       <Header />
 
       <main className="flex-1 max-w-7xl mx-auto w-full px-6 pt-32 pb-24 flex flex-col gap-16">
-
-        {/* --- Breadcrumbs --- */}
         <nav aria-label="Breadcrumb" className="text-sm text-gray-400 flex items-center gap-2">
           <Link href="/" className="hover:text-white transition-colors">Home</Link>
           <FiChevronRight size={14} />
@@ -118,49 +120,43 @@ export default function ProductDetailsPage() {
           <span className="text-white truncate">{MOCK_PRODUCT.title}</span>
         </nav>
 
-        {/* --- Main Product Section --- */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20">
-
-          {/* Left: Image Gallery */}
           <motion.div
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
             className="flex flex-col gap-6"
           >
-            {/* Main Image */}
             <div className="w-full aspect-square bg-gray-900/50 border border-gray-800 rounded-3xl overflow-hidden relative flex items-center justify-center">
-              <img
+              <Image
                 src={activeImage}
                 alt={MOCK_PRODUCT.title}
-                className="w-full h-full object-cover"
+                fill
+                className="object-cover"
               />
             </div>
 
-            {/* Thumbnails */}
             <div className="flex gap-4 overflow-x-auto pb-2 [&::-webkit-scrollbar]:hidden">
               {MOCK_PRODUCT.images.map((img, idx) => (
                 <button
                   key={idx}
                   onClick={() => setActiveImage(img)}
-                  className={`w-24 h-24 shrink-0 rounded-xl overflow-hidden border-2 transition-all duration-200 ${activeImage === img ? "border-[#BA68C8] opacity-100" : "border-transparent opacity-50 hover:opacity-100"
+                  className={`w-24 h-24 shrink-0 rounded-xl overflow-hidden border-2 transition-all duration-200 relative ${activeImage === img ? "border-[#BA68C8] opacity-100" : "border-transparent opacity-50 hover:opacity-100"
                     }`}
                 >
-                  <img src={img} alt={`Thumbnail ${idx + 1}`} className="w-full h-full object-cover" />
+                  <Image src={img} alt={`Thumbnail ${idx + 1}`} width={96} height={96} className="w-full h-full object-cover" />
                 </button>
               ))}
             </div>
           </motion.div>
 
-          {/* Right: Product Details */}
           <motion.div
             variants={staggerContainer}
             initial="hidden"
             animate="show"
             className="flex flex-col"
           >
-            {/* Title & Price */}
             <motion.div
-              //  variants={fadeUpItem} 
+              variants={fadeUpItem}
               className="border-b border-gray-800 pb-8 mb-8">
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight mb-4">
                 {MOCK_PRODUCT.title}
@@ -175,16 +171,14 @@ export default function ProductDetailsPage() {
               </div>
             </motion.div>
 
-            {/* Description */}
             <motion.p
-              //  variants={fadeUpItem}
+              variants={fadeUpItem}
               className="text-gray-400 text-lg leading-relaxed mb-8">
               {MOCK_PRODUCT.description}
             </motion.p>
 
-            {/* Variations */}
             <motion.div
-              //  variants={fadeUpItem}
+              variants={fadeUpItem}
               className="mb-8">
               <h3 className="text-sm font-semibold uppercase tracking-widest text-gray-500 mb-4">Select Volume</h3>
               <div className="flex flex-wrap gap-3">
@@ -203,11 +197,9 @@ export default function ProductDetailsPage() {
               </div>
             </motion.div>
 
-            {/* Actions (Quantity & Add to Cart) */}
             <motion.div
-              // variants={fadeUpItem}
+              variants={fadeUpItem}
               className="flex flex-col sm:flex-row gap-4 mb-12">
-              {/* Quantity Selector */}
               <div className="flex items-center justify-between border border-gray-800 rounded-full px-4 py-1 h-14 w-full sm:w-40 bg-gray-900/30">
                 <button
                   onClick={() => handleQuantityChange("decrement")}
@@ -226,19 +218,17 @@ export default function ProductDetailsPage() {
                 </button>
               </div>
 
-              {/* Primary Button */}
               <Button className="h-12 max-w-48 flex-1 text-lg">
                 <FiShoppingCart size={20} className="mr-2" />
                 Add to Cart
               </Button>
               <Button variant="secondary" className="h-12 w-12 px-0 py-0 flex justify-center items-center">
-                 <FiHeart size={20} />
+                <FiHeart size={20} />
               </Button>
             </motion.div>
 
-            {/* Accordion Details */}
             <motion.div
-              // variants={fadeUpItem}
+              variants={fadeUpItem}
               className="border-t border-gray-800">
               {MOCK_PRODUCT.details.map((detail, idx) => (
                 <div key={idx} className="border-b border-gray-800">
@@ -269,11 +259,9 @@ export default function ProductDetailsPage() {
                 </div>
               ))}
             </motion.div>
-
           </motion.div>
         </div>
 
-        {/* --- Related Products Section --- */}
         <section className="mt-12 border-t border-gray-800 pt-20">
           <div className="flex items-center justify-between mb-10">
             <h2 className="text-3xl font-bold tracking-tight">You might also like</h2>
@@ -294,7 +282,6 @@ export default function ProductDetailsPage() {
             </Link>
           </div>
         </section>
-
       </main>
 
       <ShopCTA />

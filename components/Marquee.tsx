@@ -1,7 +1,6 @@
 "use client";
 
 import { motion } from "framer-motion";
-import Image from "next/image";
 
 // Marquee texts related to Buyzo (e-commerce store like Daraz or Tumu)
 const marqueeTexts1 = [

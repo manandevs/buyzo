@@ -1,8 +1,6 @@
 "use client";
 
 import Image from "next/image";
-import Link from "next/link";
-import { FiArrowRight } from "react-icons/fi"; // Feel free to remove this if not used elsewhere
 import { solutions } from "@/lib/data";
 import SolutionCard from "./common/SolutionCard";
 
