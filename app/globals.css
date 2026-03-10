@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-typefesse: var(--font-typefesse);
+  --font-magnetik: var(--font-magnetik);
+}
