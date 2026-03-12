@@ -5,3 +5,11 @@
   --font-magnetik: var(--font-magnetik);
   --font-bitcountPropDoubleInk: var(--font-bitcountPropDoubleInk);
 }
+
+.yellow-to-purple {
+  filter: hue-rotate(240deg) saturate(220%) brightness(75%) contrast(100%);
+}
+
+.yellow-to-green {
+  filter: hue-rotate(90deg) saturate(120%);
+}
