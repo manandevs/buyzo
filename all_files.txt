@@ -1,0 +1,2062 @@
+=== D:\next\buyzo\.gitignore ===
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+.env*
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+=== D:\next\buyzo\.md ===
+
+        {/* Text Content */}
+        
+
+        
+      </div>
+
+=== D:\next\buyzo\app\categories\page.tsx ===
+"use client";
+
+import React from "react";
+import Link from "next/link";
+import { motion } from "framer-motion";
+import {
+  FiCoffee,
+  FiShoppingBag,
+  FiBox,
+  FiMonitor,
+  FiHome,
+  FiHeart,
+  FiArrowRight,
+} from "react-icons/fi";
+import Header from "@/components/Header";
+import ShopCTA from "@/components/ShopCTA";
+
+const categoriesData = [
+  {
+    title: "Food Service",
+    description: "Premium packaging solutions for restaurants, cafes, and takeaways.",
+    icon: FiCoffee,
+    href: "/categories/food-service",
+  },
+  {
+    title: "Retail Packaging",
+    description: "Bags, boxes, and wrapping to elevate your brand's unboxing experience.",
+    icon: FiShoppingBag,
+    href: "/categories/retail-packaging",
+  },
+  {
+    title: "Logistics & Shipping",
+    description: "Durable corrugated boxes, mailers, and protective materials for secure transit.",
+    icon: FiBox,
+    href: "/categories/shipping",
+  },
+  {
+    title: "Electronics",
+    description: "Anti-static packaging and protective casings for delicate electronic goods.",
+    icon: FiMonitor,
+    href: "/categories/electronics",
+  },
+  {
+    title: "Home & Living",
+    description: "Eco-friendly storage, organization, and lifestyle product packaging.",
+    icon: FiHome,
+    href: "/categories/home-living",
+  },
+  {
+    title: "Beauty & Health",
+    description: "Elegant, sterile, and compliant packaging for cosmetics and wellness products.",
+    icon: FiHeart,
+    href: "/categories/beauty-health",
+  },
+];
+
+export default function CategoriesPage() {
+  return (
+    <div className="min-h-screen w-full bg-black text-white flex flex-col">
+      <Header />
+
+      <main className="flex-1 max-w-7xl mx-auto w-full px-6 pt-32 pb-24 flex flex-col gap-16">
+        {/* Page Header & Search */}
+        <div className="flex flex-col md:flex-row md:items-end justify-between gap-8">
+          <div className="flex flex-col gap-4 max-w-2xl">
+            <h1 className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-white via-gray-200 to-gray-500 bg-clip-text text-transparent">
+              Shop by Category
+            </h1>
+            <p className="text-lg text-gray-400">
+              Browse our extensive range of packaging solutions. Find exactly what you need by exploring our dedicated categories or searching directly below.
+            </p>
+          </div>
+        </div>
+
+        <motion.div
+          initial="hidden"
+          animate="show"
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+        >
+          {categoriesData.map((category, index) => {
+            const Icon = category.icon;
+
+            return (
+              <motion.div
+                key={index}
+                className="group relative bg-gradient-to-br from-gray-900 to-black border border-gray-800 hover:border-purple-500/50 rounded-2xl p-4 flex flex-col transition-all duration-300 hover:shadow-[0_0_30px_rgba(123,31,162,0.1)] overflow-hidden"
+              >
+                {/* Icon & Title */}
+                <div className="flex items-center gap-2 mb-2 relative z-10">
+                  <div className="w-10 h-10 bg-black border border-gray-700 rounded-xl flex items-center justify-center text-white group-hover:scale-110 group-hover:bg-purple-900/20 group-hover:border-purple-500/50 group-hover:text-purple-400 transition-all duration-300 shrink-0 shadow-lg">
+                    <Icon size={16} />
+                  </div>
+                  <h2 className="text-2xl font-bold">
+                    <Link href={category.href} className="hover:text-purple-400 transition-colors before:absolute before:inset-0">
+                      {category.title}
+                    </Link>
+                  </h2>
+                </div>
+
+                <p className="text-gray-400 mb-4 flex-1 relative z-10 leading-relaxed">
+                  {category.description}
+                </p>
+
+                {/* Explore Link */}
+                <div className="inline-flex items-center gap-2 text-[#BA68C8] font-semibold mt-auto group-hover:text-white transition-colors relative z-10">
+                  Explore {category.title}
+                  <FiArrowRight
+                    size={18}
+                    className="group-hover:translate-x-1.5 transition-transform duration-300"
+                  />
+                </div>
+              </motion.div>
+            );
+          })}
+        </motion.div>
+      </main>
+      <ShopCTA />
+    </div>
+  );
+}
+
+=== D:\next\buyzo\app\contact\page.tsx ===
+"use client";
+
+import React, { useState } from "react";
+import { motion } from "framer-motion";
+import { FiMail, FiPhone, FiMapPin, FiClock, FiSend } from "react-icons/fi";
+import Header from "@/components/Header";
+import ShopCTA from "@/components/ShopCTA";
+import Button from "@/components/common/Button";
+
+export default function ContactPage() {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    subject: "",
+    message: "",
+  });
+
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
+
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    console.log("Form submitted:", formData);
+    alert("Thanks for reaching out! We will get back to you soon.");
+    setFormData({ name: "", email: "", subject: "", message: "" });
+  };
+
+  const contactDetails = [
+    {
+      icon: FiMail,
+      title: "Email Us",
+      details: "hello@buyzo.com",
+      description: "We aim to respond to all inquiries within 24 hours.",
+    },
+    {
+      icon: FiPhone,
+      title: "Call Us",
+      details: "+27 83 796 0416",
+      description: "Mon-Fri from 8am to 5pm (SAST).",
+    },
+    {
+      icon: FiMapPin,
+      title: "Head Office",
+      details: "Johannesburg, South Africa",
+      description: "Available for scheduled visits and consultations.",
+    },
+    {
+      icon: FiClock,
+      title: "Business Hours",
+      details: "Mon - Fri: 8:00 AM - 5:00 PM",
+      description: "Closed on weekends and public holidays.",
+    },
+  ];
+
+  return (
+    <div className="min-h-screen w-full bg-black text-white flex flex-col selection:bg-[#BA68C8] selection:text-white">
+      <Header />
+
+      <main className="flex-1 max-w-7xl mx-auto w-full px-6 pt-32 pb-24 flex flex-col gap-16 md:gap-24">
+
+        {/* Page Header */}
+        <div className="max-w-3xl">
+          <motion.h1
+            initial={{ opacity: 0, y: -20 }}
+            animate={{ opacity: 1, y: 0 }}
+            className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-6"
+          >
+            Get in Touch
+          </motion.h1>
+          <motion.p
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 0.2 }}
+            className="text-lg text-gray-400 leading-relaxed"
+          >
+            Have a question about our packaging solutions, need a custom quote, or want to discuss a bulk order? Our dedicated team is here to help you set the standard for excellence.
+          </motion.p>
+        </div>
+
+        {/* Two Column Layout (Form + Details) */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24">
+
+          {/* Minimal Form */}
+          <motion.form
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 0.3 }}
+            onSubmit={handleSubmit}
+            className="flex flex-col gap-8"
+          >
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <input
+                type="text"
+                name="name"
+                required
+                value={formData.name}
+                onChange={handleChange}
+                placeholder="Full Name"
+                className="w-full bg-transparent border-b border-gray-800 text-white py-4 focus:outline-none focus:border-[#BA68C8] transition-colors placeholder:text-gray-600"
+              />
+              <input
+                type="email"
+                name="email"
+                required
+                value={formData.email}
+                onChange={handleChange}
+                placeholder="Email Address"
+                className="w-full bg-transparent border-b border-gray-800 text-white py-4 focus:outline-none focus:border-[#BA68C8] transition-colors placeholder:text-gray-600"
+              />
+            </div>
+
+            <input
+              type="text"
+              name="subject"
+              required
+              value={formData.subject}
+              onChange={handleChange}
+              placeholder="Subject"
+              className="w-full bg-transparent border-b border-gray-800 text-white py-4 focus:outline-none focus:border-[#BA68C8] transition-colors placeholder:text-gray-600"
+            />
+
+            <textarea
+              name="message"
+              required
+              rows={4}
+              value={formData.message}
+              onChange={handleChange}
+              placeholder="Tell us about your project or inquiry..."
+              className="w-full bg-transparent border-b border-gray-800 text-white py-4 focus:outline-none focus:border-[#BA68C8] transition-colors placeholder:text-gray-600 resize-none"
+            />
+
+            <Button className="w-fit px-8 py-3 mt-4 text-lg">
+              Send Message <FiSend size={18} />
+            </Button>
+          </motion.form>
+
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 0.4 }}
+            className="flex flex-col gap-4"
+          >
+            {contactDetails.map((item, index) => {
+              const Icon = item.icon;
+              return (
+                <div key={index} className="flex flex-col items-start">
+                  <div className="flex gap-1 items-center">
+                    <Icon size={16} className="text-gray-500 shrink-0" />
+                    <h3 className="font-semibold ">{item.title}</h3>
+                  </div>
+                  <p className="text-[#BA68C8]">{item.details}</p>
+                  <p className="text-gray-400">{item.description}</p>
+                </div>
+              );
+            })}
+          </motion.div>
+
+        </div>
+      </main>
+
+      <ShopCTA />
+    </div>
+  );
+}
+
+=== D:\next\buyzo\app\globals.css ===
+@import "tailwindcss";
+
+@theme inline {
+  --font-typefesse: var(--font-typefesse);
+  --font-magnetik: var(--font-magnetik);
+  --font-bitcountPropDoubleInk: var(--font-bitcountPropDoubleInk);
+}
+
+=== D:\next\buyzo\app\layout.tsx ===
+import type { Metadata } from "next";
+import localFont from "next/font/local";
+import "./globals.css";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+
+const typefesse = localFont({
+  src: "../public/fonts/Typefesse.otf",
+  variable: "--font-typefesse",
+});
+
+const magnetik = localFont({
+  src: "../public/fonts/Magnetik.otf",
+  variable: "--font-magnetik",
+});
+
+const bitcountPropDoubleInk = localFont({
+  src: "../public/fonts/BitcountPropDoubleInk.ttf",
+  variable: "--font-bitcountPropDoubleInk",
+});
+
+export const metadata: Metadata = {
+  title: "Buyzo",
+  description: "Buyzo ecommerce",
+};
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return (
+    <html lang="en">
+      <body className={`${typefesse.variable} ${magnetik.variable} ${bitcountPropDoubleInk.variable} antialiased font-magnetik bg-black text-white`}>
+        <Header />
+        {children}
+        <Footer />
+      </body>
+    </html>
+  );
+}
+
+=== D:\next\buyzo\app\page.tsx ===
+import CTA from "@/components/CTA";
+import FAQ from "@/components/FAQ";
+import Hero from "@/components/Hero";
+import Info from "@/components/Info";
+import Marquee from "@/components/Marquee";
+import Product from "@/components/Product";
+import ShopCTA from "@/components/ShopCTA";
+import Solution from "@/components/Solution";
+import Standards from "@/components/Standards";
+import { FaWhatsapp } from "react-icons/fa";
+
+export default function Home() {
+  return (
+    <main className="min-h-screen w-screen">
+      <Hero />
+      <Marquee />
+      <ShopCTA />
+      <Solution />
+      <Info />
+      <Product />
+      <CTA />
+      <Standards />
+      <FAQ />
+      <a
+        href="https://wa.me/+27837960416"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="fixed bottom-6 right-6 bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-600 transition"
+        aria-label="Chat on WhatsApp"
+      >
+        <FaWhatsapp size={24} />
+      </a>
+    </main>
+  );
+}
+
+=== D:\next\buyzo\app\shop\page.tsx ===
+"use client";
+
+import React, { useState } from "react";
+import { FiSearch, FiChevronDown } from "react-icons/fi";
+import ProductCard from "@/components/common/ProductCard";
+import Button from "@/components/common/Button";
+import ShopCTA from "@/components/ShopCTA";
+
+const categories = [
+  "All",
+  "Electronics",
+  "Fashion",
+  "Home & Living",
+  "Beauty & Health",
+  "Sports & Outdoors",
+  "Toys & Baby",
+];
+
+const filterTypes = [
+  "Food Service",
+  "Food Processing",
+  "Agriculture",
+  "Retail Packaging",
+  "Bespoke Moulded",
+];
+
+const filterMaterials = [
+  "Paper Pulp",
+  "Recyclable Plastic",
+  "Compostable",
+  "FSC-Certified Wood",
+  "Glass",
+];
+
+const mockProducts = [
+  {
+    id: "1",
+    title: "Single Wall Matte Black Coffee Cup",
+    productUrl: "/product/single-wall-matte-black-coffee-cup",
+    imageUrl:
+      "https://yucca.co.za/wp-content/uploads/2025/08/KG-SW-B-250-600x600.jpg",
+    price: "1.09",
+    isNew: true,
+    variations: [
+      { label: "250ml", url: "#" },
+      { label: "350ml", url: "#" },
+    ],
+  },
+  {
+    id: "2",
+    title: "Paper Pulp Cup Holder",
+    productUrl: "/product/paper-pulp-cup-holder",
+    imageUrl:
+      "https://yucca.co.za/wp-content/uploads/2025/09/KG-CH-2-600x600.jpg",
+    price: "1.55",
+    isNew: true,
+    variations: [
+      { label: "2-Holder", url: "#" },
+      { label: "4-Holder", url: "#" },
+    ],
+  },
+  {
+    id: "3",
+    title: "Dessert Cup (90mm)",
+    productUrl: "/product/dessert-cups",
+    imageUrl:
+      "https://yucca.co.za/wp-content/uploads/2025/09/YP-JU9-600x600.jpg",
+    price: "1.38",
+  },
+  {
+    id: "4",
+    title: "Dessert Cup Flat Lid (90mm)",
+    productUrl: "/product/flat-lid-closed",
+    imageUrl:
+      "https://yucca.co.za/wp-content/uploads/2025/08/YP-JYF90-600x600.jpg",
+    price: "0.63",
+  },
+  {
+    id: "5",
+    title: "Premium Black Cutlery Set",
+    productUrl: "/product/cutlery-set",
+    imageUrl:
+      "https://yucca.co.za/wp-content/uploads/2025/08/KG-SW-B-250-600x600.jpg",
+    price: "2.50",
+  },
+  {
+    id: "6",
+    title: "Eco-friendly Salad Bowl",
+    productUrl: "/product/salad-bowl",
+    imageUrl:
+      "https://yucca.co.za/wp-content/uploads/2025/09/KG-CH-2-600x600.jpg",
+    price: "3.20",
+    isNew: true,
+  },
+];
+
+export default function ShopPage() {
+  const [activeCategory, setActiveCategory] = useState("All");
+
+  return (
+    <div className="min-h-screen w-full bg-black text-white flex flex-col">
+      <main className="flex-1 max-w-7xl mx-auto w-full px-6 pt-32 pb-20 flex flex-col gap-10">
+        <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
+          <h1 className="text-4xl md:text-5xl font-bold">Shop all products</h1>
+          <div className="relative w-full md:w-80 shrink-0">
+            <input
+              type="text"
+              placeholder="Search products"
+              className="w-full bg-transparent border border-gray-700 text-white rounded-full py-3 px-12 focus:outline-none focus:border-white transition-colors"
+            />
+            <FiSearch
+              className="absolute left-5 top-1/2 -translate-y-1/2 text-gray-400"
+              size={20}
+            />
+          </div>
+        </div>
+
+        <div className="flex gap-3 overflow-x-auto pb-4 border-b border-gray-800 [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none][scrollbar-width:none]">
+          {categories.map((cat) => (
+            <button
+              key={cat}
+              onClick={() => setActiveCategory(cat)}
+              className={`whitespace-nowrap px-6 py-2 rounded-full border transition-all ${activeCategory === cat
+                  ? "bg-white text-black border-white"
+                  : "border-gray-700 text-gray-300 hover:border-gray-500 hover:text-white"
+                }`}
+            >
+              {cat}
+            </button>
+          ))}
+        </div>
+
+        <div className="flex flex-col lg:flex-row gap-12 mt-4">
+          <aside className="hidden lg:block w-64 shrink-0 space-y-10">
+            <div>
+              <h3 className="font-semibold text-lg mb-4">Product Type</h3>
+              <div className="space-y-3">
+                {filterTypes.map((type) => (
+                  <label
+                    key={type}
+                    className="flex items-center gap-3 cursor-pointer group"
+                  >
+                    <input
+                      type="checkbox"
+                      className="w-5 h-5 rounded border-gray-700 bg-transparent text-white focus:ring-0 focus:ring-offset-0 accent-white"
+                    />
+                    <span className="text-gray-400 group-hover:text-white transition-colors">
+                      {type}
+                    </span>
+                  </label>
+                ))}
+              </div>
+            </div>
+
+            <div>
+              <h3 className="font-semibold text-lg mb-4">Material</h3>
+              <div className="space-y-3">
+                {filterMaterials.map((material) => (
+                  <label
+                    key={material}
+                    className="flex items-center gap-3 cursor-pointer group"
+                  >
+                    <input
+                      type="checkbox"
+                      className="w-5 h-5 rounded border-gray-700 bg-transparent text-white focus:ring-0 focus:ring-offset-0 accent-white"
+                    />
+                    <span className="text-gray-400 group-hover:text-white transition-colors">
+                      {material}
+                    </span>
+                  </label>
+                ))}
+              </div>
+            </div>
+          </aside>
+
+          {/* Product Grid Area */}
+          <div className="flex-1 flex flex-col">
+            <div className="flex justify-end mb-8">
+              <div className="relative">
+                <select className="appearance-none bg-transparent border border-gray-700 text-white py-2 pl-4 pr-10 rounded-lg focus:outline-none focus:border-white transition-colors cursor-pointer">
+                  <option className="bg-black text-white">Latest</option>
+                  <option className="bg-black text-white">Price: low to high</option>
+                  <option className="bg-black text-white">Price: high to low</option>
+                </select>
+                <FiChevronDown className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-400 pointer-events-none" />
+              </div>
+            </div>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+              {mockProducts.map((product, index) => (
+                <React.Fragment key={product.id}>
+                  {index === 4 && (
+                    <div className="col-span-1 sm:col-span-2 lg:col-span-3 bg-gray-900 border border-gray-800 rounded-xl p-8 flex flex-col md:flex-row items-center justify-between gap-6 my-4 shadow-xl">
+                      <div className="text-center md:text-left">
+                        <h3 className="text-2xl font-bold mb-2">
+                          Upgrade Your Packaging
+                        </h3>
+                        <p className="text-gray-400">
+                          Discover our new line of fully sustainable, FSC-certified materials.
+                        </p>
+                      </div>
+                      <Button variant="secondary">Explore Custom Orders</Button>
+                    </div>
+                  )}
+                  <ProductCard {...product} />
+                </React.Fragment>
+              ))}
+            </div>
+
+            <div className="mt-16 flex justify-center">
+              <Button variant="secondary">View more products</Button>
+            </div>
+
+          </div>
+        </div>
+      </main>
+
+      <ShopCTA />
+    </div>
+  );
+}
+
+=== D:\next\buyzo\app\shop\[slug]\page.tsx ===
+"use client";
+
+import React, { useState } from "react";
+import Link from "next/link";
+import Image from "next/image";
+import { motion, AnimatePresence, Variants } from "framer-motion";
+import {
+  FiChevronRight,
+  FiMinus,
+  FiPlus,
+  FiShoppingCart,
+  FiHeart,
+  FiChevronDown
+} from "react-icons/fi";
+import Header from "@/components/Header";
+import ShopCTA from "@/components/ShopCTA";
+import Button from "@/components/common/Button";
+import ProductCard from "@/components/common/ProductCard";
+
+const MOCK_PRODUCT = {
+  id: "1",
+  title: "Single Wall Matte Black Coffee Cup",
+  category: "Food Service",
+  price: "1.09",
+  currencySymbol: "R",
+  description: "Premium, food-safe single wall matte black coffee cups. Engineered for heat retention and a sleek, modern aesthetic. Ideal for cafes, restaurants, and premium takeaway services.",
+  images: [
+    "https://yucca.co.za/wp-content/uploads/2025/08/KG-SW-B-250-600x600.jpg",
+    "https://yucca.co.za/wp-content/uploads/2025/09/KG-CH-2-600x600.jpg",
+    "https://yucca.co.za/wp-content/uploads/2025/09/YP-JU9-600x600.jpg",
+  ],
+  variations: ["250ml", "350ml", "500ml"],
+  stock: 124,
+  details: [
+    {
+      title: "Product Specifications",
+      content: "Material: Premium Food-Grade Paper\nFinish: Matte Black\nLid Compatibility: 90mm standard lids\nRecyclable: Yes"
+    },
+    {
+      title: "Shipping & Delivery",
+      content: "Standard delivery takes 3-5 business days. Expedited shipping is available at checkout. Free shipping on orders over R1000."
+    },
+    {
+      title: "Bulk Orders",
+      content: "For wholesale pricing and orders exceeding 5,000 units, please contact our sales team directly at sales@buyzo.com."
+    }
+  ]
+};
+
+const RELATED_PRODUCTS = [
+  {
+    id: "2",
+    title: "Paper Pulp Cup Holder",
+    productUrl: "/product/paper-pulp-cup-holder",
+    imageUrl: "https://yucca.co.za/wp-content/uploads/2025/09/KG-CH-2-600x600.jpg",
+    price: "1.55",
+    isNew: true,
+  },
+  {
+    id: "3",
+    title: "Dessert Cup (90mm)",
+    productUrl: "/product/dessert-cups",
+    imageUrl: "https://yucca.co.za/wp-content/uploads/2025/09/YP-JU9-600x600.jpg",
+    price: "1.38",
+  },
+  {
+    id: "4",
+    title: "Dessert Cup Flat Lid",
+    productUrl: "/product/flat-lid",
+    imageUrl: "https://yucca.co.za/wp-content/uploads/2025/08/YP-JYF90-600x600.jpg",
+    price: "0.63",
+  },
+];
+
+const fadeUpItem: Variants = {
+  hidden: { opacity: 0, y: 20 },
+  show: {
+    opacity: 1,
+    y: 0,
+    transition: { type: "spring" as const, stiffness: 300, damping: 24 }
+  },
+};
+
+const staggerContainer: Variants = {
+  hidden: { opacity: 0 },
+  show: {
+    opacity: 1,
+    transition: { staggerChildren: 0.1 }
+  },
+};
+export default function ProductDetailsPage() {
+  const [activeImage, setActiveImage] = useState(MOCK_PRODUCT.images[0]);
+  const [selectedVariation, setSelectedVariation] = useState(MOCK_PRODUCT.variations[0]);
+  const [quantity, setQuantity] = useState(1);
+  const [openAccordion, setOpenAccordion] = useState<string | null>(MOCK_PRODUCT.details[0].title);
+
+  const handleQuantityChange = (type: "increment" | "decrement") => {
+    if (type === "decrement" && quantity > 1) setQuantity(prev => prev - 1);
+    if (type === "increment" && quantity < MOCK_PRODUCT.stock) setQuantity(prev => prev + 1);
+  };
+
+  const toggleAccordion = (title: string) => {
+    setOpenAccordion(openAccordion === title ? null : title);
+  };
+
+  return (
+    <div className="min-h-screen w-full bg-black text-white flex flex-col selection:bg-[#BA68C8] selection:text-white">
+      <Header />
+
+      <main className="flex-1 max-w-7xl mx-auto w-full px-6 pt-32 pb-24 flex flex-col gap-16">
+        <nav aria-label="Breadcrumb" className="text-sm text-gray-400 flex items-center gap-2">
+          <Link href="/" className="hover:text-white transition-colors">Home</Link>
+          <FiChevronRight size={14} />
+          <Link href="/shop" className="hover:text-white transition-colors">Shop</Link>
+          <FiChevronRight size={14} />
+          <Link href={`/categories/${MOCK_PRODUCT.category.toLowerCase().replace(" ", "-")}`} className="hover:text-white transition-colors">
+            {MOCK_PRODUCT.category}
+          </Link>
+          <FiChevronRight size={14} />
+          <span className="text-white truncate">{MOCK_PRODUCT.title}</span>
+        </nav>
+
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20">
+          <motion.div
+            initial={{ opacity: 0, x: -20 }}
+            animate={{ opacity: 1, x: 0 }}
+            className="flex flex-col gap-6"
+          >
+            <div className="w-full aspect-square bg-gray-900/50 border border-gray-800 rounded-3xl overflow-hidden relative flex items-center justify-center">
+              <Image
+                src={activeImage}
+                alt={MOCK_PRODUCT.title}
+                fill
+                className="object-cover"
+              />
+            </div>
+
+            <div className="flex gap-4 overflow-x-auto pb-2 [&::-webkit-scrollbar]:hidden">
+              {MOCK_PRODUCT.images.map((img, idx) => (
+                <button
+                  key={idx}
+                  onClick={() => setActiveImage(img)}
+                  className={`w-24 h-24 shrink-0 rounded-xl overflow-hidden border-2 transition-all duration-200 relative ${activeImage === img ? "border-[#BA68C8] opacity-100" : "border-transparent opacity-50 hover:opacity-100"
+                    }`}
+                >
+                  <Image src={img} alt={`Thumbnail ${idx + 1}`} width={96} height={96} className="w-full h-full object-cover" />
+                </button>
+              ))}
+            </div>
+          </motion.div>
+
+          <motion.div
+            variants={staggerContainer}
+            initial="hidden"
+            animate="show"
+            className="flex flex-col"
+          >
+            <motion.div
+              variants={fadeUpItem}
+              className="border-b border-gray-800 pb-8 mb-8">
+              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight mb-4">
+                {MOCK_PRODUCT.title}
+              </h1>
+              <div className="flex items-center gap-4">
+                <span className="text-3xl font-light">
+                  {MOCK_PRODUCT.currencySymbol}{MOCK_PRODUCT.price}
+                </span>
+                <span className="text-sm text-gray-400 bg-gray-900 px-3 py-1 rounded-full border border-gray-800">
+                  Incl. VAT
+                </span>
+              </div>
+            </motion.div>
+
+            <motion.p
+              variants={fadeUpItem}
+              className="text-gray-400 text-lg leading-relaxed mb-8">
+              {MOCK_PRODUCT.description}
+            </motion.p>
+
+            <motion.div
+              variants={fadeUpItem}
+              className="mb-8">
+              <h3 className="text-sm font-semibold uppercase tracking-widest text-gray-500 mb-4">Select Volume</h3>
+              <div className="flex flex-wrap gap-3">
+                {MOCK_PRODUCT.variations.map((variation) => (
+                  <button
+                    key={variation}
+                    onClick={() => setSelectedVariation(variation)}
+                    className={`px-6 py-2.5 rounded-full border text-sm font-medium transition-all duration-200 ${selectedVariation === variation
+                      ? "bg-white text-black border-white"
+                      : "bg-transparent border-gray-800 text-gray-300 hover:border-gray-500"
+                      }`}
+                  >
+                    {variation}
+                  </button>
+                ))}
+              </div>
+            </motion.div>
+
+            <motion.div
+              variants={fadeUpItem}
+              className="flex flex-col sm:flex-row gap-4 mb-12">
+              <div className="flex items-center justify-between border border-gray-800 rounded-full px-4 py-1 h-14 w-full sm:w-40 bg-gray-900/30">
+                <button
+                  onClick={() => handleQuantityChange("decrement")}
+                  className="p-2 text-gray-400 hover:text-white transition-colors"
+                  aria-label="Decrease quantity"
+                >
+                  <FiMinus size={18} />
+                </button>
+                <span className="font-semibold text-lg">{quantity}</span>
+                <button
+                  onClick={() => handleQuantityChange("increment")}
+                  className="p-2 text-gray-400 hover:text-white transition-colors"
+                  aria-label="Increase quantity"
+                >
+                  <FiPlus size={18} />
+                </button>
+              </div>
+
+              <Button className="h-12 max-w-48 flex-1 text-lg">
+                <FiShoppingCart size={20} className="mr-2" />
+                Add to Cart
+              </Button>
+              <Button variant="secondary" className="h-12 w-12 px-0 py-0 flex justify-center items-center">
+                <FiHeart size={20} />
+              </Button>
+            </motion.div>
+
+            <motion.div
+              variants={fadeUpItem}
+              className="border-t border-gray-800">
+              {MOCK_PRODUCT.details.map((detail, idx) => (
+                <div key={idx} className="border-b border-gray-800">
+                  <button
+                    onClick={() => toggleAccordion(detail.title)}
+                    className="w-full flex items-center justify-between py-5 text-left focus:outline-none"
+                  >
+                    <span className="text-lg font-medium">{detail.title}</span>
+                    <FiChevronDown
+                      size={20}
+                      className={`text-gray-400 transition-transform duration-300 ${openAccordion === detail.title ? "rotate-180" : ""}`}
+                    />
+                  </button>
+                  <AnimatePresence>
+                    {openAccordion === detail.title && (
+                      <motion.div
+                        initial={{ height: 0, opacity: 0 }}
+                        animate={{ height: "auto", opacity: 1 }}
+                        exit={{ height: 0, opacity: 0 }}
+                        className="overflow-hidden"
+                      >
+                        <p className="pb-5 text-gray-400 leading-relaxed whitespace-pre-line">
+                          {detail.content}
+                        </p>
+                      </motion.div>
+                    )}
+                  </AnimatePresence>
+                </div>
+              ))}
+            </motion.div>
+          </motion.div>
+        </div>
+
+        <section className="mt-12 border-t border-gray-800 pt-20">
+          <div className="flex items-center justify-between mb-10">
+            <h2 className="text-3xl font-bold tracking-tight">You might also like</h2>
+            <Link href="/shop">
+              <Button variant="secondary" className="hidden sm:flex">Shop All</Button>
+            </Link>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+            {RELATED_PRODUCTS.map((product) => (
+              <ProductCard key={product.id} {...product} />
+            ))}
+          </div>
+
+          <div className="mt-8 flex justify-center sm:hidden">
+            <Link href="/shop" className="w-full">
+              <Button variant="secondary" className="w-full">Shop All</Button>
+            </Link>
+          </div>
+        </section>
+      </main>
+
+      <ShopCTA />
+    </div>
+  );
+}
+
+=== D:\next\buyzo\components\CartSidebar.tsx ===
+
+
+=== D:\next\buyzo\components\common\AnimatedText.tsx ===
+import React from 'react'
+
+export default function AnimatedText() {
+  return (
+    <div>AnimatedText</div>
+  )
+}
+
+
+=== D:\next\buyzo\components\common\Button.tsx ===
+import React from "react";
+import { cn } from "@/lib/utils";
+
+type ButtonVariant = "primary" | "outline" | "ghost" | "secondary";
+
+// 1. Extend standard button HTML attributes so we can pass onClick, type, disabled, etc.
+interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
+  children: React.ReactNode;
+  variant?: ButtonVariant;
+  className?: string;
+}
+
+export default function Button({
+  children,
+  variant = "primary",
+  className,
+  ...props // 2. Collect the rest of the props (like onClick)
+}: ButtonProps) {
+  const variants = {
+    primary:
+      "bg-gradient-to-r from-[#7B1FA2] via-[#9C27B0] to-[#BA68C8] text-white shadow-[inset_0px_-4px_4px_0px_#CE93D8,0px_0px_0px_2px_#E1BEE7,0px_4px_0px_0px_#4A148C] hover:-translate-y-1 active:translate-y-1",
+    secondary:
+      "bg-gradient-to-r from-white to-zinc-100 border-2 border-black text-black shadow-[0px_4px_0px_0px_white] duration-200 hover:-translate-y-1 active:translate-y-1 active:shadow-none",
+    outline:
+      "border border-purple-600 text-purple-600 hover:bg-purple-50",
+    ghost:
+      "text-gray-300 hover:bg-gray-100 hover:text-gray-900",
+  };
+
+  return (
+    <button
+      className={cn(
+        "flex items-center justify-center gap-2 rounded-full px-6 py-2 transition-transform duration-200",
+        variants[variant],
+        className
+      )}
+      {...props} // 3. Spread them onto the native button element
+    >
+      {children}
+    </button>
+  );
+}
+
+=== D:\next\buyzo\components\common\ProductCard.tsx ===
+import Link from "next/link";
+import Image from "next/image";
+
+interface Variation {
+  label: string;
+  url: string;
+}
+
+interface ProductCardProps {
+  id?: string;
+  title?: string;
+  productUrl?: string;
+  imageUrl?: string;
+  price?: string;
+  currencySymbol?: string;
+  isNew?: boolean;
+  outOfStock?: boolean;
+  variations?: Variation[];
+  isAd?: boolean;
+  type?: string;
+  subtitle?: string;
+}
+
+export default function ProductCard({
+  title = "Product Title",
+  productUrl = "#",
+  imageUrl = "/images/toys.png",
+  price = "0.00",
+  currencySymbol = "R",
+  isNew = false,
+  variations = [],
+}: ProductCardProps) {
+  return (
+    <div className="flex flex-col">
+      <div className="flex flex-col gap-2">
+        <div className="relative">
+          <Link
+            aria-label={`Image Link for ${title}`}
+            href={productUrl}
+            className="block w-full aspect-square overflow-hidden"
+          >
+            <span className="block w-full h-full">
+              <Image
+                width={600}
+                height={600}
+                className="w-full h-full object-cover"
+                alt={title}
+                src={imageUrl}
+              />
+            </span>
+          </Link>
+
+          {isNew && (
+            <span className="absolute top-10 -left-3 text-lg font-medium bg-black px-2 py-1 font-bitcountPropDoubleInk rotate-90">
+              New
+            </span>
+          )}
+
+          {variations.length > 0 && (
+            <div className="hidden md:flex flex-wrap gap-2 mt-3">
+              {variations.map((variation, idx) => (
+                <Link
+                  key={idx}
+                  aria-label={variation.label}
+                  href={variation.url}
+                  className="border border-gray-300 text-sm px-3 py-1 hover:bg-black hover:text-white transition"
+                >
+                  {variation.label}
+                </Link>
+              ))}
+            </div>
+          )}
+        </div>
+
+        <h3 className="text-base font-medium">
+          <Link className="hover:underline" href={productUrl}>
+            {title}
+          </Link>
+        </h3>
+
+        <span className="flex items-center gap-2 text-gray-300">
+          <span>
+            From{" "}
+            <span className="font-medium">
+              <span>{currencySymbol}</span>
+              {price}
+            </span>
+          </span>
+
+          <span className="text-gray-300">
+            incl. vat
+          </span>
+        </span>
+      </div>
+    </div>
+  );
+}
+
+=== D:\next\buyzo\components\common\SolutionCard.tsx ===
+"use client";
+
+import Image from "next/image";
+import Link from "next/link";
+import { FiArrowRight } from "react-icons/fi";
+import { motion, easeOut } from "framer-motion";
+
+interface SolutionCardProps {
+  title: string;
+  description: string;
+  href: string;
+  images: string;
+  isImages?: boolean;
+}
+
+export default function SolutionCard({ title, description, href, images, isImages = true }: SolutionCardProps) {
+  return (
+    <motion.div
+      className="group relative flex flex-col rounded-xl shadow-xl shadow-black/20 bg-gray-800 text-white h-72 w-full overflow-hidden cursor-pointer"
+      initial="rest"
+      whileHover="hover"
+      animate="rest"
+    >
+      {/* Background Image */}
+      {isImages && (
+        <div className="absolute inset-0 z-0 overflow-hidden">
+          <Image
+            src={images}
+            alt={title}
+            fill
+            className="object-cover transition-transform duration-700 group-hover:scale-110"
+          />
+          {/* Gradient overlay to ensure top-left title is always readable */}
+          <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-transparent to-black/20" />
+        </div>
+      )}
+
+      {/* Default State Title (matches your top-left design) */}
+      <motion.h3
+        className="text-xl font-bold absolute top-4 left-4 z-10"
+        variants={{
+          rest: { opacity: 1, y: 0 },
+          hover: { opacity: 0, y: -10 },
+        }}
+        transition={{ duration: 0.3, ease: easeOut }}
+      >
+        {title}
+      </motion.h3>
+
+      {/* Hover Content Overlay */}
+      <motion.div
+        // Use Framer Motion for visibility instead of CSS display: hidden to keep animations smooth
+        className="absolute inset-0 flex flex-col justify-between p-5 bg-white text-gray-900 z-20"
+        variants={{
+          rest: { opacity: 0, y: "10%", pointerEvents: "none" },
+          hover: { opacity: 1, y: 0, pointerEvents: "auto" },
+        }}
+        transition={{ duration: 0.3, ease: easeOut }}
+      >
+        <div>
+          <h3 className="text-xl font-bold mb-2">{title}</h3>
+          {/* line-clamp prevents long descriptions from blowing out the card height */}
+          <p className="text-sm font-medium text-gray-600 line-clamp-5">
+            {description}
+          </p>
+        </div>
+
+        <Link
+          href={href}
+          className="inline-flex items-center gap-2 text-[#7B1FA2] font-semibold mt-auto group/link"
+          aria-label={`Explore ${title}`}
+        >
+          Tell me more
+          <FiArrowRight
+            size={18}
+            strokeWidth={2}
+            className="group-hover/link:translate-x-1.5 transition-transform duration-300"
+          />
+        </Link>
+      </motion.div>
+    </motion.div>
+  );
+}
+
+=== D:\next\buyzo\components\CTA.tsx ===
+"use client";
+
+import Link from "next/link";
+import { motion } from "framer-motion";
+
+export default function CTA() {
+  const items = new Array(6).fill(
+    "Not sure what's possible? Get in touch to find out."
+  );
+
+  return (
+    <section className="relative w-full py-24 overflow-hidden">
+      <div className="max-w-7xl mx-auto px-6">
+        <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
+          Brands that thrive invest in custom-designed packaging. Let us help
+          bring your vision to life.
+        </h2>
+
+        <div className="relative -rotate-6 ml-auto">
+          <Link
+            href="/"
+            className="text-6xl md:text-8xl font-typefesse"
+          >
+            Buyzo
+          </Link>
+        </div>
+      </div>
+
+      <div className="mt-20 border-y border-gray-800 py-10 overflow-hidden">
+        <Link href="/contact" aria-label="Enquire now" className="block w-full">
+
+          <motion.div
+            className="flex whitespace-nowrap gap-16 text-xl font-medium"
+            animate={{ x: ["0%", "-50%"] }}
+            transition={{
+              repeat: Infinity,
+              repeatType: "loop",
+              duration: 20,
+              ease: "linear",
+            }}
+          >
+            {[...items, ...items].map((text, i) => (
+              <div key={i} className="flex items-center gap-6">
+                <span>{text}</span>
+
+                <svg width="40" height="40" viewBox="0 0 80 80" fill="none">
+                  <path
+                    d="M57.2318 20.2935C57.9245 19.8361 58.8666 19.9137 59.4764 20.5236C60.0863 21.1334 60.1639 22.0755 59.7065 22.7682L59.4764 23.047L22.5235 60L20 57.4765L56.953 20.5236L57.2318 20.2935Z"
+                    fill="white"
+                  />
+                  <path
+                    d="M56.4295 23.5691H20.7383V20H59.9986V59.2603H56.4295V23.5691Z"
+                    fill="white"
+                  />
+                </svg>
+              </div>
+            ))}
+          </motion.div>
+
+        </Link>
+      </div>
+
+    </section>
+  );
+}
+
+=== D:\next\buyzo\components\FAQ.tsx ===
+"use client";
+
+import { useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+
+const faqsData = [
+  {
+    question: "What types of packaging does Buyzo offer?",
+    answer:
+      "Buyzo provides a range of packaging solutions including ready-to-order, custom branded, and bespoke moulded items for food and other products.",
+  },
+  {
+    question: "Does Buyzo deliver nationwide?",
+    answer:
+      "Yes, Buyzo offers reliable nationwide delivery across South Africa.",
+  },
+  {
+    question: "Does Buyzo ship globally?",
+    answer:
+      "Absolutely. Contact Buyzo to discuss global delivery options for your orders.",
+  },
+  {
+    question: "How do I place an order with Buyzo?",
+    answer:
+      "You can place quick orders directly on Buyzo's online store or contact the team for bulk and custom packaging requests.",
+  },
+  {
+    question: "Does Buyzo offer sustainable packaging?",
+    answer:
+      "Yes. Buyzo offers recyclable, compostable, FSC-certified, and post-consumer recycled packaging options.",
+  },
+];
+
+export default function FAQ() {
+  const [openIndex, setOpenIndex] = useState<number | null>(null);
+
+  return (
+    <section className="w-full py-20 text-white">
+      <div className="max-w-4xl mx-auto px-6 space-y-12">
+        <div className="space-y-3 text-center">
+          <h2 className="text-3xl md:text-4xl font-bold">FAQs – Buyzo</h2>
+          <p className="text-gray-400">
+            Everything you need to know about Buyzo&apos;s packaging, ordering, and delivery.
+          </p>
+        </div>
+
+        <div className="space-y-4">
+          {faqsData.map((faq, idx) => {
+            const isOpen = openIndex === idx;
+            return (
+              <div key={idx} className="border-b border-gray-700">
+                <button
+                  onClick={() => setOpenIndex(isOpen ? null : idx)}
+                  className="w-full flex justify-between items-center py-4 text-left font-medium text-lg"
+                  aria-expanded={isOpen}
+                >
+                  {faq.question}
+                  <span
+                    className={`transform transition-transform duration-300 ${isOpen ? "rotate-45" : "rotate-0"
+                      }`}
+                  >
+                    +
+                  </span>
+                </button>
+
+                <AnimatePresence initial={false}>
+                  {isOpen && (
+                    <motion.div
+                      initial={{ height: 0, opacity: 0 }}
+                      animate={{ height: "auto", opacity: 1 }}
+                      exit={{ height: 0, opacity: 0 }}
+                      transition={{ duration: 0.3 }}
+                      className="overflow-hidden text-gray-300"
+                    >
+                      <p className="py-2">{faq.answer}</p>
+                    </motion.div>
+                  )}
+                </AnimatePresence>
+              </div>
+            );
+          })}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+=== D:\next\buyzo\components\Footer.tsx ===
+"use client";
+import Link from "next/link";
+import { FiArrowRight } from "react-icons/fi";
+
+export default function Footer() {
+  return (
+    <div className="footer-wrapper bg-gray-100 text-black relative">
+      <footer className="footer max-w-7xl mx-auto px-6 py-12">
+        <div className="flex justify-between items-center mb-8">
+          <h4 className="text-xl font-semibold">Innovated for Industry Leaders.</h4>
+          <button
+            onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+            className="flex items-center justify-center bg-black p-3 rounded-full hover:bg-black transition text-white"
+            aria-label="Back to top"
+          >
+            <FiArrowRight size={24} strokeWidth={1.5} />
+          </button>
+        </div>
+
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 mb-8">
+          <Link
+            href="/"
+            className="text-4xl md:text-5xl font-typefesse tracking-[-4px] md:tracking-[-6px]"
+          >
+            Buyzo
+          </Link>
+
+          <div className="flex flex-col gap-4 justify-center items-center sm:items-start">
+            <Link href="/food-service" className="hover:underline">Food Service</Link>
+            <Link href="/food-processing" className="hover:underline">Food Processing</Link>
+            <Link href="/agriculture" className="hover:underline">Agriculture</Link>
+          </div>
+        </div>
+
+        <div className="flex flex-col sm:flex-row justify-between items-center border-t border-gray-300 pt-6 text-sm text-black gap-4">
+          <span>© Yucca 2026. All Rights Reserved</span>
+          <div className="flex gap-4">
+            <Link href="/contact" className="hover:underline">Contact Us</Link>
+            <Link href="/privacy-policy" className="hover:underline">Privacy Policy</Link>
+            <Link href="/terms-conditions" className="hover:underline">Terms & Conditions</Link>
+          </div>
+        </div>
+      </footer>
+    </div>
+  );
+}
+
+=== D:\next\buyzo\components\Header.tsx ===
+"use client";
+
+import Link from "next/link";
+import { useState } from "react";
+import Button from "./common/Button";
+import { FiMenu, FiX, FiShoppingCart, FiUser } from "react-icons/fi";
+
+export default function Header() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const navLinks = [
+    { name: "Shop", href: "/shop" },
+    { name: "Categories", href: "/categories" },
+    { name: "Contact", href: "/contact" },
+  ];
+
+  return (
+    <header className="w-full fixed top-0 left-1/2 -translate-x-1/2 bg-linear-to-b  to-transparent via-black/75 from-black text-white z-50">
+      <div className="max-w-4xl mx-auto flex items-center justify-between px-6 py-4">
+        <Link
+          href="/"
+          className="text-4xl md:text-5xl font-typefesse tracking-[-4px] md:tracking-[-6px]"
+        >
+          Buyzo
+        </Link>
+
+        <nav className="hidden md:flex items-center gap-8">
+          {navLinks.map((link) => (
+            <Link
+              key={link.href}
+              href={link.href}
+              className="hover:text-gray-600 transition"
+            >
+              {link.name}
+            </Link>
+          ))}
+        </nav>
+
+        <div className="flex items-center gap-4">
+          <Button variant="ghost" className="hidden md:flex items-center gap-2">
+            <FiUser size={18} />
+            Sign In
+          </Button>
+          <Button className="hidden md:flex items-center gap-2 px-5 py-2 text-sm">
+            <FiShoppingCart size={18} />
+            Cart
+          </Button>
+          <button
+            className="md:hidden text-2xl"
+            onClick={() => setMenuOpen(!menuOpen)}
+          >
+            {menuOpen ? <FiX /> : <FiMenu />}
+          </button>
+
+        </div>
+      </div>
+
+      {menuOpen && (
+        <nav className="md:hidden border-t px-6 py-4 flex flex-col gap-4 bg-white">
+          {navLinks.map((link) => (
+            <Link
+              key={link.href}
+              href={link.href}
+              className="hover:text-gray-600"
+              onClick={() => setMenuOpen(false)}
+            >
+              {link.name}
+            </Link>
+          ))}
+
+          <Button variant="ghost" className="w-full flex items-center gap-2">
+            <FiUser size={18} />
+            Sign In
+          </Button>
+          <Button className="w-full flex items-center gap-2">
+            <FiShoppingCart size={18} />
+            Cart
+          </Button>
+        </nav>
+      )}
+    </header>
+  );
+}
+
+=== D:\next\buyzo\components\Hero.tsx ===
+"use client";
+
+import Image from "next/image";
+import { solutions } from "@/lib/data";
+import SolutionCard from "./common/SolutionCard";
+
+export default function Hero() {
+  return (
+    <section className="relative w-full min-h-screen flex flex-col overflow-hidden">
+      {/* Background Image */}
+      <div className="absolute inset-0">
+        <Image
+          src="/images/hero-image.jpg"
+          alt="Ecommerce store hero background"
+          fill
+          className="object-cover"
+          priority
+        />
+        <div className="absolute inset-0 bg-linear-to-b from-black/60 via-black/40 to-gray-900" />
+      </div>
+
+      <div className="w-full max-w-7xl px-6 mx-auto min-h-screen flex flex-col justify-center gap-14 py-20 z-10">
+        <div className="text-white flex flex-col gap-4 w-full">
+          <h1 className="text-5xl md:text-6xl lg:text-7xl font-semibold mt-5">
+            Quality products, seamless shopping, and lightning-fast delivery.
+          </h1>
+          <p className="text-lg md:text-xl text-gray-200">
+            Shop thousands of products from top brands. Fast delivery and trusted service at your fingertips.
+          </p>
+        </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 w-full">
+          {solutions.map((solution, idx) => (
+            <SolutionCard
+              key={idx}
+              title={solution.title}
+              description={solution.description}
+              href={solution.href}
+              images={solution.images}
+            />
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+=== D:\next\buyzo\components\Info.tsx ===
+"use client";
+
+import Link from "next/link";
+import Button from "./common/Button";
+
+const infoBlocks = [
+  {
+    title: "Our Mission",
+    text: "Our mission is to create a trusted online marketplace where buyers can easily find quality products at great prices and sellers can grow their businesses through powerful digital commerce tools.",
+  },
+  {
+    title: "Our Vision",
+    text: "Our vision is to build a global e-commerce platform like today’s leading marketplaces, connecting millions of customers and sellers through innovation, technology, and a seamless shopping experience.",
+  },
+];
+
+export default function Info() {
+  return (
+    <section className="max-w-7xl mx-auto px-6 py-24">
+      <div className="flex flex-col gap-8">
+        <h2 className="text-4xl md:text-5xl font-bold">
+          Shop Smarter with Buyzo, Discover More Every Day
+        </h2>
+
+        <p className="text-gray-300 text-lg">
+          Buyzo is a modern e-commerce marketplace where customers can explore
+          thousands of products across electronics, fashion, home essentials,
+          and more. We make online shopping simple, affordable, and reliable
+          with secure payments and fast delivery.
+        </p>
+
+        <Link href="/about">
+          <Button variant="secondary">About Buyzo</Button>
+        </Link>
+      </div>
+
+      <div className="flex flex-col pt-24">
+        {infoBlocks.map(({ title, text }) => (
+          <div key={title} className="border-t border-gray-700 py-6">
+            <h3 className="text-xl font-semibold mb-3 flex items-center gap-3">
+              <span className="w-2 h-2 bg-white rounded-full"></span>
+              {title}
+            </h3>
+            <p className="text-gray-200">{text}</p>
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+}
+
+=== D:\next\buyzo\components\Marquee.tsx ===
+"use client";
+
+import { motion } from "framer-motion";
+
+// Marquee texts related to Buyzo (e-commerce store like Daraz or Tumu)
+const marqueeTexts1 = [
+  "Fast Delivery",
+  "Best Prices",
+  "Top Brands",
+  "Exclusive Deals",
+  "Shop Now",
+];
+
+const marqueeTexts2 = [
+  "New Arrivals",
+  "Daily Offers",
+  "Secure Payments",
+  "Customer Support",
+  "Buyzo Marketplace",
+];
+
+export default function Marquee() {
+  return (
+    <section className="w-full bg-black overflow-hidden py-36 md:py-48 lg:py-72 relative flex flex-col justify-center items-center">
+      <h1 className="text-4xl md:text-[196px] font-typefesse tracking-tighter text-white opacity-25 absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2">
+        Buyzo
+      </h1>
+
+      <div className="w-full overflow-hidden">
+        <motion.div
+          className="flex gap-16 whitespace-nowrap"
+          animate={{ x: ["0%", "-100%"] }}
+          transition={{
+            x: {
+              repeat: Infinity,
+              repeatType: "loop" as const,
+              duration: 50,
+              ease: "linear",
+            },
+          }}
+        >
+          {marqueeTexts1.concat(marqueeTexts1).map((text, idx) => (
+            <span
+              key={idx}
+              className="uppercase text-xl md:text-8xl font-bitcountPropDoubleInk bg-gradient-to-r from-yellow-400 to-blue-500 bg-clip-text text-transparent"
+            >
+              {text}
+            </span>
+          ))}
+        </motion.div>
+
+        {/* Second line */}
+        <motion.div
+          className="flex gap-16 whitespace-nowrap mt-12"
+          animate={{ x: ["-100%", "0%"] }}
+          transition={{
+            x: {
+              repeat: Infinity,
+              repeatType: "loop" as const,
+              duration: 50,
+              ease: "linear",
+            },
+          }}
+        >
+          {marqueeTexts2.concat(marqueeTexts2).map((text, idx) => (
+            <span
+              key={idx}
+              className="uppercase text-xl md:text-8xl font-bitcountPropDoubleInk bg-gradient-to-r from-yellow-400 to-blue-500 bg-clip-text text-transparent"
+            >
+              {text}
+            </span>
+          ))}
+        </motion.div>
+      </div>
+    </section>
+  );
+}
+
+=== D:\next\buyzo\components\Product.tsx ===
+import Link from "next/link";
+import ProductCard from "./common/ProductCard";
+import Button from "./common/Button";
+
+const categories =[
+  {
+    title: "Electronics",
+    href: "/electronics",
+  },
+  {
+    title: "Fashion",
+    href: "/fashion",
+  },
+  {
+    title: "Home & Living",
+    href: "/home-living",
+  },
+  {
+    title: "Beauty & Health",
+    href: "/beauty-health",
+  },
+  {
+    title: "Sports & Outdoors",
+    href: "/sports-outdoors",
+  },
+  {
+    title: "Toys & Baby",
+    href: "/toys-baby",
+  },
+];
+
+const productsData =[
+  {
+    id: "1",
+    title: "Single Wall Matte Black Coffee Cup",
+    category: "Home & Living",
+    productUrl: "https://yucca.co.za/product/single-wall-matte-black-coffee-cup/",
+    imageUrl: "https://yucca.co.za/wp-content/uploads/2025/08/KG-SW-B-250-600x600.jpg",
+    price: "1.09",
+    isNew: true,
+    variations:[
+      { label: "250ml", url: "https://yucca.co.za/product/single-wall-matte-black-coffee-cup/?pa_volume=250ml" },
+      { label: "350ml", url: "https://yucca.co.za/product/single-wall-matte-black-coffee-cup/?pa_volume=350ml" },
+    ],
+  },
+  {
+    id: "2",
+    title: "Paper Pulp Cup Holder",
+    category: "Home & Living",
+    productUrl: "https://yucca.co.za/product/paper-pulp-cup-holder/",
+    imageUrl: "https://yucca.co.za/wp-content/uploads/2025/09/KG-CH-2-600x600.jpg",
+    price: "1.55",
+    isNew: true,
+    variations:[
+      { label: "2-Holder", url: "https://yucca.co.za/product/paper-pulp-cup-holder/?pa_type-2=2-Holder" },
+      { label: "4-Holder", url: "https://yucca.co.za/product/paper-pulp-cup-holder/?pa_type-2=4-Holder" },
+    ],
+  },
+  {
+    id: "3",
+    title: "Dessert Cup (90mm)",
+    category: "Home & Living",
+    productUrl: "https://yucca.co.za/product/dessert-cups/",
+    imageUrl: "https://yucca.co.za/wp-content/uploads/2025/09/YP-JU9-600x600.jpg",
+    price: "1.38",
+    isNew: true,
+    variations:[
+      { label: "250ml", url: "https://yucca.co.za/product/dessert-cups/?pa_volume=250ml" },
+      { label: "350ml", url: "https://yucca.co.za/product/dessert-cups/?pa_volume=350ml" },
+    ],
+  },
+  {
+    id: "4",
+    title: "Dessert Cup Flat Lid (90mm)",
+    category: "Home & Living",
+    productUrl: "https://yucca.co.za/product/flat-lid-closed/",
+    imageUrl: "https://yucca.co.za/wp-content/uploads/2025/08/YP-JYF90-600x600.jpg",
+    price: "0.63",
+    isNew: true,
+    variations:[
+      { label: "90mm", url: "https://yucca.co.za/product/flat-lid-closed/?pa_size=90mm" },
+    ],
+  },
+];
+
+export default function Product() {
+  return (
+    <section className="w-full py-20">
+      <div className="max-w-7xl mx-auto px-6">
+        {categories.map((category) => {
+          const categoryProducts = productsData.filter(
+            (p) => p.category === category.title
+          );
+
+          if (!categoryProducts.length) return null;
+
+          return (
+            <div key={category.title} className="mb-20">
+              <div className="flex items-center justify-between mb-10">
+                <h2 className="text-3xl md:text-4xl font-bold">
+                  {category.title}
+                </h2>
+
+                <Link href={category.href}>
+                  <Button variant="secondary">
+                    View All
+                  </Button>
+                </Link>
+              </div>
+
+              <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+                {categoryProducts.map((product) => (
+                  <ProductCard key={product.id} {...product} />
+                ))}
+              </div>
+            </div>
+          );
+        })}
+      </div>
+    </section>
+  );
+}
+
+=== D:\next\buyzo\components\ShopCTA.tsx ===
+"use client";
+
+import Link from "next/link";
+import Button from "./common/Button";
+
+export default function ShopCTA() {
+  return (
+    <section className="w-full pb-36 md:pb-48 lg:pb-72 bg-black">
+      <div className="max-w-4xl mx-auto text-center px-4 flex flex-col justify-center items-center">
+        <p className="text-2xl md:text-3xl leading-relaxed mb-8 text-white">
+          Set the standard for ecommerce excellence with <span className="bg-blue-600 bg-clip-text text-transparent font-bitcountPropDoubleInk">Buyzo.</span>
+          Let us help you showcase your products and delight your customers.
+        </p>
+
+        <Link
+          href="/shop"
+          aria-label="See products"
+        >
+          <Button>
+            See products
+          </Button>
+        </Link>
+      </div>
+    </section>
+  );
+}
+
+=== D:\next\buyzo\components\Solution.tsx ===
+"use client";
+
+import { useState } from "react";
+import Link from "next/link";
+import { FiArrowRight } from "react-icons/fi";
+import { motion } from "framer-motion";
+
+export default function Solution() {
+  const solutions = [
+    {
+      title: "Electronics",
+      description:
+        "Shop toys, games, baby care products, and essentials for your little ones.",
+      href: "/toys",
+      images: "/images/toys.png",
+    },
+    {
+      title: "Home & Living",
+      description:
+        "Find everything for your home: furniture, decor, kitchen essentials, and smart devices at unbeatable prices.",
+      href: "/home-living",
+      images: "/images/home-living.png",
+    },
+  ];
+
+  // First card active by default
+  const [activeBg, setActiveBg] = useState<string>(solutions[0].images);
+
+  return (
+    <section
+      className="w-full min-h-screen py-16 bg-black flex flex-col justify-center items-center relative overflow-hidden"
+      style={{
+        backgroundImage: `url(${activeBg})`,
+        backgroundSize: "cover",
+        backgroundPosition: "top",
+        transition: "background-image 0.5s ease-in-out",
+      }}
+    >
+      <div className="max-w-7xl mx-auto px-6 flex flex-col gap-16 relative z-10 w-full">
+        <h2 className="text-4xl md:text-5xl font-bold text-center text-white mb-12">
+          Our Solutions
+        </h2>
+
+        <div className="grid md:grid-cols-4 gap-8">
+          {solutions.map((solution, idx) => (
+            <motion.div
+              key={idx}
+              className={`group relative flex flex-col justify-end rounded-xl shadow-2xl overflow-hidden cursor-pointer h-96 transition-all duration-500 ${activeBg === solution.images ? "scale-105" : "scale-100"
+                }`}
+              onMouseEnter={() => setActiveBg(solution.images)}
+            >
+              <motion.div
+                className="absolute inset-0 flex flex-col justify-between p-4 duration-300 z-10 rounded-xl bg-white"
+              >
+                <div>
+                  <h3 className="text-xl font-bold mb-1 text-gray-900">
+                    {solution.title}
+                  </h3>
+                  <p className="text-sm font-medium text-gray-700">
+                    {solution.description}
+                  </p>
+                </div>
+
+                <Link
+                  href={solution.href}
+                  className="inline-flex items-center gap-2 text-[#7B1FA2] mt-auto font-semibold"
+                  aria-label={`Explore ${solution.title}`}
+                >
+                  See Products
+                  <FiArrowRight
+                    size={16}
+                    strokeWidth={1.5}
+                    className="transition-transform duration-300 group-hover:translate-x-2"
+                  />
+                </Link>
+              </motion.div>
+            </motion.div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+=== D:\next\buyzo\components\Standards.tsx ===
+export default function Standards() {
+  const standards = [
+    "FDA",
+    "EU 10/2011",
+    "BRCGS",
+    "FSC",
+    "GRS",
+    "BPI",
+    "DIN CERTCO",
+    "TÜV OK Compost Home",
+    "TÜV OK Compost Industrial",
+    "ISO 9001",
+    "ISO 14001",
+    "ISO 22000",
+    "ISO 45001",
+    "FSSC 22000",
+  ];
+
+  return (
+    <section className="w-full py-20 text-white">
+      <div className="max-w-7xl mx-auto px-6">
+        {/* Header */}
+        <div className="mb-10">
+          <h2 className="text-4xl md:text-5xl font-bold mb-4">
+            Factory & Product Standards
+          </h2>
+
+          {/* About Buyzo */}
+          <p className="text-gray-300 max-w-2xl mb-4">
+            At <span className="font-semibold">Buyzo</span>, we are committed to providing high-quality, responsibly produced products. Every item we offer meets strict standards to ensure safety, sustainability, and excellence.
+          </p>
+
+          {/* Additional info */}
+          <p className="text-gray-400 max-w-2xl">
+            Our partners share our commitment to responsible practices, so you can trust that every product is held to the highest standards.
+          </p>
+        </div>
+
+        {/* Standards List */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
+          {standards.map((item, idx) => (
+            <div key={idx} className="flex items-center space-x-3">
+              <div className="flex-1 h-[2px] bg-gray-700"></div>
+              <div className="w-4 h-4 bg-gray-700 rounded-full"></div>
+              <span className="text-lg font-medium text-gray-300">{item}</span>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+=== D:\next\buyzo\eslint.config.mjs ===
+import { defineConfig, globalIgnores } from "eslint/config";
+import nextVitals from "eslint-config-next/core-web-vitals";
+import nextTs from "eslint-config-next/typescript";
+
+const eslintConfig = defineConfig([
+  ...nextVitals,
+  ...nextTs,
+  // Override default ignores of eslint-config-next.
+  globalIgnores([
+    // Default ignores of eslint-config-next:
+    ".next/**",
+    "out/**",
+    "build/**",
+    "next-env.d.ts",
+  ]),
+]);
+
+export default eslintConfig;
+
+
+=== D:\next\buyzo\lib\data.ts ===
+export const solutions = [
+  {
+    title: "Electronics",
+    description:
+      "Shop smartphones, laptops, accessories, and all your favorite gadgets at unbeatable prices.",
+    href: "/electronics",
+    images: "/images/electronics.png"
+  },
+  {
+    title: "Fashion",
+    description:
+      "Discover trendy clothing, shoes, and accessories for men, women, and kids from top brands.",
+    href: "/fashion",
+    images: "/images/fashion.png"
+  },
+  {
+    title: "Home & Living",
+    description:
+      "Find everything for your home, from furniture and décor to kitchen essentials and smart home devices.",
+    href: "/home-living",
+    images: "/images/home-living.png"
+  },
+  {
+    title: "Beauty & Health",
+    description:
+      "Explore skincare, makeup, personal care, and wellness products from trusted brands.",
+    href: "/beauty-health",
+    images: "/images/beauty-health.png"
+  },
+  {
+    title: "Sports & Outdoors",
+    description:
+      "Get sports equipment, outdoor gear, fitness accessories, and everything to stay active.",
+    href: "/sports-outdoors",
+    images: "/images/sports-outdoors.png"
+  },
+  {
+    title: "Toys & Baby",
+    description:
+      "Shop toys, games, baby care products, and essentials for your little ones.",
+    href: "/toys-baby",
+    images: "/images/toys-baby.png"
+  },
+];
+
+
+=== D:\next\buyzo\lib\utils.ts ===
+import { clsx, type ClassValue } from "clsx";
+import { twMerge } from "tailwind-merge";
+
+export function cn(...input: ClassValue[]) {
+  return twMerge(clsx(input))
+}
+
+
+=== D:\next\buyzo\next-env.d.ts ===
+/// <reference types="next" />
+/// <reference types="next/image-types/global" />
+import "./.next/dev/types/routes.d.ts";
+
+// NOTE: This file should not be edited
+// see https://nextjs.org/docs/app/api-reference/config/typescript for more information.
+
+
+=== D:\next\buyzo\next.config.ts ===
+import type { NextConfig } from "next";
+
+const nextConfig: NextConfig = {
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "**",
+      },
+      {
+        protocol: "https",
+        hostname: "**",
+      }
+    ],
+  },
+};
+
+export default nextConfig;
+
+
+=== D:\next\buyzo\postcss.config.mjs ===
+const config = {
+  plugins: {
+    "@tailwindcss/postcss": {},
+  },
+};
+
+export default config;
+
+
+=== D:\next\buyzo\store\useCartStore.ts ===
+
+

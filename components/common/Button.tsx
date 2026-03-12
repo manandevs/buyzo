@@ -3,16 +3,18 @@ import { cn } from "@/lib/utils";
 
 type ButtonVariant = "primary" | "outline" | "ghost" | "secondary";
 
-type ButtonProps = {
+// 1. Extend standard button HTML attributes so we can pass onClick, type, disabled, etc.
+interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   children: React.ReactNode;
   variant?: ButtonVariant;
   className?: string;
-};
+}
 
 export default function Button({
   children,
   variant = "primary",
   className,
+  ...props // 2. Collect the rest of the props (like onClick)
 }: ButtonProps) {
   const variants = {
     primary:
@@ -21,7 +23,6 @@ export default function Button({
       "bg-gradient-to-r from-white to-zinc-100 border-2 border-black text-black shadow-[0px_4px_0px_0px_white] duration-200 hover:-translate-y-1 active:translate-y-1 active:shadow-none",
     outline:
       "border border-purple-600 text-purple-600 hover:bg-purple-50",
-
     ghost:
       "text-gray-300 hover:bg-gray-100 hover:text-gray-900",
   };
@@ -33,6 +34,7 @@ export default function Button({
         variants[variant],
         className
       )}
+      {...props} // 3. Spread them onto the native button element
     >
       {children}
     </button>
