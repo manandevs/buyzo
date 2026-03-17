@@ -1,27 +1,14 @@
 "use client";
-
 import Button from "./common/Button";
-import { FiShoppingCart, FiMessageCircle } from "react-icons/fi";
+import { FiMessageCircle } from "react-icons/fi";
 import Sidebar from "./Sidebar";
-
+import CartSidebar from "./CartSidebar";
 export default function GlobalSidebars() {
   return (
     <>
       <Sidebar id="cart" closeButtonClass="yellow-to-purple">
-        <div className="flex flex-col h-full items-center justify-center text-center gap-6 mt-10">
-          <div className="w-24 h-24 bg-gray-100 rounded-full flex items-center justify-center text-gray-400 mb-2">
-            <FiShoppingCart size={40} />
-          </div>
-          <h2 className="text-3xl font-bold font-magnetik tracking-tight">Your Cart is Empty</h2>
-          <p className="text-gray-500 text-lg leading-relaxed">
-            Looks like you have not added anything to your cart yet. Discover our premium packaging solutions.
-          </p>
-          <Button variant="primary" className="mt-4 w-full py-4 text-lg">
-            Start Shopping
-          </Button>
-        </div>
+        <CartSidebar />
       </Sidebar>
-
       <Sidebar id="whatsapp" closeButtonClass="yellow-to-green">
         <div className="flex flex-col h-full items-center justify-center text-center gap-6 mt-10">
           <div className="w-24 h-24 bg-green-100 rounded-full flex items-center justify-center text-green-500 mb-2">
@@ -39,5 +26,5 @@ export default function GlobalSidebars() {
         </div>
       </Sidebar>
     </>
-  );
+  )
 }

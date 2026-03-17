@@ -5,6 +5,8 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import GlobalSidebars from "@/components/GlobalSidebars";
 import { SidebarProvider } from "@/components/SidebarProvider";
+import { ClerkProvider } from "@clerk/nextjs";
+import SyncUser from "@/components/actions/SyncUser";
 
 const typefesse = localFont({
   src: "../public/fonts/Typefesse.otf",
@@ -34,12 +36,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${typefesse.variable} ${magnetik.variable} ${bitcountPropDoubleInk.variable} antialiased font-magnetik bg-black text-white`}>
-        <SidebarProvider>
-          <Header />
-          {children}
-          <Footer />
-          <GlobalSidebars />
-        </SidebarProvider>
+        <ClerkProvider>
+          <SidebarProvider>
+            <SyncUser />
+            {children}
+            <Footer />
+            <GlobalSidebars />
+          </SidebarProvider>
+        </ClerkProvider>
       </body>
     </html>
   );

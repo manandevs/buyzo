@@ -54,14 +54,14 @@ export default function Sidebar({ id, children, closeButtonClass }: SidebarProps
             <div className="absolute top-4 right-4 z-20">
               <button
                 onClick={closeSidebar}
-                className={`hover:scale-110 transition-all duration-200 p-1 ${closeButtonClass}`}
+                className={`hover:scale-110 transition-all duration-200 ${closeButtonClass}`}
                 aria-label="Close Sidebar"
               >
                 <Image
                   src={"/images/cross.png"}
                   alt="cross"
-                  width={28}
-                  height={28}
+                  width={24}
+                  height={24}
                 />
               </button>
             </div>
