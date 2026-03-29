@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import GlobalSidebars from "@/components/GlobalSidebars";
 import { SidebarProvider } from "@/components/SidebarProvider";
 import { ClerkProvider } from "@clerk/nextjs";
 import SyncUser from "@/components/actions/SyncUser";
+import { Toaster } from "react-hot-toast";
 
 const typefesse = localFont({
   src: "../public/fonts/Typefesse.otf",
@@ -42,6 +42,7 @@ export default function RootLayout({
             {children}
             <Footer />
             <GlobalSidebars />
+            <Toaster position="bottom-center" toastOptions={{ className: "text-sm" }} />
           </SidebarProvider>
         </ClerkProvider>
       </body>

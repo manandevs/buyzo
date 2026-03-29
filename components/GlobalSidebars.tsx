@@ -1,9 +1,16 @@
 "use client";
+import { useEffect } from "react";
 import Button from "./common/Button";
 import { FiMessageCircle } from "react-icons/fi";
 import Sidebar from "./Sidebar";
 import CartSidebar from "./CartSidebar";
+import { useCartStore } from "@/store/useCartStore";
+
 export default function GlobalSidebars() {
+  useEffect(() => {
+    void useCartStore.persist.rehydrate();
+  }, []);
+
   return (
     <>
       <Sidebar id="cart" closeButtonClass="yellow-to-purple">

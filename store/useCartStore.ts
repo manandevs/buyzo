@@ -65,6 +65,8 @@ export const useCartStore = create<CartState>()(
     }),
     {
       name: 'buyzo-cart',
+      skipHydration: true,
+      partialize: (state) => ({ items: state.items }),
     }
   )
 );

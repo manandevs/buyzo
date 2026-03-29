@@ -12,11 +12,18 @@ export default function CartSidebar() {
   const { closeSidebar } = useSidebar();
   const [isMounted, setIsMounted] = useState(false);
 
-  // useEffect(() => {
-  //   setIsMounted(true);
-  // }, []);
+  useEffect(() => {
+    queueMicrotask(() => setIsMounted(true));
+  }, []);
 
-  if (!isMounted) return null;
+  if (!isMounted) {
+    return (
+      <div className="flex flex-col h-full items-center justify-center text-center gap-4 py-16 text-gray-500">
+        <FiShoppingCart size={32} className="opacity-50" />
+        <p className="text-sm">Loading cart…</p>
+      </div>
+    );
+  }
   if (items.length === 0) {
     return (
       <div className="flex flex-col h-full items-center justify-center text-center gap-6 mt-10">

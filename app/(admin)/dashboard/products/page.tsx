@@ -65,7 +65,7 @@ export default function ProductsPage() {
       product ?? {
         title: "",
         category: categories[0]?.id || "",
-        imageUrl: "",
+        images: [],
         price: "",
         currencySymbol: "R",
         isNew: false,
@@ -93,9 +93,11 @@ export default function ProductsPage() {
     e.preventDefault();
     if (!editingProduct) return;
 
-    const { title, category, imageUrl, price, stock } = editingProduct;
+    const { title, category, images, price, stock } = editingProduct;
+    const imageList = Array.isArray(images) ? images : [];
+    const primaryImage = imageList[0]?.trim();
 
-    if (!title || !category || !imageUrl || price === undefined || stock === undefined) {
+    if (!title || !category || !primaryImage || price === undefined || stock === undefined) {
       toast.error("Fill all required fields.");
       return;
     }
@@ -108,6 +110,7 @@ export default function ProductsPage() {
 
     const productToSave: Partial<Product> = {
       ...editingProduct,
+      images: primaryImage ? [primaryImage] : [],
       price: priceNumber.toFixed(2),
       stock: stockNumber,
     };
@@ -175,9 +178,9 @@ export default function ProductsPage() {
                     {/* IMAGE */}
                     <td className="p-4">
                       <div className="w-14 h-14 relative rounded-lg overflow-hidden bg-gray-900 border border-gray-800">
-                        {prod.imageUrl ? (
+                        {prod.images?.[0] ? (
                           <Image
-                            src={prod.imageUrl}
+                            src={prod.images[0]}
                             alt={prod.title}
                             fill
                             className="object-cover"
@@ -296,11 +299,14 @@ export default function ProductsPage() {
 
               <input
                 type="url"
-                placeholder="Image URL"
+                placeholder="Primary image URL"
                 className="bg-black border border-gray-800 p-3 rounded-lg"
-                value={editingProduct?.imageUrl || ""}
+                value={editingProduct?.images?.[0] || ""}
                 onChange={(e) =>
-                  setEditingProduct({ ...editingProduct, imageUrl: e.target.value })
+                  setEditingProduct({
+                    ...editingProduct,
+                    images: e.target.value.trim() ? [e.target.value.trim()] : [],
+                  })
                 }
                 required
               />
