@@ -1,0 +1,421 @@
+[
+  {
+    "id": "post-01",
+    "title": "The Future of Wireless Audio: Why Lossless is the New Standard",
+    "subtitle": "Everything you need to know about the next generation of acoustic technology.",
+    "description": "Discover how lossless audio is changing the wireless headphone market and what gear you need to hear the difference.",
+    "featuredImage": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?q=80&w=1200",
+    "category": {
+      "id": "electronics",
+      "title": "Electronics",
+      "description": "Shop smartphones, laptops, and all your favorite gadgets.",
+      "imageUrl": "/images/categories/electronics.png"
+    },
+    "authorId": "auth-01",
+    "relatedProductIds": ["elec-01", "elec-06"],
+    "content": [
+      { "type": "h2", "text": "The End of Compression" },
+      { "type": "p", "text": "For decades, Bluetooth audio was defined by what it took away. To fit high-resolution files into a wireless signal, data was stripped, leading to the 'thin' sound audiophiles despised. But 2024 marks the definitive end of that compromise." },
+      { "type": "h3", "text": "Understanding Codecs" },
+      { "type": "p", "text": "New technologies like Qualcomm's aptX Lossless and Sony’s LDAC are pushing bitrates beyond what we thought possible over Bluetooth. This means bit-for-bit mathematical accuracy from your phone to your ears." },
+      { "type": "blockquote", "text": "We are finally reaching a point where the tether of the wire is no longer a requirement for sonic purity." },
+      { "type": "image", "imageUrl": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=800", "alt": "Acoustic Pro Headphones" },
+      { "type": "h2", "text": "What Gear Do You Need?" },
+      { "type": "list", "listItems": ["A smartphone supporting aptX Lossless or LDAC", "High-Resolution streaming subscriptions (Tidal, Apple Music)", "Lossless-certified wireless earbuds or headphones", "A quiet environment to appreciate the nuanced soundstage"] }
+    ],
+    "tags": ["Audio", "Tech", "Wireless"],
+    "readTime": "6 min read",
+    "publishedAt": "2023-11-10T08:00:00Z",
+    "isPublished": true,
+    "isFeatured": true,
+    "navigation": { "externalUrl": "", "isExternal": false, "label": "Read Insight" }
+  },
+  {
+    "id": "post-02",
+    "title": "Sustainable Fashion: More Than Just a Trend",
+    "subtitle": "How to build a wardrobe that looks good and does good.",
+    "description": "Exploring the shift towards ethical retail and organic materials in modern streetwear.",
+    "featuredImage": "https://images.unsplash.com/photo-1523381210434-271e8be1f52b?q=80&w=1200",
+    "category": {
+      "id": "fashion",
+      "title": "Fashion",
+      "description": "Discover trendy clothing and accessories.",
+      "imageUrl": "/images/categories/fashion.png"
+    },
+    "authorId": "auth-03",
+    "relatedProductIds": ["fash-10", "fash-18"],
+    "content": [
+      { "type": "h2", "text": "The Environmental Cost of Fast Fashion" },
+      { "type": "p", "text": "The traditional fashion industry is the second-largest consumer of the world's water supply. A single pair of non-organic jeans can take up to 2,000 gallons of water to produce." },
+      { "type": "h3", "text": "Why Organic Cotton Matters" },
+      { "type": "p", "text": "Organic cotton is grown without synthetic pesticides or fertilizers. It’s better for the soil, the farmers, and ultimately, your skin." },
+      { "type": "blockquote", "text": "Sustainable fashion isn't about buying new 'green' things; it's about buying quality that lasts a decade, not a season." },
+      { "type": "list", "listItems": ["Look for GOTS certification labels", "Prioritize natural fibers like linen and hemp", "Invest in timeless oversized cuts that won't go out of style", "Support brands with transparent supply chains"] }
+    ],
+    "tags": ["Sustainability", "Eco-friendly", "Style"],
+    "readTime": "5 min read",
+    "publishedAt": "2023-11-12T10:30:00Z",
+    "isPublished": true,
+    "isFeatured": false,
+    "navigation": { "externalUrl": "https://vogue.com/sustainable-fashion", "isExternal": true, "label": "View on Vogue" }
+  },
+  {
+    "id": "post-03",
+    "title": "Minimalism: Transforming Your Living Space",
+    "subtitle": "Clean lines and functional design for a calmer home.",
+    "description": "A guide to Scandinavian design principles for your living room.",
+    "featuredImage": "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?q=80&w=1200",
+    "category": {
+      "id": "home-living",
+      "title": "Home & Living",
+      "description": "Everything for your home and kitchen.",
+      "imageUrl": "/images/categories/home-living.png"
+    },
+    "authorId": "auth-07",
+    "relatedProductIds": ["home-19", "home-21"],
+    "content": [
+      { "type": "h2", "text": "Function Over Form" },
+      { "type": "p", "text": "In Scandinavian design, every object must serve a purpose. If it doesn't add value to your daily life, it shouldn't occupy your physical space." },
+      { "type": "h3", "text": "The Color Palette of Peace" },
+      { "type": "p", "text": "Utilizing whites, soft greys, and natural wood tones creates an environment that reflects light and promotes mental clarity." },
+      { "type": "image", "imageUrl": "https://images.unsplash.com/photo-1581783898377-1c85bf937427?q=80&w=800", "alt": "Ceramic Vases" },
+      { "type": "list", "listItems": ["Declutter one shelf at a time", "Choose furniture with exposed legs to create the illusion of space", "Incorporate indoor plants for a natural touch", "Use varied textures to add warmth without clutter"] }
+    ],
+    "tags": ["Interior Design", "Minimalism", "Home"],
+    "readTime": "7 min read",
+    "publishedAt": "2023-11-15T09:00:00Z",
+    "isPublished": true,
+    "isFeatured": true,
+    "navigation": { "externalUrl": "https://shop.example.com/collections/pro-gear", "isExternal": true, "label": "Explore Gear" }
+  },
+  {
+    "id": "post-04",
+    "title": "Why Vitamin C is Vital for Your Skin",
+    "subtitle": "The science behind the glow.",
+    "description": "Learn why dermatologists recommend Vitamin C for brightening and anti-aging.",
+    "featuredImage": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?q=80&w=1200",
+    "category": {
+      "id": "beauty-health",
+      "title": "Beauty & Health",
+      "description": "Explore skincare and wellness products.",
+      "imageUrl": "/images/categories/beauty-health.png"
+    },
+    "authorId": "auth-05",
+    "relatedProductIds": ["beau-27", "beau-29"],
+    "content": [
+      { "type": "h2", "text": "The Gold Standard Antioxidant" },
+      { "type": "p", "text": "Vitamin C is a powerful antioxidant that neutralizes free radicals—unstable molecules that damage skin cells through pollution and UV exposure." },
+      { "type": "h3", "text": "Fading Hyperpigmentation" },
+      { "type": "p", "text": "By inhibiting melanin production, Vitamin C helps fade dark spots and leads to a more even, radiant skin tone." },
+      { "type": "blockquote", "text": "If you use only three things on your skin, they should be a cleanser, a moisturizer, and a Vitamin C serum." },
+      { "type": "list", "listItems": ["Apply in the morning for UV defense boost", "Look for L-Ascorbic Acid for highest efficacy", "Store in a dark, cool place to prevent oxidation", "Always follow with SPF"] }
+    ],
+    "tags": ["Skincare", "Health", "Beauty"],
+    "readTime": "4 min read",
+    "publishedAt": "2023-11-18T14:20:00Z",
+    "isPublished": true,
+    "isFeatured": false,
+    "navigation": { "externalUrl": "https://shop.example.com/collections/pro-gear", "isExternal": true, "label": "Explore Gear" }
+  },
+  {
+    "id": "post-05",
+    "title": "The Ultimate 2024 Hiking Gear Checklist",
+    "subtitle": "Stay safe and comfortable on the trails.",
+    "description": "The definitive list of essentials for beginner and intermediate hikers.",
+    "featuredImage": "https://images.unsplash.com/photo-1551632811-561732d1e306?q=80&w=1200",
+    "category": {
+      "id": "sports-outdoors",
+      "title": "Sports & Outdoors",
+      "description": "Gear to stay active and explore.",
+      "imageUrl": "/images/categories/sports-outdoors.png"
+    },
+    "authorId": "auth-04",
+    "relatedProductIds": ["spor-38", "spor-40"],
+    "content": [
+      { "type": "h2", "text": "Safety First on the Trail" },
+      { "type": "p", "text": "Modern hiking isn't just about the view; it's about preparation. As weather patterns become more unpredictable, your gear needs to be more reliable." },
+      { "type": "h3", "text": "The Foundation: Your Backpack" },
+      { "type": "p", "text": "A good pack distributes weight to your hips, not your shoulders. Look for 45L capacities for overnight trips." },
+      { "type": "list", "listItems": ["Moisture-wicking base layers", "Waterproof 4-person tent for group treks", "Multi-tool and emergency whistle", "Portable water filtration system"] }
+    ],
+    "tags": ["Hiking", "Adventure", "Gear"],
+    "readTime": "10 min read",
+    "publishedAt": "2023-11-20T11:00:00Z",
+    "isPublished": true,
+    "isFeatured": true,
+    "navigation": { "externalUrl": "", "isExternal": false, "label": "View Checklist" }
+  },
+  {
+    "id": "post-06",
+    "title": "How Smart Robots are Teaching Kids to Code",
+    "subtitle": "STEM learning simplified through play.",
+    "description": "Examining the benefits of interactive robotics in childhood development.",
+    "featuredImage": "https://images.unsplash.com/photo-1535378917042-10a22c95931a?q=80&w=1200",
+    "category": {
+      "id": "toys-baby",
+      "title": "Toys & Baby",
+      "description": "Toys and essentials for your little ones.",
+      "imageUrl": "/images/categories/toys-baby.png"
+    },
+    "authorId": "auth-06",
+    "relatedProductIds": ["toys-49", "toys-45"],
+    "content": [
+      { "type": "h2", "text": "Screen-Free Coding" },
+      { "type": "p", "text": "Parents are increasingly looking for ways to teach STEM without increasing screen time. Smart robots allow kids to input physical commands that result in immediate robotic action." },
+      { "type": "image", "imageUrl": "https://images.unsplash.com/photo-1535378917042-10a22c95931a?q=80&w=800", "alt": "Smart Robot in Action" },
+      { "type": "h3", "text": "Problem Solving Skills" },
+      { "type": "p", "text": "When a robot doesn't turn right as expected, the child is forced to 'debug' their logic, fostering critical thinking from a young age." }
+    ],
+    "tags": ["STEM", "Education", "Toys"],
+    "readTime": "6 min read",
+    "publishedAt": "2023-11-22T08:15:00Z",
+    "isPublished": true,
+    "isFeatured": false,
+    "navigation": { "externalUrl": "https://youtube.com/watch?v=robot-coding", "isExternal": true, "label": "Watch Demo" }
+  },
+  {
+    "id": "post-07",
+    "title": "Click, Clack, Type: A Mechanical Keyboard Guide",
+    "subtitle": "Find the perfect switch for your typing style.",
+    "description": "A deep dive into red, blue, and brown switches for work and gaming.",
+    "featuredImage": "https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?q=80&w=1200",
+    "category": {
+      "id": "electronics",
+      "title": "Electronics",
+      "description": "Shop gadgets at unbeatable prices.",
+      "imageUrl": "/images/categories/electronics.png"
+    },
+    "authorId": "auth-08",
+    "relatedProductIds": ["elec-04"],
+    "content": [
+      { "type": "h2", "text": "The Tactile Revolution" },
+      { "type": "p", "text": "Most modern keyboards use 'mushy' membrane switches. Mechanical keyboards use individual physical switches for every key, providing a level of feedback that membrane simply cannot match." },
+      { "type": "h3", "text": "Finding Your Switch" },
+      { "type": "list", "listItems": ["Red Switches: Smooth and fast for gamers", "Blue Switches: Loud and tactile for writers", "Brown Switches: The perfect middle ground", "RGB Customization: Setting the mood for your desk"] }
+    ],
+    "tags": ["Tech", "Gaming", "Productivity"],
+    "readTime": "8 min read",
+    "publishedAt": "2023-11-25T16:00:00Z",
+    "isPublished": true,
+    "isFeatured": false,
+    "navigation": { "externalUrl": "", "isExternal": false, "label": "Read Guide" }
+  },
+  {
+    "id": "post-08",
+    "title": "Why Your Yoga Mat Matters",
+    "subtitle": "Grip, thickness, and material explained.",
+    "description": "The difference between a cheap mat and a pro-grade mat for your joints.",
+    "featuredImage": "https://images.unsplash.com/photo-1601925260368-ae2f83cf8b7f?q=80&w=1200",
+    "category": {
+      "id": "sports-outdoors",
+      "title": "Sports & Outdoors",
+      "description": "Gear to stay active.",
+      "imageUrl": "/images/categories/sports-outdoors.png"
+    },
+    "authorId": "auth-04",
+    "relatedProductIds": ["spor-35", "spor-41"],
+    "content": [
+      { "type": "h2", "text": "The Foundation of Practice" },
+      { "type": "p", "text": "If you are constantly adjusting your hands because they are slipping, you aren't focused on your breath. A pro-grade mat is an investment in your safety and progress." },
+      { "type": "h3", "text": "Thickness and Joints" },
+      { "type": "p", "text": "6mm is the 'Goldilocks' zone—thick enough to protect knees on hard floors, but thin enough to maintain balance in standing poses." }
+    ],
+    "tags": ["Yoga", "Fitness", "Wellness"],
+    "readTime": "4 min read",
+    "publishedAt": "2023-11-28T07:45:00Z",
+    "isPublished": true,
+    "isFeatured": false,
+    "navigation": { "externalUrl": "", "isExternal": false, "label": "Read More" }
+  },
+  {
+    "id": "post-09",
+    "title": "How Smart Lighting Affects Your Mood",
+    "subtitle": "The psychology of color temperature in the home.",
+    "description": "How to use smart LEDs to improve your circadian rhythm.",
+    "featuredImage": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?q=80&w=1200",
+    "category": {
+      "id": "home-living",
+      "title": "Home & Living",
+      "description": "Design your space.",
+      "imageUrl": "/images/categories/home-living.png"
+    },
+    "authorId": "auth-07",
+    "relatedProductIds": ["home-20"],
+    "content": [
+      { "type": "h2", "text": "Circadian Rhythm and Blue Light" },
+      { "type": "p", "text": "Exposure to blue light during the day boosts alertness. Exposure to it at night, however, tricks your brain into thinking it's still daytime, suppressing melatonin." },
+      { "type": "h3", "text": "Automating Your Mood" },
+      { "type": "p", "text": "Set your smart floor lamps to shift to a warm sunset amber at 8:00 PM to naturally wind down your body." },
+      { "type": "image", "imageUrl": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?q=80&w=800", "alt": "Smart Lamp Ambience" }
+    ],
+    "tags": ["Smart Home", "Interior Design", "Health"],
+    "readTime": "5 min read",
+    "publishedAt": "2023-12-01T10:00:00Z",
+    "isPublished": true,
+    "isFeatured": false,
+    "navigation": { "externalUrl": "", "isExternal": false, "label": "View Lighting Guide" }
+  },
+  {
+    "id": "post-10",
+    "title": "The Art of Fragrance Layering",
+    "subtitle": "Creating your unique signature scent.",
+    "description": "How to combine scents like Oud and Sandalwood for a complex profile.",
+    "featuredImage": "https://images.unsplash.com/photo-1541643600914-78b084683601?q=80&w=1200",
+    "category": {
+      "id": "beauty-health",
+      "title": "Beauty & Health",
+      "description": "Trusted brands for wellness.",
+      "imageUrl": "/images/categories/beauty-health.png"
+    },
+    "authorId": "auth-05",
+    "relatedProductIds": ["beau-34"],
+    "content": [
+      { "type": "h2", "text": "Beyond the Single Spray" },
+      { "type": "p", "text": "Fragrance layering is the secret technique of master perfumers. By combining different base and top notes, you create a scent that belongs entirely to you." },
+      { "type": "h3", "text": "The 'Heavy to Light' Rule" },
+      { "type": "p", "text": "Always apply your most potent, woody scents (like Oud) first. Let them settle before adding lighter citrus or floral notes." },
+      { "type": "list", "listItems": ["Apply to pulse points", "Don't rub your wrists together", "Use a neutral lotion as a base for longevity"] }
+    ],
+    "tags": ["Perfume", "Style", "Luxe"],
+    "readTime": "6 min read",
+    "publishedAt": "2023-12-03T13:15:00Z",
+    "isPublished": true,
+    "isFeatured": false,
+    "navigation": { "externalUrl": "", "isExternal": false, "label": "Read Article" }
+  },
+  {
+    "id": "post-11",
+    "title": "Is the M1 Chip Still Relevant in 2024?",
+    "subtitle": "Performance vs. Portability for creators.",
+    "description": "Reviewing why the ultra-thin laptop remains a favorite for students.",
+    "featuredImage": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200",
+    "category": {
+      "id": "electronics",
+      "title": "Electronics",
+      "description": "Smartphones and laptops.",
+      "imageUrl": "/images/categories/electronics.png"
+    },
+    "authorId": "auth-01",
+    "relatedProductIds": ["elec-02", "elec-09"],
+    "content": [
+      { "type": "h2", "text": "The Efficiency Revolution" },
+      { "type": "p", "text": "While newer chips have since been released, the M1 remains a benchmark for efficiency. For 90% of web browsing, office work, and light photo editing, it is still faster than most high-end Windows laptops." },
+      { "type": "h3", "text": "Portability is King" },
+      { "type": "p", "text": "A fanless design means zero noise. For students and coffee-shop workers, that silence and 18-hour battery life is worth more than raw benchmark numbers." }
+    ],
+    "tags": ["Tech", "Laptop", "Review"],
+    "readTime": "7 min read",
+    "publishedAt": "2023-12-05T09:00:00Z",
+    "isPublished": true,
+    "isFeatured": false,
+    "navigation": { "externalUrl": "", "isExternal": false, "label": "Check Specs" }
+  },
+  {
+    "id": "post-12",
+    "title": "Accessories: The Finishing Touch",
+    "subtitle": "Transform a basic outfit into a statement.",
+    "description": "How bags and watches define your personal brand.",
+    "featuredImage": "https://images.unsplash.com/photo-1524805444758-089113d48a6d?q=80&w=1200",
+    "category": {
+      "id": "fashion",
+      "title": "Fashion",
+      "description": "Clothing and accessories.",
+      "imageUrl": "/images/categories/fashion.png"
+    },
+    "authorId": "auth-09",
+    "relatedProductIds": ["fash-13", "fash-18"],
+    "content": [
+      { "type": "h2", "text": "The Minimalist Watch" },
+      { "type": "p", "text": "A watch is the only piece of jewelry that is socially acceptable in almost every culture and setting. A minimalist gold piece says you value time and precision." },
+      { "type": "h3", "text": "The Versatility of Leather" },
+      { "type": "p", "text": "A crossbody bag is no longer just for utility. In high-grade pebbled leather, it becomes an extension of your silhouette." }
+    ],
+    "tags": ["Fashion", "Watches", "Accessories"],
+    "readTime": "4 min read",
+    "publishedAt": "2023-12-08T11:30:00Z",
+    "isPublished": true,
+    "isFeatured": false,
+    "navigation": { "externalUrl": "", "isExternal": false, "label": "Read More" }
+  },
+  {
+    "id": "post-13",
+    "title": "Creating a Calm Baby Sleep Routine",
+    "subtitle": "Natural ways to soothe your infant.",
+    "description": "Using organic materials and sound to aid infant sleep.",
+    "featuredImage": "https://images.unsplash.com/photo-1596464716127-f2a82984de30?q=80&w=1200",
+    "category": {
+      "id": "toys-baby",
+      "title": "Toys & Baby",
+      "description": "Little ones essentials.",
+      "imageUrl": "/images/categories/toys-baby.png"
+    },
+    "authorId": "auth-06",
+    "relatedProductIds": ["toys-50", "toys-48"],
+    "content": [
+      { "type": "h2", "text": "The Power of Routine" },
+      { "type": "p", "text": "Infants thrive on predictability. A routine that involves soft lighting, a consistent temperature, and natural fibers can reduce sleep anxiety significantly." },
+      { "type": "h3", "text": "Visual Stimulation" },
+      { "type": "p", "text": "A slow-moving bamboo mobile provides just enough visual interest to soothe a baby's eyes into a rest state without the blue-light stimulation of screens." }
+    ],
+    "tags": ["Parenting", "Baby", "Sleep"],
+    "readTime": "5 min read",
+    "publishedAt": "2023-12-10T20:00:00Z",
+    "isPublished": true,
+    "isFeatured": false,
+    "navigation": { "externalUrl": "", "isExternal": false, "label": "View Routine" }
+  },
+  {
+    "id": "post-14",
+    "title": "Building a Home Gym in a Small Apartment",
+    "subtitle": "Maximize your workout without the bulk.",
+    "description": "Space-saving gear for urban dwellers.",
+    "featuredImage": "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?q=80&w=1200",
+    "category": {
+      "id": "sports-outdoors",
+      "title": "Sports & Outdoors",
+      "description": "Stay active anywhere.",
+      "imageUrl": "/images/categories/sports-outdoors.png"
+    },
+    "authorId": "auth-02",
+    "relatedProductIds": ["spor-36", "spor-41"],
+    "content": [
+      { "type": "h2", "text": "Multi-Functional Fitness" },
+      { "type": "p", "text": "You don't need a squat rack to get fit. Resistance bands and adjustable dumbbells provide enough variability to hit every muscle group while fitting under your bed." },
+      { "type": "image", "imageUrl": "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?q=80&w=800", "alt": "Home Gym Gear" },
+      { "type": "list", "listItems": ["Prioritize resistance bands for high-rep work", "Use adjustable dumbbells to save 10sqft of space", "Invest in a high-grip mat to protect your flooring", "Utilize vertical storage for equipment"] }
+    ],
+    "tags": ["Gym", "Fitness", "Apartment"],
+    "readTime": "7 min read",
+    "publishedAt": "2023-12-12T15:00:00Z",
+    "isPublished": true,
+    "isFeatured": false,
+    "navigation": { "externalUrl": "https://shop.example.com/collections/pro-gear", "isExternal": true, "label": "Explore Gear" }
+  },
+  {
+    "id": "post-15",
+    "title": "Scandinavian Furniture: A Deep Dive",
+    "subtitle": "Why this 1950s style is still winning today.",
+    "description": "Understanding the lasting appeal of Scandi armchairs and décor.",
+    "featuredImage": "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?q=80&w=1200",
+    "category": {
+      "id": "home-living",
+      "title": "Home & Living",
+      "description": "Furniture and décor.",
+      "imageUrl": "/images/categories/home-living.png"
+    },
+    "authorId": "auth-02",
+    "relatedProductIds": ["home-19", "home-26"],
+    "content": [
+      { "type": "h2", "text": "The History of Hygge" },
+      { "type": "p", "text": "Scandinavian design emerged in the mid-20th century, combining artisanal craftsmanship with industrial efficiency. It was a reaction to the cold winters—bringing light and warmth into the home." },
+      { "type": "h3", "text": "Solid Wood and Natural Textiles" },
+      { "type": "p", "text": "An oak-framed armchair isn't just a seat; it's a piece of sculpture. Combined with linen bedding, it creates a sanctuary from the outside world." }
+    ],
+    "tags": ["Design", "Home", "Scandi"],
+    "readTime": "6 min read",
+    "publishedAt": "2023-12-15T12:00:00Z",
+    "isPublished": true,
+    "isFeatured": false,
+    "navigation": { "externalUrl": "", "isExternal": false, "label": "Read More" }
+  }
+]

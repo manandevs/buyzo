@@ -1,0 +1,4000 @@
+[
+  {
+    "id": "elec-01",
+    "title": "Acoustic Pro Wireless Headphones",
+    "subtitle": "Immersive sound with professional-grade noise cancellation.",
+    "description": "Experience audio like never before with the Acoustic Pro Wireless Headphones. These headphones feature custom-tuned drivers and industry-leading noise cancellation to deliver crystal clear sound in any environment, whether you are traveling or working in a busy office.",
+    "imageUrl": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=800",
+    "videoUrl": "https://example.com/videos/elec-01.mp4",
+    "price": "2499.00",
+    "currencySymbol": "R",
+    "category": {
+      "id": "electronics",
+      "title": "Electronics",
+      "description": "Shop smartphones, laptops, accessories, and all your favorite gadgets at unbeatable prices.",
+      "imageUrl": "/images/categories/electronics.png",
+      "isPublished": true
+    },
+    "type": "electronics",
+    "isPublished": true,
+    "isNew": true,
+    "outOfStock": false,
+    "stock": 45,
+    "isAd": false,
+    "variations": [
+      "Black",
+      "Silver",
+      "Navy"
+    ],
+    "features": [
+      "Active Noise Cancellation",
+      "40-hour battery life",
+      "Multipoint Bluetooth connection",
+      "USB-C Fast charging"
+    ],
+    "benefits": [
+      "Reduce fatigue in loud environments",
+      "Enjoy music for days without recharging",
+      "Switch seamlessly between your phone and laptop"
+    ],
+    "specifications": [
+      "Driver size: 40mm",
+      "Bluetooth version: 5.2",
+      "Weight: 250g",
+      "Frequency response: 20Hz-20kHz"
+    ],
+    "reviews": [
+      "Incredible bass and very comfortable for long flights.",
+      "Best noise cancelling I have ever used."
+    ],
+    "faq": [
+      {
+        "questions": [
+          "Is there a wired mode?"
+        ],
+        "answers": [
+          "Yes, it includes a 3.5mm audio cable."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "elec-02",
+    "title": "Ultra-Thin Laptop M1 Edition",
+    "subtitle": "Power and portability redefined for modern creators.",
+    "description": "The Ultra-Thin Laptop M1 Edition combines a sleek aesthetic with raw processing power. Perfect for graphic designers, students, and professionals who need a high-performance machine that fits easily into a backpack.",
+    "imageUrl": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=800",
+    "videoUrl": "https://example.com/videos/elec-02.mp4",
+    "price": "18900.00",
+    "currencySymbol": "R",
+    "category": {
+      "id": "electronics",
+      "title": "Electronics",
+      "description": "Shop smartphones, laptops, accessories, and all your favorite gadgets at unbeatable prices.",
+      "imageUrl": "/images/categories/electronics.png",
+      "isPublished": true
+    },
+    "type": "electronics",
+    "isPublished": true,
+    "isNew": false,
+    "outOfStock": false,
+    "stock": 12,
+    "isAd": false,
+    "variations": [
+      "8GB",
+      "16GB"
+    ],
+    "features": [
+      "Retina Display",
+      "18-hour battery life",
+      "Silent fanless design",
+      "Backlit Magic Keyboard"
+    ],
+    "benefits": [
+      "Stunning visuals for creative work",
+      "Work all day without a charger",
+      "Zero noise even under heavy load"
+    ],
+    "specifications": [
+      "CPU: 8-Core Chip",
+      "Display: 13.3-inch",
+      "SSD: 512GB",
+      "RAM: 16GB"
+    ],
+    "reviews": [
+      "Lightweight and super fast.",
+      "The screen quality is amazing."
+    ],
+    "faq": [
+      {
+        "questions": [
+          "Does it have a webcam?"
+        ],
+        "answers": [
+          "Yes, it features a 720p FaceTime HD camera."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "elec-03",
+    "title": "SmartWatch Series X Pro",
+    "subtitle": "Track your health and stay connected in style.",
+    "description": "The SmartWatch Series X Pro is your ultimate companion for a healthier lifestyle. With advanced sensors to track heart rate, blood oxygen, and sleep patterns, it provides deep insights into your well-being while keeping you notified on the go.",
+    "imageUrl": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?q=80&w=800",
+    "videoUrl": "https://example.com/videos/elec-03.mp4",
+    "price": "3200.00",
+    "currencySymbol": "R",
+    "category": {
+      "id": "electronics",
+      "title": "Electronics",
+      "description": "Shop smartphones, laptops, accessories, and all your favorite gadgets at unbeatable prices.",
+      "imageUrl": "/images/categories/electronics.png",
+      "isPublished": true
+    },
+    "type": "electronics",
+    "isPublished": true,
+    "isNew": true,
+    "outOfStock": false,
+    "stock": 88,
+    "isAd": false,
+    "variations": [
+      "Sport",
+      "Leather"
+    ],
+    "features": [
+      "Always-on OLED display",
+      "ECG App",
+      "Waterproof up to 50m",
+      "Fall detection"
+    ],
+    "benefits": [
+      "Stay updated with a glance",
+      "Monitor heart health easily",
+      "Safe for swimming and rain"
+    ],
+    "specifications": [
+      "Case size: 44mm",
+      "Material: Aluminum",
+      "GPS: Built-in",
+      "Battery: 36 hours"
+    ],
+    "reviews": [
+      "Battery life is better than expected.",
+      "The sleep tracking is very accurate."
+    ],
+    "faq": [
+      {
+        "questions": [
+          "Is it compatible with Android?"
+        ],
+        "answers": [
+          "This model is optimized for iOS devices."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "elec-04",
+    "title": "Mechanical RGB Keyboard",
+    "subtitle": "The ultimate tactile typing and gaming experience.",
+    "description": "Designed for gamers and writers alike, this Mechanical RGB Keyboard offers satisfying tactile feedback and customizable lighting. The durable build ensures it can withstand millions of keystrokes while maintaining peak performance.",
+    "imageUrl": "https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?q=80&w=800",
+    "videoUrl": "https://example.com/videos/elec-04.mp4",
+    "price": "1450.00",
+    "currencySymbol": "R",
+    "category": {
+      "id": "electronics",
+      "title": "Electronics",
+      "description": "Shop smartphones, laptops, accessories, and all your favorite gadgets at unbeatable prices.",
+      "imageUrl": "/images/categories/electronics.png",
+      "isPublished": true
+    },
+    "type": "electronics",
+    "isPublished": true,
+    "isNew": false,
+    "outOfStock": false,
+    "stock": 56,
+    "isAd": false,
+    "variations": [
+      "Red Switch",
+      "Blue Switch"
+    ],
+    "features": [
+      "Per-key RGB lighting",
+      "N-Key Rollover",
+      "Dedicated Media Keys",
+      "Braided USB cable"
+    ],
+    "benefits": [
+      "Enhance your setup with custom colors",
+      "Never miss a keystroke in games",
+      "Fast access to volume controls"
+    ],
+    "specifications": [
+      "Switch type: Mechanical",
+      "Polling rate: 1000Hz",
+      "Life: 50M clicks",
+      "Weight: 1.1kg"
+    ],
+    "reviews": [
+      "The switches feel amazing.",
+      "Software for RGB is easy to use."
+    ],
+    "faq": [
+      {
+        "questions": [
+          "Is the wrist rest removable?"
+        ],
+        "answers": [
+          "Yes, it features a magnetic removable wrist rest."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "elec-05",
+    "title": "4K Action Camera Waterproof",
+    "subtitle": "Capture your adventures in stunning ultra-high definition.",
+    "description": "Don't let a moment pass by. Whether you're diving, biking, or hiking, the 4K Action Camera records every detail in crisp 4K. With a rugged waterproof housing and electronic image stabilization, your footage will look professional and smooth.",
+    "imageUrl": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?q=80&w=800",
+    "videoUrl": "https://example.com/videos/elec-05.mp4",
+    "price": "4100.00",
+    "currencySymbol": "R",
+    "category": {
+      "id": "electronics",
+      "title": "Electronics",
+      "description": "Shop smartphones, laptops, accessories, and all your favorite gadgets at unbeatable prices.",
+      "imageUrl": "/images/categories/electronics.png",
+      "isPublished": true
+    },
+    "type": "electronics",
+    "isPublished": true,
+    "isNew": true,
+    "outOfStock": false,
+    "stock": 30,
+    "isAd": false,
+    "variations": [],
+    "features": [
+      "4K 60FPS Recording",
+      "EIS 2.0 Stabilization",
+      "Dual Screens",
+      "Wi-Fi Connectivity"
+    ],
+    "benefits": [
+      "Professional video quality",
+      "Smooth footage during action",
+      "Easy framing for selfies"
+    ],
+    "specifications": [
+      "Resolution: 20MP",
+      "Max depth: 30m with case",
+      "Field of view: 170 degrees",
+      "Battery: 1050mAh"
+    ],
+    "reviews": [
+      "Solid camera for the price.",
+      "The image stabilization is very effective."
+    ],
+    "faq": [
+      {
+        "questions": [
+          "Does it include mounts?"
+        ],
+        "answers": [
+          "Yes, it comes with a 15-piece mounting kit."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "elec-06",
+    "title": "Noise Cancelling Earbuds",
+    "subtitle": "Small size, massive sound, and total silence.",
+    "description": "These compact earbuds pack a powerful punch. Featuring advanced hybrid active noise cancellation and a long-lasting battery, they are perfect for your daily commute or a focused gym session.",
+    "imageUrl": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?q=80&w=800",
+    "videoUrl": "https://example.com/videos/elec-06.mp4",
+    "price": "1850.00",
+    "currencySymbol": "R",
+    "category": {
+      "id": "electronics",
+      "title": "Electronics",
+      "description": "Shop smartphones, laptops, accessories, and all your favorite gadgets at unbeatable prices.",
+      "imageUrl": "/images/categories/electronics.png",
+      "isPublished": true
+    },
+    "type": "electronics",
+    "isPublished": true,
+    "isNew": false,
+    "outOfStock": false,
+    "stock": 120,
+    "isAd": false,
+    "variations": [
+      "White",
+      "Black"
+    ],
+    "features": [
+      "Hybrid ANC",
+      "Transparency Mode",
+      "IPX5 Sweatproof",
+      "Wireless Charging Case"
+    ],
+    "benefits": [
+      "Stay focused anywhere",
+      "Hear your surroundings when needed",
+      "Reliable during intense workouts"
+    ],
+    "specifications": [
+      "Driver size: 10mm",
+      "Bluetooth: 5.1",
+      "Playtime: 6h (earbuds) + 18h (case)",
+      "Weight: 5g per earbud"
+    ],
+    "reviews": [
+      "Perfect fit and great ANC.",
+      "Bass response is very impressive for earbuds."
+    ],
+    "faq": [
+      {
+        "questions": [
+          "Can I use only one earbud?"
+        ],
+        "answers": [
+          "Yes, both left and right earbuds can be used independently."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "elec-07",
+    "title": "Curved Gaming Monitor 32\"",
+    "subtitle": "Total immersion with lightning-fast refresh rates.",
+    "description": "Lose yourself in the game with this 32-inch curved gaming monitor. The 1500R curvature matches the natural curve of the human eye, reducing strain and increasing field of vision for a competitive edge.",
+    "imageUrl": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=800",
+    "videoUrl": "https://example.com/videos/elec-07.mp4",
+    "price": "7900.00",
+    "currencySymbol": "R",
+    "category": {
+      "id": "electronics",
+      "title": "Electronics",
+      "description": "Shop smartphones, laptops, accessories, and all your favorite gadgets at unbeatable prices.",
+      "imageUrl": "/images/categories/electronics.png",
+      "isPublished": true
+    },
+    "type": "electronics",
+    "isPublished": true,
+    "isNew": false,
+    "outOfStock": false,
+    "stock": 15,
+    "isAd": false,
+    "variations": [],
+    "features": [
+      "144Hz Refresh Rate",
+      "1ms Response Time",
+      "QHD 2K Resolution",
+      "Flicker-Free Technology"
+    ],
+    "benefits": [
+      "Ultra-smooth gaming visuals",
+      "Eliminate ghosting and lag",
+      "Vibrant colors and deep blacks"
+    ],
+    "specifications": [
+      "Panel Type: VA",
+      "Brightness: 300 nits",
+      "Ports: 2x HDMI, 1x DP",
+      "Curvature: 1500R"
+    ],
+    "reviews": [
+      "Games look incredible in 2K.",
+      "The stand is very stable and adjustable."
+    ],
+    "faq": [
+      {
+        "questions": [
+          "Is it VESA mountable?"
+        ],
+        "answers": [
+          "Yes, it supports standard 100x100mm VESA mounts."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "elec-08",
+    "title": "Smart Home Voice Assistant",
+    "subtitle": "The hub for your smart home and daily tasks.",
+    "description": "Control your lights, play music, set reminders, and check the weather with just your voice. Our Smart Home Voice Assistant integrates seamlessly with your favorite apps and devices to make life easier.",
+    "imageUrl": "https://images.unsplash.com/photo-1589492477829-5e65395b66cc?q=80&w=800",
+    "videoUrl": "https://example.com/videos/elec-08.mp4",
+    "price": "950.00",
+    "currencySymbol": "R",
+    "category": {
+      "id": "electronics",
+      "title": "Electronics",
+      "description": "Shop smartphones, laptops, accessories, and all your favorite gadgets at unbeatable prices.",
+      "imageUrl": "/images/categories/electronics.png",
+      "isPublished": true
+    },
+    "type": "electronics",
+    "isPublished": true,
+    "isNew": false,
+    "outOfStock": false,
+    "stock": 200,
+    "isAd": false,
+    "variations": [
+      "Charcoal",
+      "Sand"
+    ],
+    "features": [
+      "360-degree high-fidelity sound",
+      "Privacy mute switch",
+      "Multi-room audio support",
+      "Zigbee Smart Home Hub"
+    ],
+    "benefits": [
+      "Control your home hands-free",
+      "Rich audio for any room",
+      "Manage your schedule with ease"
+    ],
+    "specifications": [
+      "Connectivity: Wi-Fi, Bluetooth",
+      "Microphones: 4 far-field",
+      "Power: 15V adapter",
+      "Weight: 450g"
+    ],
+    "reviews": [
+      "Very responsive voice commands.",
+      "Sound quality is surprisingly good for the size."
+    ],
+    "faq": [
+      {
+        "questions": [
+          "Can it call other devices?"
+        ],
+        "answers": [
+          "Yes, it supports intercom and calling features between devices."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "elec-09",
+    "title": "Portable SSD 1TB High Speed",
+    "subtitle": "Blazing fast storage that fits in your pocket.",
+    "description": "Transfer large files in seconds with the Portable SSD High Speed. Whether you are backing up photos from a shoot or carrying your game library, this rugged and compact drive ensures your data is always accessible and safe.",
+    "imageUrl": "https://images.unsplash.com/photo-1597740985671-2a8a3b80502e?q=80&w=800",
+    "videoUrl": "https://example.com/videos/elec-09.mp4",
+    "price": "2100.00",
+    "currencySymbol": "R",
+    "category": {
+      "id": "electronics",
+      "title": "Electronics",
+      "description": "Shop smartphones, laptops, accessories, and all your favorite gadgets at unbeatable prices.",
+      "imageUrl": "/images/categories/electronics.png",
+      "isPublished": true
+    },
+    "type": "electronics",
+    "isPublished": true,
+    "isNew": true,
+    "outOfStock": false,
+    "stock": 75,
+    "isAd": false,
+    "variations": [],
+    "features": [
+      "USB 3.2 Gen 2 Interface",
+      "Read speeds up to 1050MB/s",
+      "Shock-resistant aluminum body",
+      "Hardware encryption"
+    ],
+    "benefits": [
+      "Save hours on large transfers",
+      "Reliable storage on the move",
+      "Secure your sensitive files"
+    ],
+    "specifications": [
+      "Capacity: 1TB",
+      "Connector: USB-C",
+      "OS: Windows, Mac, Android",
+      "Warranty: 3 years"
+    ],
+    "reviews": [
+      "Tiny but incredibly fast.",
+      "Works perfectly with my PS5."
+    ],
+    "faq": [
+      {
+        "questions": [
+          "Does it come with a cable?"
+        ],
+        "answers": [
+          "Yes, it includes both USB-C to C and USB-C to A cables."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fash-10",
+    "title": "Premium Cotton Oversized Hoodie",
+    "subtitle": "Heavyweight warmth with a modern streetwear fit.",
+    "description": "Wrap yourself in luxury with our Premium Cotton Hoodie. Designed for an oversized fit and maximum comfort, it features a brushed interior that feels incredibly soft against the skin, making it a wardrobe essential for all seasons.",
+    "imageUrl": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?q=80&w=800",
+    "videoUrl": "https://example.com/videos/fash-10.mp4",
+    "price": "850.00",
+    "currencySymbol": "R",
+    "category": {
+      "id": "fashion",
+      "title": "Fashion",
+      "description": "Discover trendy clothing, shoes, and accessories for men, women, and kids from top brands.",
+      "imageUrl": "/images/categories/fashion.png",
+      "isPublished": true
+    },
+    "type": "fashion",
+    "isPublished": true,
+    "isNew": true,
+    "outOfStock": false,
+    "stock": 140,
+    "isAd": false,
+    "variations": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "features": [
+      "400 GSM Heavyweight Fabric",
+      "Drop shoulder design",
+      "Double-lined hood",
+      "Ribbed cuffs and hem"
+    ],
+    "benefits": [
+      "Stays warm in low temperatures",
+      "Durable through many washes",
+      "Classic streetwear aesthetic"
+    ],
+    "specifications": [
+      "Material: 100% Organic Cotton",
+      "Fit: Relaxed/Oversized",
+      "Care: Machine wash cold",
+      "Country: Made in SA"
+    ],
+    "reviews": [
+      "Super thick material, very high quality.",
+      "The fit is exactly what I wanted."
+    ],
+    "faq": [
+      {
+        "questions": [
+          "Does it shrink?"
+        ],
+        "answers": [
+          "It is pre-shrunk, but we recommend air drying to maintain the fit."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fash-12",
+    "title": "Classic Leather Chelsea Boots",
+    "subtitle": "Timeless footwear for any occasion.",
+    "description": "Handcrafted from genuine full-grain leather, these Chelsea boots offer a sleek profile and exceptional durability. The elastic side panels and pull tab make them easy to slip on, while the cushioned insole ensures all-day comfort.",
+    "imageUrl": "https://images.unsplash.com/photo-1638247025967-b4e38f787b76?q=80&w=800",
+    "videoUrl": "https://example.com/videos/fash-12.mp4",
+    "price": "2400.00",
+    "currencySymbol": "R",
+    "category": {
+      "id": "fashion",
+      "title": "Fashion",
+      "description": "Discover trendy clothing, shoes, and accessories for men, women, and kids from top brands.",
+      "imageUrl": "/images/categories/fashion.png",
+      "isPublished": true
+    },
+    "type": "fashion",
+    "isPublished": true,
+    "isNew": true,
+    "outOfStock": false,
+    "stock": 28,
+    "isAd": false,
+    "variations": [
+      "UK 7",
+      "UK 8",
+      "UK 9"
+    ],
+    "features": [
+      "Full-grain leather upper",
+      "Non-slip rubber sole",
+      "Memory foam insole",
+      "Durable elastic gussets"
+    ],
+    "benefits": [
+      "Goes with formal and casual outfits",
+      "Builds character with age",
+      "All-day walking comfort"
+    ],
+    "specifications": [
+      "Upper: Cow Leather",
+      "Sole: Rubber",
+      "Lining: Microfiber",
+      "Heel height: 2cm"
+    ],
+    "reviews": [
+      "Quality leather, fits perfectly.",
+      "Great support for all-day wear."
+    ],
+    "faq": [
+      {
+        "questions": [
+          "Are they waterproof?"
+        ],
+        "answers": [
+          "They are water-resistant, but we recommend a leather spray for full protection."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fash-13",
+    "title": "Minimalist Gold Wristwatch",
+    "subtitle": "Elegant simplicity for the refined wrist.",
+    "description": "A statement of understated luxury. This minimalist watch features a clean dial and a brushed gold finish, making it the perfect accessory for both professional settings and social evenings.",
+    "imageUrl": "https://images.unsplash.com/photo-1524805444758-089113d48a6d?q=80&w=800",
+    "videoUrl": "https://example.com/videos/fash-13.mp4",
+    "price": "3500.00",
+    "currencySymbol": "R",
+    "category": {
+      "id": "fashion",
+      "title": "Fashion",
+      "description": "Discover trendy clothing, shoes, and accessories for men, women, and kids from top brands.",
+      "imageUrl": "/images/categories/fashion.png",
+      "isPublished": true
+    },
+    "type": "fashion",
+    "isPublished": true,
+    "isNew": false,
+    "outOfStock": false,
+    "stock": 19,
+    "isAd": false,
+    "variations": [],
+    "features": [
+      "Japanese Quartz Movement",
+      "Scratch-resistant Sapphire Glass",
+      "3 ATM Water Resistance",
+      "Stainless Steel Mesh Strap"
+    ],
+    "benefits": [
+      "Accurate timekeeping for years",
+      "Stays looking new longer",
+      "Adjustable strap for perfect fit"
+    ],
+    "specifications": [
+      "Case diameter: 40mm",
+      "Case thickness: 7mm",
+      "Battery: Silver Oxide",
+      "Finish: PVD Gold"
+    ],
+    "reviews": [
+      "Beautifully thin and elegant.",
+      "Gets compliments every time I wear it."
+    ],
+    "faq": [
+      {
+        "questions": [
+          "Is the battery replaceable?"
+        ],
+        "answers": [
+          "Yes, any jeweler can replace the standard quartz battery."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fash-15",
+    "title": "Silk Floral Evening Dress",
+    "subtitle": "Flowing elegance for your next special event.",
+    "description": "Stand out with the Silk Floral Evening Dress. Made from high-quality silk chiffon with a custom floral print, this dress features a delicate wrap front and a flattering silhouette that moves beautifully as you walk.",
+    "imageUrl": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?q=80&w=800",
+    "videoUrl": "https://example.com/videos/fash-15.mp4",
+    "price": "1850.00",
+    "currencySymbol": "R",
+    "category": {
+      "id": "fashion",
+      "title": "Fashion",
+      "description": "Discover trendy clothing, shoes, and accessories for men, women, and kids from top brands.",
+      "imageUrl": "/images/categories/fashion.png",
+      "isPublished": true
+    },
+    "type": "fashion",
+    "isPublished": true,
+    "isNew": true,
+    "outOfStock": false,
+    "stock": 14,
+    "isAd": false,
+    "variations": [
+      "XS",
+      "S",
+      "M"
+    ],
+    "features": [
+      "100% Silk Chiffon",
+      "Adjustable waist tie",
+      "Full interior lining",
+      "Concealed back zipper"
+    ],
+    "benefits": [
+      "Incredibly soft and breathable",
+      "Tailorable fit to your body",
+      "Elegant movement and drape"
+    ],
+    "specifications": [
+      "Length: Midi",
+      "Care: Dry clean only",
+      "Neckline: V-neck",
+      "Lining: Polyester"
+    ],
+    "reviews": [
+      "The fabric is divine.",
+      "Perfect for a summer wedding."
+    ],
+    "faq": [
+      {
+        "questions": [
+          "Is it sheer?"
+        ],
+        "answers": [
+          "No, it is fully lined for complete opacity."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fash-16",
+    "title": "Canvas High-Top Sneakers",
+    "subtitle": "Iconic comfort for your everyday journey.",
+    "description": "Our Canvas High-Tops are built for versatility. With a heavy-duty canvas upper and a vulcanized rubber sole, these sneakers provide a classic look that only gets better with age.",
+    "imageUrl": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?q=80&w=800",
+    "videoUrl": "https://example.com/videos/fash-16.mp4",
+    "price": "950.00",
+    "currencySymbol": "R",
+    "category": {
+      "id": "fashion",
+      "title": "Fashion",
+      "description": "Discover trendy clothing, shoes, and accessories for men, women, and kids from top brands.",
+      "imageUrl": "/images/categories/fashion.png",
+      "isPublished": true
+    },
+    "type": "fashion",
+    "isPublished": true,
+    "isNew": false,
+    "outOfStock": false,
+    "stock": 92,
+    "isAd": false,
+    "variations": [
+      "UK 6",
+      "UK 7",
+      "UK 8"
+    ],
+    "features": [
+      "Heavy-duty canvas",
+      "Ortholite comfort insole",
+      "Reinforced rubber toe cap",
+      "Metal vent eyelets"
+    ],
+    "benefits": [
+      "Breathable and lightweight",
+      "Long-lasting durability",
+      "Timeless style for any gender"
+    ],
+    "specifications": [
+      "Upper: Cotton Canvas",
+      "Sole: Rubber",
+      "Closure: Lace-up",
+      "Weight: 400g per shoe"
+    ],
+    "reviews": [
+      "My go-to daily shoes.",
+      "Very comfortable even without socks."
+    ],
+    "faq": [
+      {
+        "questions": [
+          "Can I machine wash them?"
+        ],
+        "answers": [
+          "Yes, we recommend a cold cycle and air drying."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fash-17",
+    "title": "Pure Wool Winter Scarf",
+    "subtitle": "Exceptional warmth crafted from the finest wool.",
+    "description": "Stay cozy through the coldest months with our Pure Wool Scarf. Sourced from sustainable farms, this scarf is exceptionally soft and naturally breathable, providing maximum insulation without bulk.",
+    "imageUrl": "https://images.unsplash.com/photo-1520903920243-00d872a2d1c9?q=80&w=800",
+    "videoUrl": "https://example.com/videos/fash-17.mp4",
+    "price": "450.00",
+    "currencySymbol": "R",
+    "category": {
+      "id": "fashion",
+      "title": "Fashion",
+      "description": "Discover trendy clothing, shoes, and accessories for men, women, and kids from top brands.",
+      "imageUrl": "/images/categories/fashion.png",
+      "isPublished": true
+    },
+    "type": "fashion",
+    "isPublished": true,
+    "isNew": false,
+    "outOfStock": false,
+    "stock": 55,
+    "isAd": false,
+    "variations": [
+      "Grey",
+      "Navy"
+    ],
+    "features": [
+      "100% Merino Wool",
+      "Large size for versatile styling",
+      "Fringed edges",
+      "Naturally odor-resistant"
+    ],
+    "benefits": [
+      "Superior insulation",
+      "No itchy feeling",
+      "Durable natural fiber"
+    ],
+    "specifications": [
+      "Length: 180cm",
+      "Width: 30cm",
+      "Origin: South Africa",
+      "Care: Hand wash only"
+    ],
+    "reviews": [
+      "So soft and warm.",
+      "The grey color is beautiful and rich."
+    ],
+    "faq": [
+      {
+        "questions": [
+          "Is it 100% wool?"
+        ],
+        "answers": [
+          "Yes, it is guaranteed 100% pure merino wool."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fash-18",
+    "title": "Leather Crossbody Bag",
+    "subtitle": "Compact, secure, and effortlessly stylish.",
+    "description": "The perfect companion for your daily essentials. Our Leather Crossbody Bag is handcrafted with premium pebbled leather and features multiple compartments to keep your life organized while on the move.",
+    "imageUrl": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?q=80&w=800",
+    "videoUrl": "https://example.com/videos/fash-18.mp4",
+    "price": "2100.00",
+    "currencySymbol": "R",
+    "category": {
+      "id": "fashion",
+      "title": "Fashion",
+      "description": "Discover trendy clothing, shoes, and accessories for men, women, and kids from top brands.",
+      "imageUrl": "/images/categories/fashion.png",
+      "isPublished": true
+    },
+    "type": "fashion",
+    "isPublished": true,
+    "isNew": true,
+    "outOfStock": false,
+    "stock": 18,
+    "isAd": false,
+    "variations": [],
+    "features": [
+      "Pebbled full-grain leather",
+      "Adjustable shoulder strap",
+      "Magnetic flap closure",
+      "Internal zip pocket"
+    ],
+    "benefits": [
+      "Keeps valuables secure",
+      "Hands-free convenience",
+      "Durable high-end finish"
+    ],
+    "specifications": [
+      "Dimensions: 20cm x 15cm x 7cm",
+      "Hardware: Polished brass",
+      "Lining: Twill",
+      "Strap drop: 55cm"
+    ],
+    "reviews": [
+      "High quality leather and great size.",
+      "Fits my phone, keys, and wallet perfectly."
+    ],
+    "faq": [
+      {
+        "questions": [
+          "Will it fit a large phone?"
+        ],
+        "answers": [
+          "Yes, it fits all current iPhone and Samsung models."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "home-19",
+    "title": "Modern Scandinavian Armchair",
+    "subtitle": "A centerpiece of comfort and Nordic design.",
+    "description": "Bring minimalist elegance to your living room. The Scandinavian Armchair is built with a solid oak frame and high-density foam cushions, providing the perfect balance of aesthetic appeal and ergonomic support.",
+    "imageUrl": "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?q=80&w=800",
+    "videoUrl": "https://example.com/videos/home-19.mp4",
+    "price": "4500.00",
+    "currencySymbol": "R",
+    "category": {
+      "id": "home-living",
+      "title": "Home & Living",
+      "description": "Find everything for your home, from furniture and décor to kitchen essentials and smart home devices.",
+      "imageUrl": "/images/categories/home-living.png",
+      "isPublished": true
+    },
+    "type": "home-living",
+    "isPublished": true,
+    "isNew": true,
+    "outOfStock": false,
+    "stock": 10,
+    "isAd": false,
+    "variations": [
+      "Grey",
+      "Yellow"
+    ],
+    "features": [
+      "Solid oak frame",
+      "Stain-resistant fabric",
+      "Ergonomic lumbar support",
+      "Non-marking foot pads"
+    ],
+    "benefits": [
+      "Elevates your interior design",
+      "Comfortable for long reading sessions",
+      "Durable and easy to maintain"
+    ],
+    "specifications": [
+      "Height: 85cm",
+      "Width: 72cm",
+      "Material: Oak and Polyester",
+      "Weight Capacity: 150kg"
+    ],
+    "reviews": [
+      "Even better in person.",
+      "Surprisingly comfortable for a minimalist chair."
+    ],
+    "faq": [
+      {
+        "questions": [
+          "Does it require assembly?"
+        ],
+        "answers": [
+          "Minimal assembly is required; only the legs need to be attached."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "home-20",
+    "title": "Smart LED Floor Lamp",
+    "subtitle": "Perfect lighting for every mood, controlled by you.",
+    "description": "Transform your room's atmosphere with the touch of a button or a simple voice command. This sleek floor lamp features millions of colors and adjustable brightness levels, making it ideal for reading, relaxing, or hosting.",
+    "imageUrl": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?q=80&w=800",
+    "videoUrl": "https://example.com/videos/home-20.mp4",
+    "price": "1250.00",
+    "currencySymbol": "R",
+    "category": {
+      "id": "home-living",
+      "title": "Home & Living",
+      "description": "Find everything for your home, from furniture and décor to kitchen essentials and smart home devices.",
+      "imageUrl": "/images/categories/home-living.png",
+      "isPublished": true
+    },
+    "type": "home-living",
+    "isPublished": true,
+    "isNew": false,
+    "outOfStock": false,
+    "stock": 34,
+    "isAd": false,
+    "variations": [],
+    "features": [
+      "App and Voice Control",
+      "16 Million Colors",
+      "Schedule and Timer",
+      "Adjustable Head"
+    ],
+    "benefits": [
+      "Customize ambiance instantly",
+      "Save energy with timers",
+      "Hands-free operation"
+    ],
+    "specifications": [
+      "Height: 160cm",
+      "Lumen: 1000",
+      "Watts: 12W",
+      "Connectivity: Wi-Fi"
+    ],
+    "reviews": [
+      "The app works flawlessly.",
+      "Love the color presets for movie night."
+    ],
+    "faq": [
+      {
+        "questions": [
+          "Do I need a hub?"
+        ],
+        "answers": [
+          "No, it connects directly to your Wi-Fi router."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "home-21",
+    "title": "Set of 3 Ceramic Vases",
+    "subtitle": "Hand-glazed textures to brighten any corner.",
+    "description": "A curated set of three vases in varied sizes and textures. These hand-crafted ceramic pieces are designed to be displayed together or separately, adding a sophisticated touch to your shelving or tablescapes.",
+    "imageUrl": "https://images.unsplash.com/photo-1581783898377-1c85bf937427?q=80&w=800",
+    "videoUrl": "https://example.com/videos/home-21.mp4",
+    "price": "850.00",
+    "currencySymbol": "R",
+    "category": {
+      "id": "home-living",
+      "title": "Home & Living",
+      "description": "Find everything for your home, from furniture and décor to kitchen essentials and smart home devices.",
+      "imageUrl": "/images/categories/home-living.png",
+      "isPublished": true
+    },
+    "type": "home-living",
+    "isPublished": true,
+    "isNew": false,
+    "outOfStock": false,
+    "stock": 42,
+    "isAd": false,
+    "variations": [
+      "White",
+      "Matte Black"
+    ],
+    "features": [
+      "Hand-crafted ceramic",
+      "Unique textured finish",
+      "Water-tight interior",
+      "Protective felt bottom"
+    ],
+    "benefits": [
+      "Versatile decor options",
+      "Sturdy and high quality",
+      "Great for fresh or dried flowers"
+    ],
+    "specifications": [
+      "Sizes: 25cm, 18cm, 12cm",
+      "Material: Clay",
+      "Finish: Reactive Glaze",
+      "Set Weight: 2kg"
+    ],
+    "reviews": [
+      "Perfect sizes for my shelf.",
+      "The textures are very unique."
+    ],
+    "faq": [
+      {
+        "questions": [
+          "Are they dishwasher safe?"
+        ],
+        "answers": [
+          "We recommend hand washing to preserve the delicate glaze."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "home-24",
+    "title": "Abstract Canvas Wall Art",
+    "subtitle": "Bold colors and brushwork to transform your walls.",
+    "description": "Make a statement with this premium abstract canvas. Each piece is printed with fade-resistant inks on artist-grade canvas and hand-stretched over a solid wood frame for a gallery-quality finish that inspires conversation.",
+    "imageUrl": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?q=80&w=800",
+    "videoUrl": "https://example.com/videos/home-24.mp4",
+    "price": "1100.00",
+    "currencySymbol": "R",
+    "category": {
+      "id": "home-living",
+      "title": "Home & Living",
+      "description": "Find everything for your home, from furniture and décor to kitchen essentials and smart home devices.",
+      "imageUrl": "/images/categories/home-living.png",
+      "isPublished": true
+    },
+    "type": "home-living",
+    "isPublished": true,
+    "isNew": true,
+    "outOfStock": false,
+    "stock": 15,
+    "isAd": false,
+    "variations": [],
+    "features": [
+      "Artist-grade canvas",
+      "UV-resistant ink",
+      "Solid pine frame",
+      "Ready to hang"
+    ],
+    "benefits": [
+      "Does not fade in sunlight",
+      "Instant room upgrade",
+      "Lightweight but sturdy"
+    ],
+    "specifications": [
+      "Size: 60cm x 90cm",
+      "Canvas thickness: 3cm",
+      "Weight: 1.5kg",
+      "Hardware included: Yes"
+    ],
+    "reviews": [
+      "The colors are so vibrant.",
+      "Perfect size for above my sofa."
+    ],
+    "faq": [
+      {
+        "questions": [
+          "Can I get this in a frame?"
+        ],
+        "answers": [
+          "This model is a gallery wrap; no external frame is needed."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "home-26",
+    "title": "Linen Bedding Set Queen",
+    "subtitle": "Natural luxury for the best night's sleep.",
+    "description": "Sleep in pure comfort. Our Linen Bedding Set is made from 100% French linen, stone-washed for extra softness. Naturally temperature-regulating, it keeps you cool in summer and warm in winter for year-round bliss.",
+    "imageUrl": "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?q=80&w=800",
+    "videoUrl": "https://example.com/videos/home-26.mp4",
+    "price": "3200.00",
+    "currencySymbol": "R",
+    "category": {
+      "id": "home-living",
+      "title": "Home & Living",
+      "description": "Find everything for your home, from furniture and décor to kitchen essentials and smart home devices.",
+      "imageUrl": "/images/categories/home-living.png",
+      "isPublished": true
+    },
+    "type": "home-living",
+    "isPublished": true,
+    "isNew": true,
+    "outOfStock": false,
+    "stock": 22,
+    "isAd": false,
+    "variations": [
+      "Sand",
+      "Sky Blue"
+    ],
+    "features": [
+      "100% French Flax Linen",
+      "Oeko-Tex Certified",
+      "Envelope closure pillows",
+      "Heavy-duty buttons"
+    ],
+    "benefits": [
+      "Breathable and moisture-wicking",
+      "Grows softer with every wash",
+      "Hypoallergenic and eco-friendly"
+    ],
+    "specifications": [
+      "Includes: 1x Duvet Cover, 2x Pillowcases",
+      "Size: Queen",
+      "Fabric weight: 165 GSM",
+      "Origin: France"
+    ],
+    "reviews": [
+      "The quality is incredible.",
+      "Best sleep I've had in a long time."
+    ],
+    "faq": [
+      {
+        "questions": [
+          "Does it need ironing?"
+        ],
+        "answers": [
+          "Linen is meant to have a natural, relaxed look without ironing."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "beau-27",
+    "title": "Vitamin C Radiance Serum",
+    "subtitle": "A burst of brightness for a youthful glow.",
+    "description": "Our potent Vitamin C serum is designed to brighten dull skin and even out skin tone. Formulated with antioxidants and hyaluronic acid, it protects your skin from environmental stressors while delivering deep hydration.",
+    "imageUrl": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?q=80&w=800",
+    "videoUrl": "https://example.com/videos/beau-27.mp4",
+    "price": "750.00",
+    "currencySymbol": "R",
+    "category": {
+      "id": "beauty-health",
+      "title": "Beauty & Health",
+      "description": "Explore skincare, makeup, personal care, and wellness products from trusted brands.",
+      "imageUrl": "/images/categories/beauty-health.png",
+      "isPublished": true
+    },
+    "type": "beauty-health",
+    "isPublished": true,
+    "isNew": true,
+    "outOfStock": false,
+    "stock": 150,
+    "isAd": false,
+    "variations": [
+      "30ml",
+      "50ml"
+    ],
+    "features": [
+      "15% L-ascorbic acid",
+      "Ferulic Acid protection",
+      "Paraben-free",
+      "Oil-free formula"
+    ],
+    "benefits": [
+      "Fades dark spots",
+      "Protects against UV damage",
+      "Smooths fine lines"
+    ],
+    "specifications": [
+      "pH: 3.2",
+      "Skin type: All",
+      "Volume: 30ml",
+      "Cruelty-free: Yes"
+    ],
+    "reviews": [
+      "My skin has never looked so clear.",
+      "Noticeable difference in one week."
+    ],
+    "faq": [
+      {
+        "questions": [
+          "Can I use this with retinol?"
+        ],
+        "answers": [
+          "We recommend using Vitamin C in the morning and Retinol at night."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "beau-28",
+    "title": "Matte Liquid Lipstick Set",
+    "subtitle": "Vibrant color that stays put all day.",
+    "description": "Discover a lipstick that doesn't quit. This set of matte liquid lipsticks provides high-impact color with a velvet finish. The non-drying formula ensures your lips stay comfortable and hydrated from day to night.",
+    "imageUrl": "https://images.unsplash.com/photo-1586776977607-310e9c725c37?q=80&w=800",
+    "videoUrl": "https://example.com/videos/beau-28.mp4",
+    "price": "450.00",
+    "currencySymbol": "R",
+    "category": {
+      "id": "beauty-health",
+      "title": "Beauty & Health",
+      "description": "Explore skincare, makeup, personal care, and wellness products from trusted brands.",
+      "imageUrl": "/images/categories/beauty-health.png",
+      "isPublished": true
+    },
+    "type": "beauty-health",
+    "isPublished": true,
+    "isNew": false,
+    "outOfStock": false,
+    "stock": 80,
+    "isAd": false,
+    "variations": [
+      "Nude",
+      "Red"
+    ],
+    "features": [
+      "12-hour wear",
+      "Smudge-proof",
+      "Precision applicator",
+      "Vitamin E infused"
+    ],
+    "benefits": [
+      "No need for touch-ups",
+      "Doesn't bleed into fine lines",
+      "Vibrant pigment"
+    ],
+    "specifications": [
+      "Quantity: 4 shades",
+      "Size: 5ml per bottle",
+      "Finish: Matte",
+      "Vegan: Yes"
+    ],
+    "reviews": [
+      "The colors are so pretty.",
+      "Actually stays on through lunch."
+    ],
+    "faq": [
+      {
+        "questions": [
+          "Is it waterproof?"
+        ],
+        "answers": [
+          "Yes, the formula is highly water and transfer resistant."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "beau-29",
+    "title": "Organic Night Repair Cream",
+    "subtitle": "Wake up to restored, rejuvenated skin.",
+    "description": "Feed your skin while you sleep. This rich, organic night cream uses botanical extracts and peptides to repair damage and boost collagen production, ensuring you wake up with a firm, glowing complexion every morning.",
+    "imageUrl": "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?q=80&w=800",
+    "videoUrl": "https://example.com/videos/beau-29.mp4",
+    "price": "850.00",
+    "currencySymbol": "R",
+    "category": {
+      "id": "beauty-health",
+      "title": "Beauty & Health",
+      "description": "Explore skincare, makeup, personal care, and wellness products from trusted brands.",
+      "imageUrl": "/images/categories/beauty-health.png",
+      "isPublished": true
+    },
+    "type": "beauty-health",
+    "isPublished": true,
+    "isNew": true,
+    "outOfStock": false,
+    "stock": 60,
+    "isAd": false,
+    "variations": [],
+    "features": [
+      "Organic Shea Butter",
+      "Rosehip Oil",
+      "Plant-based Peptides",
+      "Glass packaging"
+    ],
+    "benefits": [
+      "Deep overnight hydration",
+      "Firms sagging skin",
+      "Calms redness"
+    ],
+    "specifications": [
+      "Volume: 50ml",
+      "Skin concern: Aging",
+      "98% Natural",
+      "Dermatologist tested"
+    ],
+    "reviews": [
+      "The texture is like butter.",
+      "I love the natural scent."
+    ],
+    "faq": [
+      {
+        "questions": [
+          "Is it good for oily skin?"
+        ],
+        "answers": [
+          "It is a rich formula, so we recommend it for normal to dry skin types."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "beau-31",
+    "title": "Quartz Face Roller Set",
+    "subtitle": "Ancient beauty ritual for modern skin health.",
+    "description": "De-puff and detoxify with our genuine Rose Quartz roller. This cooling stone set helps to improve lymphatic drainage and product absorption, leaving your face feeling sculpted and relaxed after every use.",
+    "imageUrl": "https://images.unsplash.com/photo-1608248597279-f99d160bfcbc?q=80&w=800",
+    "videoUrl": "https://example.com/videos/beau-31.mp4",
+    "price": "350.00",
+    "currencySymbol": "R",
+    "category": {
+      "id": "beauty-health",
+      "title": "Beauty & Health",
+      "description": "Explore skincare, makeup, personal care, and wellness products from trusted brands.",
+      "imageUrl": "/images/categories/beauty-health.png",
+      "isPublished": true
+    },
+    "type": "beauty-health",
+    "isPublished": true,
+    "isNew": false,
+    "outOfStock": false,
+    "stock": 110,
+    "isAd": false,
+    "variations": [],
+    "features": [
+      "100% Rose Quartz",
+      "Silent rolling mechanism",
+      "Double-ended design",
+      "Includes Gua Sha stone"
+    ],
+    "benefits": [
+      "Reduces under-eye bags",
+      "Enhances circulation",
+      "Relaxing facial massage"
+    ],
+    "specifications": [
+      "Stone: Authentic Quartz",
+      "Handle: Metal alloy",
+      "Weight: 150g",
+      "Set includes: Roller and Gua Sha"
+    ],
+    "reviews": [
+      "Stays cold for a long time.",
+      "Perfect for my morning routine."
+    ],
+    "faq": [
+      {
+        "questions": [
+          "Should I keep it in the fridge?"
+        ],
+        "answers": [
+          "Yes, for an extra cooling effect, store it in the refrigerator."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "beau-32",
+    "title": "Deep Hydration Hair Mask",
+    "subtitle": "Rescue tired, dry hair with a moisture surge.",
+    "description": "Restore shine and bounce to damaged hair. Infused with Argan oil and Keratin, this deep conditioning mask penetrates the hair shaft to repair split ends and frizz, leaving your hair silky and manageable.",
+    "imageUrl": "https://images.unsplash.com/photo-1526947425960-945c6e72858f?q=80&w=800",
+    "videoUrl": "https://example.com/videos/beau-32.mp4",
+    "price": "280.00",
+    "currencySymbol": "R",
+    "category": {
+      "id": "beauty-health",
+      "title": "Beauty & Health",
+      "description": "Explore skincare, makeup, personal care, and wellness products from trusted brands.",
+      "imageUrl": "/images/categories/beauty-health.png",
+      "isPublished": true
+    },
+    "type": "beauty-health",
+    "isPublished": true,
+    "isNew": false,
+    "outOfStock": false,
+    "stock": 200,
+    "isAd": false,
+    "variations": [],
+    "features": [
+      "Argan Oil based",
+      "Sulfate-free",
+      "Safe for color-treated hair",
+      "Vitamin B5 infused"
+    ],
+    "benefits": [
+      "Eliminates frizz",
+      "Repairs heat damage",
+      "Makes detangling easy"
+    ],
+    "specifications": [
+      "Volume: 250ml",
+      "Hair type: Dry/Damaged",
+      "Wait time: 10 mins",
+      "Frequency: Weekly"
+    ],
+    "reviews": [
+      "Smells like a spa.",
+      "My hair is so much softer."
+    ],
+    "faq": [
+      {
+        "questions": [
+          "Can I use this on extensions?"
+        ],
+        "answers": [
+          "Yes, it is safe and highly recommended for maintaining extension hydration."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "beau-34",
+    "title": "Luxe Oud Wood Cologne",
+    "subtitle": "Bold, earthy, and unforgettable scent.",
+    "description": "A fragrance for those who appreciate the finer things. Our Luxe Oud Wood combines smoky agarwood with hints of spice and sandalwood to create a deep, masculine scent that lingers beautifully for hours.",
+    "imageUrl": "https://images.unsplash.com/photo-1541643600914-78b084683601?q=80&w=800",
+    "videoUrl": "https://example.com/videos/beau-34.mp4",
+    "price": "2800.00",
+    "currencySymbol": "R",
+    "category": {
+      "id": "beauty-health",
+      "title": "Beauty & Health",
+      "description": "Explore skincare, makeup, personal care, and wellness products from trusted brands.",
+      "imageUrl": "/images/categories/beauty-health.png",
+      "isPublished": true
+    },
+    "type": "beauty-health",
+    "isPublished": true,
+    "isNew": true,
+    "outOfStock": false,
+    "stock": 25,
+    "isAd": false,
+    "variations": [
+      "50ml",
+      "100ml"
+    ],
+    "features": [
+      "Pure Oud extract",
+      "Eau de Parfum concentration",
+      "Artisan glass bottle",
+      "Magnetic cap"
+    ],
+    "benefits": [
+      "Long-lasting fragrance",
+      "Unique signature scent",
+      "Luxurious presentation"
+    ],
+    "specifications": [
+      "Notes: Oud, Sandalwood, Cardamom",
+      "Gender: Unisex/Masculine",
+      "Volume: 100ml",
+      "Alcohol base: Denatured"
+    ],
+    "reviews": [
+      "The best oud fragrance I've found.",
+      "Complex and sophisticated."
+    ],
+    "faq": [
+      {
+        "questions": [
+          "How long does the scent last?"
+        ],
+        "answers": [
+          "This is an EDP, so it typically lasts 8-10 hours on the skin."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "spor-35",
+    "title": "High-Grip Pro Yoga Mat",
+    "subtitle": "Unmatched stability for your practice.",
+    "description": "Never slip again. This pro-grade yoga mat features a high-density surface that provides exceptional grip even during hot yoga sessions. The extra thickness protects your joints, while the eco-friendly material ensures your practice is sustainable.",
+    "imageUrl": "https://images.unsplash.com/photo-1601925260368-ae2f83cf8b7f?q=80&w=800",
+    "videoUrl": "https://example.com/videos/spor-35.mp4",
+    "price": "850.00",
+    "currencySymbol": "R",
+    "category": {
+      "id": "sports-outdoors",
+      "title": "Sports & Outdoors",
+      "description": "Get sports equipment, outdoor gear, fitness accessories, and everything to stay active.",
+      "imageUrl": "/images/categories/sports-outdoors.png",
+      "isPublished": true
+    },
+    "type": "sports-outdoors",
+    "isPublished": true,
+    "isNew": true,
+    "outOfStock": false,
+    "stock": 65,
+    "isAd": false,
+    "variations": [
+      "Purple",
+      "Green"
+    ],
+    "features": [
+      "Non-slip surface",
+      "6mm High-density foam",
+      "Laser-etched alignment lines",
+      "Antibacterial coating"
+    ],
+    "benefits": [
+      "Safety in difficult poses",
+      "Cushions knees and spine",
+      "Keeps you focused on alignment"
+    ],
+    "specifications": [
+      "Dimensions: 183cm x 61cm",
+      "Weight: 1.2kg",
+      "Material: Eco-TPE",
+      "Thickness: 6mm"
+    ],
+    "reviews": [
+      "The grip is fantastic.",
+      "Love the alignment lines."
+    ],
+    "faq": [
+      {
+        "questions": [
+          "How do I clean it?"
+        ],
+        "answers": [
+          "Wipe down with a damp cloth and mild soap; air dry."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "spor-36",
+    "title": "Adjustable Dumbbell Pair",
+    "subtitle": "The complete home gym in two handles.",
+    "description": "Save space and time with our Adjustable Dumbbells. With a simple turn of the dial, you can change your weight from 2.5kg to 24kg, allowing you to perform a wide variety of strength training exercises without a room full of equipment.",
+    "imageUrl": "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?q=80&w=800",
+    "videoUrl": "https://example.com/videos/spor-36.mp4",
+    "price": "2400.00",
+    "currencySymbol": "R",
+    "category": {
+      "id": "sports-outdoors",
+      "title": "Sports & Outdoors",
+      "description": "Get sports equipment, outdoor gear, fitness accessories, and everything to stay active.",
+      "imageUrl": "/images/categories/sports-outdoors.png",
+      "isPublished": true
+    },
+    "type": "sports-outdoors",
+    "isPublished": true,
+    "isNew": false,
+    "outOfStock": false,
+    "stock": 15,
+    "isAd": false,
+    "variations": [
+      "10kg",
+      "20kg"
+    ],
+    "features": [
+      "Quick-dial mechanism",
+      "Durable steel plates",
+      "Ergonomic rubber grip",
+      "Storage trays included"
+    ],
+    "benefits": [
+      "Saves significant floor space",
+      "Fast transitions between exercises",
+      "Highly durable for heavy use"
+    ],
+    "specifications": [
+      "Weight range: 2.5kg to 24kg",
+      "Increments: 1.5kg",
+      "Handle type: Contoured",
+      "Material: Iron/Plastic"
+    ],
+    "reviews": [
+      "Best investment for my home gym.",
+      "The dial is very smooth."
+    ],
+    "faq": [
+      {
+        "questions": [
+          "Is this price for one or a pair?"
+        ],
+        "answers": [
+          "The price shown is for a complete pair (2 dumbbells)."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "spor-38",
+    "title": "Lightweight Hiking Backpack",
+    "subtitle": "Trail-ready storage for the modern explorer.",
+    "description": "Go further with our ergonomic hiking backpack. Designed with a ventilated back panel and weight-distributing straps, it allows you to carry all your essentials comfortably over long distances and rugged terrain.",
+    "imageUrl": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?q=80&w=800",
+    "videoUrl": "https://example.com/videos/spor-38.mp4",
+    "price": "1850.00",
+    "currencySymbol": "R",
+    "category": {
+      "id": "sports-outdoors",
+      "title": "Sports & Outdoors",
+      "description": "Get sports equipment, outdoor gear, fitness accessories, and everything to stay active.",
+      "imageUrl": "/images/categories/sports-outdoors.png",
+      "isPublished": true
+    },
+    "type": "sports-outdoors",
+    "isPublished": true,
+    "isNew": true,
+    "outOfStock": false,
+    "stock": 38,
+    "isAd": false,
+    "variations": [
+      "30L",
+      "45L"
+    ],
+    "features": [
+      "Ripstop Nylon",
+      "Hydration bladder compatible",
+      "Integrated rain cover",
+      "Padded hip belt"
+    ],
+    "benefits": [
+      "Resists tears and abrasions",
+      "Stay hydrated on the move",
+      "Keep gear dry in sudden storms"
+    ],
+    "specifications": [
+      "Capacity: 45 Liters",
+      "Weight: 1.1kg",
+      "Waterproof: Yes (with cover)",
+      "Pockets: 7 total"
+    ],
+    "reviews": [
+      "Used it for a 3-day hike, very comfy.",
+      "The pockets are well placed."
+    ],
+    "faq": [
+      {
+        "questions": [
+          "Does it fit a laptop?"
+        ],
+        "answers": [
+          "Yes, there is a dedicated 15-inch sleeve inside."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "spor-40",
+    "title": "4-Person Waterproof Tent",
+    "subtitle": "Your reliable home away from home.",
+    "description": "Sleep soundly in the great outdoors. Our 4-person tent features a double-layer design for superior ventilation and a high-grade waterproof rating to ensure you stay dry even in heavy downpours. Easy to pitch and pack away.",
+    "imageUrl": "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?q=80&w=800",
+    "videoUrl": "https://example.com/videos/spor-40.mp4",
+    "price": "3800.00",
+    "currencySymbol": "R",
+    "category": {
+      "id": "sports-outdoors",
+      "title": "Sports & Outdoors",
+      "description": "Get sports equipment, outdoor gear, fitness accessories, and everything to stay active.",
+      "imageUrl": "/images/categories/sports-outdoors.png",
+      "isPublished": true
+    },
+    "type": "sports-outdoors",
+    "isPublished": true,
+    "isNew": true,
+    "outOfStock": false,
+    "stock": 12,
+    "isAd": false,
+    "variations": [],
+    "features": [
+      "3000mm Waterproof Rating",
+      "Blackout bedroom tech",
+      "Pre-attached guy lines",
+      "Bug-proof mesh windows"
+    ],
+    "benefits": [
+      "Total protection from rain",
+      "Stay cool and sleep longer",
+      "Quick setup for late arrivals"
+    ],
+    "specifications": [
+      "Floor area: 240cm x 240cm",
+      "Peak height: 150cm",
+      "Material: Polyester PU",
+      "Poles: Fiberglass"
+    ],
+    "reviews": [
+      "Survived a storm with zero leaks.",
+      "Very spacious for a family of three."
+    ],
+    "faq": [
+      {
+        "questions": [
+          "How long does setup take?"
+        ],
+        "answers": [
+          "Two people can set it up in under 10 minutes."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "spor-41",
+    "title": "Resistance Band Set (5)",
+    "subtitle": "Versatile strength training, anywhere.",
+    "description": "No gym? No problem. This set of 5 professional-grade resistance bands allows you to tone and strengthen your whole body from the comfort of your home or even while traveling. From extra light to extra heavy.",
+    "imageUrl": "https://images.unsplash.com/photo-1517130038641-a774d04afb3c?q=80&w=800",
+    "videoUrl": "https://example.com/videos/spor-41.mp4",
+    "price": "450.00",
+    "currencySymbol": "R",
+    "category": {
+      "id": "sports-outdoors",
+      "title": "Sports & Outdoors",
+      "description": "Get sports equipment, outdoor gear, fitness accessories, and everything to stay active.",
+      "imageUrl": "/images/categories/sports-outdoors.png",
+      "isPublished": true
+    },
+    "type": "sports-outdoors",
+    "isPublished": true,
+    "isNew": false,
+    "outOfStock": false,
+    "stock": 150,
+    "isAd": false,
+    "variations": [],
+    "features": [
+      "100% Natural Latex",
+      "5 levels of resistance",
+      "Carry bag included",
+      "Anti-snap technology"
+    ],
+    "benefits": [
+      "Full body workout capability",
+      "Highly portable",
+      "Safe for rehabilitation"
+    ],
+    "specifications": [
+      "Levels: 5lbs to 40lbs",
+      "Length: 30cm",
+      "Weight: 200g (set)",
+      "Material: Latex"
+    ],
+    "reviews": [
+      "High quality and they don't roll up.",
+      "Great for glute workouts."
+    ],
+    "faq": [
+      {
+        "questions": [
+          "Are they latex-free?"
+        ],
+        "answers": [
+          "No, these are made of natural latex for maximum elasticity."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "toys-44",
+    "title": "Giant Plush Teddy Bear",
+    "subtitle": "A big friend for big hugs.",
+    "description": "The ultimate gift for any child (or child at heart). This 100cm giant teddy bear is made from premium, hypoallergenic plush fabric and stuffed with soft recycled fibers for the perfect huggable experience.",
+    "imageUrl": "https://images.unsplash.com/photo-1559454403-b8fb88521f11?q=80&w=800",
+    "videoUrl": "https://example.com/videos/toys-44.mp4",
+    "price": "850.00",
+    "currencySymbol": "R",
+    "category": {
+      "id": "toys-baby",
+      "title": "Toys & Baby",
+      "description": "Shop toys, games, baby care products, and essentials for your little ones.",
+      "imageUrl": "/images/categories/toys-baby.png",
+      "isPublished": true
+    },
+    "type": "toys-baby",
+    "isPublished": true,
+    "isNew": false,
+    "outOfStock": false,
+    "stock": 30,
+    "isAd": false,
+    "variations": [
+      "White",
+      "Brown"
+    ],
+    "features": [
+      "100cm Tall",
+      "Safety-locked eyes",
+      "Hypoallergenic fabric",
+      "Washable surface"
+    ],
+    "benefits": [
+      "Perfect for comfort and security",
+      "Safe for all ages",
+      "Durable long-term companion"
+    ],
+    "specifications": [
+      "Height: 100cm",
+      "Fill: Recycled Polyester",
+      "Exterior: Soft Plush",
+      "Age: 0+"
+    ],
+    "reviews": [
+      "It is absolutely massive and soft.",
+      "My daughter loves her new friend."
+    ],
+    "faq": [
+      {
+        "questions": [
+          "How is it shipped?"
+        ],
+        "answers": [
+          "It is vacuum-sealed and expands once opened."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "toys-45",
+    "title": "Remote Control Racing Car",
+    "subtitle": "High-speed thrills with precision control.",
+    "description": "Get ready for the race track. This high-speed RC car features 2.4GHz technology for interference-free racing and a rechargeable battery that provides long run times. Perfect for indoor and outdoor adventures.",
+    "imageUrl": "https://images.unsplash.com/photo-1594787318286-3d835c1d207f?q=80&w=800",
+    "videoUrl": "https://example.com/videos/toys-45.mp4",
+    "price": "1200.00",
+    "currencySymbol": "R",
+    "category": {
+      "id": "toys-baby",
+      "title": "Toys & Baby",
+      "description": "Shop toys, games, baby care products, and essentials for your little ones.",
+      "imageUrl": "/images/categories/toys-baby.png",
+      "isPublished": true
+    },
+    "type": "toys-baby",
+    "isPublished": true,
+    "isNew": true,
+    "outOfStock": false,
+    "stock": 50,
+    "isAd": false,
+    "variations": [],
+    "features": [
+      "2.4GHz Remote Control",
+      "Rechargeable Battery",
+      "Working Headlights",
+      "Durable Chassis"
+    ],
+    "benefits": [
+      "Race multiple cars together",
+      "No need for constant AA batteries",
+      "Impact resistant for tough play"
+    ],
+    "specifications": [
+      "Scale: 1:14",
+      "Top speed: 15km/h",
+      "Range: 50m",
+      "Playtime: 25 mins"
+    ],
+    "reviews": [
+      "Fast and very easy to steer.",
+      "The battery lasts quite a while."
+    ],
+    "faq": [
+      {
+        "questions": [
+          "Does it work on grass?"
+        ],
+        "answers": [
+          "It works best on flat surfaces but can handle short grass."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "toys-48",
+    "title": "Organic Cotton Baby Bibs (5)",
+    "subtitle": "Soft, absorbent, and safe for your little one.",
+    "description": "Keep mealtime tidy and stylish. Our set of 5 baby bibs is made from GOTS certified organic cotton with a hidden fleece layer for maximum absorbency, ensuring your baby stays dry and comfortable all day.",
+    "imageUrl": "https://images.unsplash.com/photo-1522778119026-d647f0596c20?q=80&w=800",
+    "videoUrl": "https://example.com/videos/toys-48.mp4",
+    "price": "320.00",
+    "currencySymbol": "R",
+    "category": {
+      "id": "toys-baby",
+      "title": "Toys & Baby",
+      "description": "Shop toys, games, baby care products, and essentials for your little ones.",
+      "imageUrl": "/images/categories/toys-baby.png",
+      "isPublished": true
+    },
+    "type": "toys-baby",
+    "isPublished": true,
+    "isNew": false,
+    "outOfStock": false,
+    "stock": 200,
+    "isAd": false,
+    "variations": [],
+    "features": [
+      "100% Organic Cotton",
+      "Absorbent fleece backing",
+      "Adjustable nickel-free snaps",
+      "Unique designer prints"
+    ],
+    "benefits": [
+      "Gentle on sensitive skin",
+      "Catches drool and spills",
+      "Adjusts as your baby grows"
+    ],
+    "specifications": [
+      "Set size: 5 pieces",
+      "Certification: GOTS Organic",
+      "Age: 3-24 months",
+      "Care: Machine wash warm"
+    ],
+    "reviews": [
+      "The best bibs I've bought.",
+      "Super absorbent and cute."
+    ],
+    "faq": [
+      {
+        "questions": [
+          "Are they waterproof?"
+        ],
+        "answers": [
+          "The fleece layer is highly water-resistant to keep clothes dry."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "toys-49",
+    "title": "Smart Learning Robot Toy",
+    "subtitle": "Interactive STEM education for the next generation.",
+    "description": "Give your child a head start in coding and logic. This smart robot responds to voice commands and hand gestures, offering interactive games that teach basic programming principles while providing endless entertainment.",
+    "imageUrl": "https://images.unsplash.com/photo-1535378917042-10a22c95931a?q=80&w=800",
+    "videoUrl": "https://example.com/videos/toys-49.mp4",
+    "price": "1850.00",
+    "currencySymbol": "R",
+    "category": {
+      "id": "toys-baby",
+      "title": "Toys & Baby",
+      "description": "Shop toys, games, baby care products, and essentials for your little ones.",
+      "imageUrl": "/images/categories/toys-baby.png",
+      "isPublished": true
+    },
+    "type": "toys-baby",
+    "isPublished": true,
+    "isNew": true,
+    "outOfStock": false,
+    "stock": 24,
+    "isAd": false,
+    "variations": [],
+    "features": [
+      "Voice Recognition",
+      "Programmable movements",
+      "LED expressions",
+      "Bluetooth App control"
+    ],
+    "benefits": [
+      "Develops logical thinking",
+      "Engaging screen-free play",
+      "Encourages curiosity in tech"
+    ],
+    "specifications": [
+      "Height: 22cm",
+      "Battery: USB Rechargeable",
+      "Language: English",
+      "Age: 5+"
+    ],
+    "reviews": [
+      "My son loves programming it to walk.",
+      "Very sturdy and high-tech."
+    ],
+    "faq": [
+      {
+        "questions": [
+          "Does it need an internet connection?"
+        ],
+        "answers": [
+          "No, it works completely offline via remote or onboard logic."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "toys-50",
+    "title": "Eco-Friendly Baby Crib Mobile",
+    "subtitle": "Soothing sounds and sustainable sights.",
+    "description": "Help your baby drift into a peaceful sleep. This beautiful crib mobile is made from sustainable bamboo and felt, featuring gentle lullabies and slow rotation to stimulate visual development without overstimulation.",
+    "imageUrl": "https://images.unsplash.com/photo-1596464716127-f2a82984de30?q=80&w=800",
+    "videoUrl": "https://example.com/videos/toys-50.mp4",
+    "price": "550.00",
+    "currencySymbol": "R",
+    "category": {
+      "id": "toys-baby",
+      "title": "Toys & Baby",
+      "description": "Shop toys, games, baby care products, and essentials for your little ones.",
+      "imageUrl": "/images/categories/toys-baby.png",
+      "isPublished": true
+    },
+    "type": "toys-baby",
+    "isPublished": true,
+    "isNew": false,
+    "outOfStock": false,
+    "stock": 40,
+    "isAd": false,
+    "variations": [],
+    "features": [
+      "Sustainable bamboo frame",
+      "Non-toxic felt figures",
+      "Wind-up music box",
+      "Universal crib clamp"
+    ],
+    "benefits": [
+      "Safe and natural materials",
+      "Helps with sleep routine",
+      "Easy to install on any crib"
+    ],
+    "specifications": [
+      "Music: Brahms Lullaby",
+      "Material: Bamboo and Wool",
+      "Height: 60cm",
+      "BPA Free: Yes"
+    ],
+    "reviews": [
+      "Beautifully made and silent motor.",
+      "Perfect addition to our nursery."
+    ],
+    "faq": [
+      {
+        "questions": [
+          "Does it require batteries?"
+        ],
+        "answers": [
+          "No, it uses a mechanical wind-up music box."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "toys-51",
+    "title": "Eco-Friendly Baby Product 51",
+    "subtitle": "Safe, sustainable play for your growing baby.",
+    "description": "Our 'Product 51' is a multi-sensory development toy made from 100% recycled plastic. It features varied textures and bright colors to help with motor skill development and curiosity in early childhood.",
+    "imageUrl": "https://images.unsplash.com/photo-1596464716127-f2a82984de30?q=80&w=800",
+    "videoUrl": "https://example.com/videos/toys-51.mp4",
+    "price": "510.00",
+    "currencySymbol": "R",
+    "category": {
+      "id": "toys-baby",
+      "title": "Toys & Baby",
+      "description": "Shop toys, games, baby care products, and essentials for your little ones.",
+      "imageUrl": "/images/categories/toys-baby.png",
+      "isPublished": true
+    },
+    "type": "toys-baby",
+    "isPublished": true,
+    "isNew": false,
+    "outOfStock": false,
+    "stock": 100,
+    "isAd": false,
+    "variations": [],
+    "features": [
+      "100% Recycled Plastic",
+      "Dishwasher safe",
+      "Texture-rich surfaces",
+      "BPA and Phthalate free"
+    ],
+    "benefits": [
+      "Safe for teething",
+      "Eco-conscious choice",
+      "Easy to sanitize"
+    ],
+    "specifications": [
+      "Weight: 200g",
+      "Material: Recycled HDPE",
+      "Age: 6 months+",
+      "Packaging: Recycled Cardboard"
+    ],
+    "reviews": [
+      "My baby loves chewing on this.",
+      "Great eco-friendly option."
+    ],
+    "faq": [
+      {
+        "questions": [
+          "Is it safe to chew on?"
+        ],
+        "answers": [
+          "Yes, it is made from food-grade recycled plastic and is BPA free."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "elec-1",
+    "title": "Aero-X Pro Noise Cancelling Headphones",
+    "subtitle": "Immersive sound, total silence.",
+    "description": "The Aero-X Pro features industry-leading active noise cancellation and 40-hour battery life. Designed for audiophiles who demand precision and comfort during long travel or deep work sessions.",
+    "imageUrl": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=800",
+    "videoUrl": "https://example.com/videos/elec-1.mp4",
+    "price": "3499.00",
+    "currencySymbol": "R",
+    "category": {
+      "id": "electronics",
+      "title": "Electronics",
+      "description": "The latest gadgets and high-tech gear.",
+      "imageUrl": "/images/categories/elec.png",
+      "isPublished": true
+    },
+    "type": "electronics",
+    "isPublished": true,
+    "isNew": true,
+    "outOfStock": false,
+    "stock": 45,
+    "isAd": false,
+    "variations": [
+      "Midnight Black",
+      "Arctic White",
+      "Space Gray"
+    ],
+    "features": [
+      "Hybrid ANC",
+      "Transparency Mode",
+      "Multi-point connection",
+      "Fast Charging"
+    ],
+    "benefits": [
+      "Crystal clear calls",
+      "All-day comfort",
+      "Uninterrupted focus"
+    ],
+    "specifications": [
+      "Driver: 40mm",
+      "Bluetooth: 5.3",
+      "Battery: 40h",
+      "Weight: 250g"
+    ],
+    "reviews": [
+      "Best sound quality I've ever owned.",
+      "Noise cancellation is spooky good."
+    ],
+    "faq": [
+      {
+        "questions": [
+          "Is it sweat resistant?"
+        ],
+        "answers": [
+          "Yes, it has an IPX4 rating for light splashes and sweat."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fit-3",
+    "title": "Vortex Smart Fitness Watch",
+    "subtitle": "Track your pulse, conquer your goals.",
+    "description": "Equipped with advanced biometric sensors, the Vortex tracks your heart rate, sleep cycles, and 50+ different sports activities with GPS precision.",
+    "imageUrl": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?q=80&w=800",
+    "videoUrl": "https://example.com/videos/fit-3.mp4",
+    "price": "2100.00",
+    "currencySymbol": "R",
+    "category": {
+      "id": "fitness",
+      "title": "Fitness & Sports",
+      "description": "Gear to keep you moving and healthy.",
+      "imageUrl": "/images/categories/fitness.png",
+      "isPublished": true
+    },
+    "type": "fitness",
+    "isPublished": true,
+    "isNew": true,
+    "outOfStock": false,
+    "stock": 88,
+    "isAd": false,
+    "variations": [
+      "Black Silicone",
+      "Leather Brown",
+      "Titanium Gray"
+    ],
+    "features": [
+      "OLED Display",
+      "5ATM Water Resistance",
+      "GPS Tracking",
+      "SpO2 Sensor"
+    ],
+    "benefits": [
+      "Improve sleep quality",
+      "Stay motivated with stats",
+      "14-day battery life"
+    ],
+    "specifications": [
+      "Display: 1.4 inch",
+      "OS: VortexOS",
+      "Storage: 4GB",
+      "Compatibility: iOS/Android"
+    ],
+    "reviews": [
+      "Battery lasts forever.",
+      "The heart rate monitor is very accurate."
+    ],
+    "faq": [
+      {
+        "questions": [
+          "Can I swim with it?"
+        ],
+        "answers": [
+          "Yes, it is waterproof up to 50 meters."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "beauty-4",
+    "title": "Glow-Radiance Silk Serum",
+    "subtitle": "Unveil your skin's natural brilliance.",
+    "description": "Formulated with Hyaluronic Acid and pure Vitamin C, this serum deeply hydrates and brightens the skin, reducing fine lines and evening out skin tone in just 14 days.",
+    "imageUrl": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?q=80&w=800",
+    "videoUrl": "https://example.com/videos/beauty-4.mp4",
+    "price": "450.00",
+    "currencySymbol": "R",
+    "category": {
+      "id": "beauty-care",
+      "title": "Beauty & Care",
+      "description": "Premium skincare and cosmetic products.",
+      "imageUrl": "/images/categories/beauty.png",
+      "isPublished": true
+    },
+    "type": "beauty-care",
+    "isPublished": true,
+    "isNew": false,
+    "outOfStock": false,
+    "stock": 150,
+    "isAd": false,
+    "variations": [
+      "30ml",
+      "50ml"
+    ],
+    "features": [
+      "98% Natural ingredients",
+      "Dermatologist tested",
+      "Vegan formula",
+      "Cruelty-free"
+    ],
+    "benefits": [
+      "Intense hydration",
+      "Brighter complexion",
+      "Anti-aging properties"
+    ],
+    "specifications": [
+      "Volume: 30ml",
+      "Skin Type: All",
+      "Fragrance: Citrus",
+      "Texture: Lightweight"
+    ],
+    "reviews": [
+      "My skin has never felt smoother.",
+      "Smells wonderful and absorbs quickly."
+    ],
+    "faq": [
+      {
+        "questions": [
+          "Can I use this under makeup?"
+        ],
+        "answers": [
+          "Yes, let it absorb for 2 minutes before applying primer."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "kitchen-6",
+    "title": "Chef’s Choice Espresso Machine",
+    "subtitle": "The perfect crema, every morning.",
+    "description": "A semi-automatic espresso machine that brings the café experience home. With a built-in milk frother and dual-pressure system, you can master lattes and cappuccinos in seconds.",
+    "imageUrl": "https://images.unsplash.com/photo-1541167760496-1628856ab772?q=80&w=800",
+    "videoUrl": "https://example.com/videos/kitchen-6.mp4",
+    "price": "4200.00",
+    "currencySymbol": "R",
+    "category": {
+      "id": "home-living",
+      "title": "Home & Living",
+      "description": "Kitchen essentials and more.",
+      "imageUrl": "/images/categories/home.png",
+      "isPublished": true
+    },
+    "type": "home-living",
+    "isPublished": true,
+    "isNew": false,
+    "outOfStock": false,
+    "stock": 20,
+    "isAd": false,
+    "variations": [
+      "Chrome",
+      "Matte Black",
+      "Vintage Red"
+    ],
+    "features": [
+      "15 Bar Pressure",
+      "Steam wand",
+      "Stainless Steel",
+      "One-touch button"
+    ],
+    "benefits": [
+      "Professional coffee at home",
+      "Easy to clean",
+      "Heats up in 30 seconds"
+    ],
+    "specifications": [
+      "Power: 1200W",
+      "Tank: 1.5L",
+      "Pressure: 15 Bar",
+      "Material: Stainless Steel"
+    ],
+    "reviews": [
+      "Better than Starbucks.",
+      "Compact and powerful."
+    ],
+    "faq": [
+      {
+        "questions": [
+          "Does it include a grinder?"
+        ],
+        "answers": [
+          "No, this model uses ground coffee. A separate grinder is recommended."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fash-7",
+    "title": "Heritage Canvas Travel Bag",
+    "subtitle": "Adventure awaits in every stitch.",
+    "description": "A rugged weekender bag made from heavy-duty waxed canvas and genuine full-grain leather. Designed to weather the storm and get better with age.",
+    "imageUrl": "https://images.unsplash.com/photo-1547949003-9792a18a2601?q=80&w=800",
+    "videoUrl": "https://example.com/videos/fash-7.mp4",
+    "price": "1800.00",
+    "currencySymbol": "R",
+    "category": {
+      "id": "fashion-access",
+      "title": "Fashion & Accessories",
+      "description": "Apparel, bags, and style essentials.",
+      "imageUrl": "/images/categories/fashion.png",
+      "isPublished": true
+    },
+    "type": "fashion-access",
+    "isPublished": true,
+    "isNew": false,
+    "outOfStock": false,
+    "stock": 60,
+    "isAd": false,
+    "variations": [
+      "Olive Drab",
+      "Desert Sand",
+      "Deep Navy"
+    ],
+    "features": [
+      "Waxed Canvas",
+      "Full-grain leather",
+      "YKK Zippers",
+      "Removable strap"
+    ],
+    "benefits": [
+      "Water resistant",
+      "TSA carry-on size",
+      "Lifetime durability"
+    ],
+    "specifications": [
+      "Volume: 45L",
+      "Weight: 1.2kg",
+      "Lining: Cotton",
+      "Pocket count: 5"
+    ],
+    "reviews": [
+      "Takes a beating and looks great.",
+      "Perfect for 3-day trips."
+    ],
+    "faq": [
+      {
+        "questions": [
+          "Is the leather waterproof?"
+        ],
+        "answers": [
+          "It is water-resistant, but we recommend leather conditioner for maintenance."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "outdoor-8",
+    "title": "Skyview Ultralight 2-Person Tent",
+    "subtitle": "Weightless nights under the stars.",
+    "description": "For the serious backpacker, the Skyview tent weighs less than 1.5kg but provides a sturdy, wind-resistant shelter for two. Includes a panoramic mesh roof for stargazing.",
+    "imageUrl": "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?q=80&w=800",
+    "videoUrl": "https://example.com/videos/outdoor-8.mp4",
+    "price": "2950.00",
+    "currencySymbol": "R",
+    "category": {
+      "id": "fitness",
+      "title": "Fitness & Sports",
+      "description": "Camping and outdoor adventure gear.",
+      "imageUrl": "/images/categories/fitness.png",
+      "isPublished": true
+    },
+    "type": "fitness",
+    "isPublished": true,
+    "isNew": true,
+    "outOfStock": false,
+    "stock": 15,
+    "isAd": false,
+    "variations": [
+      "Forest Green",
+      "Solar Orange"
+    ],
+    "features": [
+      "Aluminum poles",
+      "Ripstop Nylon",
+      "7000mm waterproofing",
+      "Double door"
+    ],
+    "benefits": [
+      "Backpack friendly",
+      "Excellent ventilation",
+      "Rapid 5-min setup"
+    ],
+    "specifications": [
+      "Weight: 1.4kg",
+      "Material: 20D Nylon",
+      "Seasons: 3",
+      "Floor Space: 2.5 sqm"
+    ],
+    "reviews": [
+      "Survived a thunderstorm with zero leaks.",
+      "Amazingly light for the size."
+    ],
+    "faq": [
+      {
+        "questions": [
+          "Does it include a footprint?"
+        ],
+        "answers": [
+          "Yes, a matching waterproof footprint is included in the package."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "toys-10",
+    "title": "Solar System Explorer Kit",
+    "subtitle": "A journey to the edge of the galaxy.",
+    "description": "Build and paint your own glowing solar system. This educational kit includes a rotating motor, voice-guided planet facts, and a high-power laser pointer for stargazing.",
+    "imageUrl": "https://images.unsplash.com/photo-1531346878377-a5be20888e57?q=80&w=800",
+    "videoUrl": "https://example.com/videos/toys-10.mp4",
+    "price": "850.00",
+    "currencySymbol": "R",
+    "category": {
+      "id": "toys-baby",
+      "title": "Toys & Baby",
+      "description": "Education and fun for kids.",
+      "imageUrl": "/images/categories/toys-baby.png",
+      "isPublished": true
+    },
+    "type": "toys-baby",
+    "isPublished": true,
+    "isNew": true,
+    "outOfStock": false,
+    "stock": 120,
+    "isAd": false,
+    "variations": [
+      "Basic Kit",
+      "Deluxe Motorized"
+    ],
+    "features": [
+      "8 Hand-painted planets",
+      "LED Sun lamp",
+      "Voice guide",
+      "Wall poster included"
+    ],
+    "benefits": [
+      "STEM Learning",
+      "Interactive decor",
+      "Spark curiosity"
+    ],
+    "specifications": [
+      "Power: 4x AA Batteries",
+      "Material: Recycled ABS",
+      "Age: 8+",
+      "Diameter: 50cm"
+    ],
+    "reviews": [
+      "My daughter is now obsessed with Mars.",
+      "The glow-in-the-dark paint is amazing."
+    ],
+    "faq": [
+      {
+        "questions": [
+          "Are the planets to scale?"
+        ],
+        "answers": [
+          "They are scaled for visual clarity, not astronomical accuracy, to fit in a bedroom."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "pets-11",
+    "title": "Zen-Paw Automatic Water Fountain",
+    "subtitle": "Flowing hydration for your furry friends.",
+    "description": "Encourage your pets to drink more with this ultra-silent triple-filtered water fountain. Made from hygienic stainless steel with a motion-activated sensor.",
+    "imageUrl": "https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?q=80&w=800",
+    "videoUrl": "https://example.com/videos/pets-200.mp4",
+    "price": "950.00",
+    "currencySymbol": "R",
+    "category": {
+      "id": "pet-supplies",
+      "title": "Pet Supplies",
+      "description": "Essentials for your cats, dogs, and small animals.",
+      "imageUrl": "/images/categories/pets.png",
+      "isPublished": true
+    },
+    "type": "pet-supplies",
+    "isPublished": true,
+    "isNew": false,
+    "outOfStock": false,
+    "stock": 75,
+    "isAd": false,
+    "variations": [
+      "2 Litre",
+      "3.5 Litre"
+    ],
+    "features": [
+      "Carbon Filter",
+      "Silent Pump",
+      "Stainless Steel Bowl",
+      "Low Water Alert"
+    ],
+    "benefits": [
+      "Prevents kidney issues",
+      "Easy to clean",
+      "Safe and BPA free"
+    ],
+    "specifications": [
+      "Filter: Activated Carbon",
+      "Weight: 800g",
+      "Power: USB 5V",
+      "Material: 304 Steel"
+    ],
+    "reviews": [
+      "My cat finally stopped drinking from the tap.",
+      "Very quiet, I don't even hear it."
+    ],
+    "faq": [
+      {
+        "questions": [
+          "How often do I change the filter?"
+        ],
+        "answers": [
+          "We recommend replacing the carbon filter once every 3 weeks."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "beauty-14",
+    "title": "Sonic-Glow Electric Facial Brush",
+    "subtitle": "Deep cleaning for a radiant soul.",
+    "description": "Utilizing sonic vibration technology, this brush reaches deep into pores to remove dirt and oil that manual washing misses. Soft silicone bristles for sensitive skin.",
+    "imageUrl": "https://images.unsplash.com/photo-1522338242992-e1a54906a8da?q=80&w=800",
+    "videoUrl": "https://example.com/videos/beauty-14.mp4",
+    "price": "890.00",
+    "currencySymbol": "R",
+    "category": {
+      "id": "beauty-care",
+      "title": "Beauty & Care",
+      "description": "Skincare tech.",
+      "imageUrl": "/images/categories/beauty.png",
+      "isPublished": true
+    },
+    "type": "beauty-care",
+    "isPublished": true,
+    "isNew": false,
+    "outOfStock": false,
+    "stock": 110,
+    "isAd": false,
+    "variations": [
+      "Pink",
+      "Mint",
+      "Lavender"
+    ],
+    "features": [
+      "IPX7 Waterproof",
+      "8 Speeds",
+      "USB Rechargeable",
+      "Ultra-soft silicone"
+    ],
+    "benefits": [
+      "Gentle exfoliation",
+      "Anti-aging massage",
+      "Compact design"
+    ],
+    "specifications": [
+      "Battery: 300mAh",
+      "Charging: 1h",
+      "Vibration: 8000/min"
+    ],
+    "reviews": [
+      "Cleared my skin in two weeks.",
+      "Feels like a spa facial."
+    ],
+    "faq": [
+      {
+        "questions": [
+          "Is it okay for acne?"
+        ],
+        "answers": [
+          "Yes, the silicone is hygienic and non-abrasive."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "game-15",
+    "title": "Nova-Stream 4K Webcam",
+    "subtitle": "Stream like a professional.",
+    "description": "Look sharp with 4K resolution and auto-focus. The Nova-Stream features dual noise-canceling microphones and a ring light for perfect lighting in every frame.",
+    "imageUrl": "https://images.unsplash.com/photo-1610484826967-09c5720778c7?q=80&w=800",
+    "videoUrl": "https://example.com/videos/game-15.mp4",
+    "price": "1450.00",
+    "currencySymbol": "R",
+    "category": {
+      "id": "gaming",
+      "title": "Gaming",
+      "description": "Streamer gear.",
+      "imageUrl": "/images/categories/gaming.png",
+      "isPublished": true
+    },
+    "type": "gaming",
+    "isPublished": true,
+    "isNew": true,
+    "outOfStock": false,
+    "stock": 40,
+    "isAd": false,
+    "variations": [
+      "Classic Black"
+    ],
+    "features": [
+      "4K 30FPS",
+      "Auto-Focus",
+      "Dual Mics",
+      "Privacy Shutter"
+    ],
+    "benefits": [
+      "Crystal clear video",
+      "No extra lighting needed",
+      "Plug and play"
+    ],
+    "specifications": [
+      "FOV: 90 Degrees",
+      "Connection: USB-C",
+      "Sensor: CMOS"
+    ],
+    "reviews": [
+      "Incredible for Zoom and Twitch.",
+      "The ring light is a lifesaver."
+    ],
+    "faq": [
+      {
+        "questions": [
+          "Does it work on Mac?"
+        ],
+        "answers": [
+          "Yes, fully compatible with macOS and Windows."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fash-16",
+    "title": "Aura Smart Quartz Watch",
+    "subtitle": "Classic looks, hidden intelligence.",
+    "description": "The Aura looks like a luxury analog watch but tracks steps, heart rate, and notifications via a subtle OLED window on the dial.",
+    "imageUrl": "https://images.unsplash.com/photo-1524592094714-0f0654e20314?q=80&w=800",
+    "videoUrl": "https://example.com/videos/fash-16.mp4",
+    "price": "2900.00",
+    "currencySymbol": "R",
+    "category": {
+      "id": "fashion-access",
+      "title": "Fashion & Accessories",
+      "description": "Timeless style.",
+      "imageUrl": "/images/categories/fashion.png",
+      "isPublished": true
+    },
+    "type": "fashion-access",
+    "isPublished": true,
+    "isNew": false,
+    "outOfStock": false,
+    "stock": 22,
+    "isAd": false,
+    "variations": [
+      "Brown Leather",
+      "Black Mesh"
+    ],
+    "features": [
+      "Sapphire Glass",
+      "Step counter",
+      "Call alerts",
+      "Sleep tracking"
+    ],
+    "benefits": [
+      "Style without tech clutter",
+      "30-day battery",
+      "Elegant design"
+    ],
+    "specifications": [
+      "Case: 42mm Steel",
+      "Water: 5ATM",
+      "Movement: Swiss Quartz"
+    ],
+    "reviews": [
+      "Perfect for the office.",
+      "Nobody knows it's a smartwatch."
+    ],
+    "faq": [
+      {
+        "questions": [
+          "Is the strap replaceable?"
+        ],
+        "answers": [
+          "Yes, it uses standard 20mm quick-release bars."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "elec-21",
+    "title": "Titan-Key Mechanical Keyboard",
+    "subtitle": "Clicky precision, neon soul.",
+    "description": "Built with hot-swappable tactile switches and a brushed aluminum plate, the Titan-Key offers the ultimate typing experience for writers and gamers alike.",
+    "imageUrl": "https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?q=80&w=800",
+    "videoUrl": "https://example.com/videos/elec-21.mp4",
+    "price": "1850.00",
+    "currencySymbol": "R",
+    "category": {
+      "id": "electronics",
+      "title": "Electronics",
+      "description": "PC Gear.",
+      "imageUrl": "/images/categories/elec.png",
+      "isPublished": true
+    },
+    "type": "electronics",
+    "isPublished": true,
+    "isNew": true,
+    "outOfStock": false,
+    "stock": 42,
+    "isAd": false,
+    "variations": [
+      "Brown Switches",
+      "Blue Switches",
+      "Red Switches"
+    ],
+    "features": [
+      "Per-key RGB",
+      "Hot-swappable",
+      "Coiled Cable",
+      "OLED Screen"
+    ],
+    "benefits": [
+      "Infinite customization",
+      "Satisfying feedback",
+      "Fast response"
+    ],
+    "specifications": [
+      "Layout: 75%",
+      "Connection: Tri-mode",
+      "Polling: 1000Hz"
+    ],
+    "reviews": [
+      "Best keyboard under R2000.",
+      "The software is easy to use."
+    ],
+    "faq": [
+      {
+        "questions": [
+          "Is it wireless?"
+        ],
+        "answers": [
+          "Yes, supports Bluetooth, 2.4GHz, and USB-C."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "elec-27",
+    "title": "Smart Wi-Fi Plug Mini",
+    "subtitle": "Control your home from anywhere.",
+    "description": "Turn your traditional appliances into smart devices. This compact plug connects to your Wi-Fi, allowing you to schedule lights, monitor energy usage, and use voice commands via Alexa or Google Home.",
+    "imageUrl": "https://images.unsplash.com/photo-1558002038-1055907df827?q=80&w=800",
+    "videoUrl": "https://example.com/videos/elec-27.mp4",
+    "price": "350.00",
+    "currencySymbol": "R",
+    "category": {
+      "id": "electronics",
+      "title": "Electronics",
+      "description": "High-tech gear.",
+      "imageUrl": "/images/categories/elec.png",
+      "isPublished": true
+    },
+    "type": "electronics",
+    "isPublished": true,
+    "isNew": false,
+    "outOfStock": false,
+    "stock": 300,
+    "isAd": false,
+    "variations": [
+      "1-Pack",
+      "2-Pack",
+      "4-Pack"
+    ],
+    "features": [
+      "Voice Control",
+      "Energy Monitoring",
+      "No Hub Required",
+      "Schedule Timer"
+    ],
+    "benefits": [
+      "Reduce electricity bills",
+      "Remote access for safety",
+      "Easy setup"
+    ],
+    "specifications": [
+      "Rating: 16A",
+      "Voltage: 220-240V",
+      "App: SmartLife/Tuya"
+    ],
+    "reviews": [
+      "Simple and works perfectly.",
+      "Love seeing how much power my kettle uses."
+    ],
+    "faq": [
+      {
+        "questions": [
+          "Does it work on 5GHz Wi-Fi?"
+        ],
+        "answers": [
+          "No, it requires a 2.4GHz Wi-Fi network."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fash-30",
+    "title": "Aviator Polarized Sun-Shields",
+    "subtitle": "Iconic style, absolute protection.",
+    "description": "Combining a lightweight titanium frame with high-definition polarized lenses, these aviators eliminate glare and provide 100% UV400 protection for your eyes.",
+    "imageUrl": "https://images.unsplash.com/photo-1572635196237-14b3f281503f?q=80&w=800",
+    "videoUrl": "https://example.com/videos/fash-30.mp4",
+    "price": "950.00",
+    "currencySymbol": "R",
+    "category": {
+      "id": "fashion-access",
+      "title": "Fashion & Accessories",
+      "description": "Timeless style.",
+      "imageUrl": "/images/categories/fashion.png",
+      "isPublished": true
+    },
+    "type": "fashion-access",
+    "isPublished": true,
+    "isNew": false,
+    "outOfStock": false,
+    "stock": 85,
+    "isAd": false,
+    "variations": [
+      "Gold/Green",
+      "Black/Gray",
+      "Silver/Blue"
+    ],
+    "features": [
+      "UV400 Lenses",
+      "Titanium Frame",
+      "Spring Hinges",
+      "Anti-Scratch coating"
+    ],
+    "benefits": [
+      "Reduces eye strain",
+      "Classic versatile look",
+      "Extremely durable"
+    ],
+    "specifications": [
+      "Lens width: 58mm",
+      "Bridge: 14mm",
+      "Temple: 135mm"
+    ],
+    "reviews": [
+      "Very light on the face.",
+      "The polarization is crystal clear."
+    ],
+    "faq": [
+      {
+        "questions": [
+          "Do they fit wide faces?"
+        ],
+        "answers": [
+          "Yes, the spring hinges allow for a comfortable flexible fit."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "home-33",
+    "title": "PureSilk Luxury Pillowcase Set",
+    "subtitle": "Sleep your way to better hair and skin.",
+    "description": "Made from 100% Mulberry silk, these pillowcases reduce friction, preventing bedhead and sleep wrinkles. Naturally hypoallergenic and temperature regulating for year-round comfort.",
+    "imageUrl": "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?q=80&w=800",
+    "videoUrl": "https://example.com/videos/home-33.mp4",
+    "price": "650.00",
+    "currencySymbol": "R",
+    "category": {
+      "id": "home-living",
+      "title": "Home & Living",
+      "description": "Comfort and decor.",
+      "imageUrl": "/images/categories/home.png",
+      "isPublished": true
+    },
+    "type": "home-living",
+    "isPublished": true,
+    "isNew": false,
+    "outOfStock": false,
+    "stock": 200,
+    "isAd": false,
+    "variations": [
+      "Champagne",
+      "Ivory",
+      "Midnight"
+    ],
+    "features": [
+      "100% 22 Momme Silk",
+      "Hidden zipper",
+      "Hypoallergenic",
+      "Breathable"
+    ],
+    "benefits": [
+      "Prevents hair breakage",
+      "Cooling effect",
+      "Gentle on sensitive skin"
+    ],
+    "specifications": [
+      "Size: Standard/Queen",
+      "Material: Mulberry Silk",
+      "Pack: Set of 2"
+    ],
+    "reviews": [
+      "My hair is so much smoother.",
+      "Feels so expensive and soft."
+    ],
+    "faq": [
+      {
+        "questions": [
+          "Is it machine washable?"
+        ],
+        "answers": [
+          "Yes, on a delicate cycle with a mesh bag."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "home-34",
+    "title": "Nutri-Bullet Pro 900",
+    "subtitle": "Fuel your day with nutrient-rich smoothies.",
+    "description": "The original nutrition extractor. With 900 watts of power and specialized extraction blades, it breaks down tough seeds, stems, and skins to unlock hidden nutrition.",
+    "imageUrl": "https://images.unsplash.com/photo-1570222094114-d054a817e56b?q=80&w=800",
+    "videoUrl": "https://example.com/videos/home-34.mp4",
+    "price": "1400.00",
+    "currencySymbol": "R",
+    "category": {
+      "id": "home-living",
+      "title": "Home & Living",
+      "description": "Kitchen gear.",
+      "imageUrl": "/images/categories/home.png",
+      "isPublished": true
+    },
+    "type": "home-living",
+    "isPublished": true,
+    "isNew": false,
+    "outOfStock": false,
+    "stock": 60,
+    "isAd": false,
+    "variations": [
+      "Champagne",
+      "Steel"
+    ],
+    "features": [
+      "900W Motor",
+      "Cyclonic action",
+      "BPA Free cups",
+      "Easy clean"
+    ],
+    "benefits": [
+      "Quick healthy meals",
+      "Handles frozen fruit",
+      "Compact footprint"
+    ],
+    "specifications": [
+      "Power: 900W",
+      "RPM: 25,000",
+      "Dishwasher safe parts"
+    ],
+    "reviews": [
+      "Makes perfectly smooth green smoothies.",
+      "So easy to rinse and go."
+    ],
+    "faq": [
+      {
+        "questions": [
+          "Can it crush ice?"
+        ],
+        "answers": [
+          "Yes, it handles ice and frozen ingredients with ease."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fit-35",
+    "title": "Power-Band Resistance Set",
+    "subtitle": "The portable gym that fits in a bag.",
+    "description": "A 5-piece set of natural latex bands with varying resistance levels. Perfect for strength training, physical therapy, and stretching at home or on the road.",
+    "imageUrl": "https://images.unsplash.com/photo-1517130038641-a774d04afb3c?q=80&w=800",
+    "videoUrl": "https://example.com/videos/fit-35.mp4",
+    "price": "290.00",
+    "currencySymbol": "R",
+    "category": {
+      "id": "fitness",
+      "title": "Fitness & Sports",
+      "description": "Training gear.",
+      "imageUrl": "/images/categories/fitness.png",
+      "isPublished": true
+    },
+    "type": "fitness",
+    "isPublished": true,
+    "isNew": false,
+    "outOfStock": false,
+    "stock": 500,
+    "isAd": false,
+    "variations": [
+      "Standard Set"
+    ],
+    "features": [
+      "5 Resistance Levels",
+      "Natural Latex",
+      "Carry bag",
+      "Exercise guide"
+    ],
+    "benefits": [
+      "Versatile workouts",
+      "Lightweight for travel",
+      "Durable and snap-proof"
+    ],
+    "specifications": [
+      "Material: 100% Latex",
+      "Length: 30cm",
+      "Width: 5cm"
+    ],
+    "reviews": [
+      "Great for glute workouts.",
+      "Love the carry bag."
+    ],
+    "faq": [
+      {
+        "questions": [
+          "Do they roll up during use?"
+        ],
+        "answers": [
+          "No, the width and texture are designed to stay in place."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "home-36",
+    "title": "Master-Drill 18V Cordless Kit",
+    "subtitle": "Power through any DIY project.",
+    "description": "A high-performance cordless drill with 25 torque settings and a built-in LED light. Includes two long-lasting batteries so you never have to stop working.",
+    "imageUrl": "https://images.unsplash.com/photo-1504148455328-c376907d081c?q=80&w=800",
+    "videoUrl": "https://example.com/videos/home-36.mp4",
+    "price": "2150.00",
+    "currencySymbol": "R",
+    "category": {
+      "id": "home-living",
+      "title": "Home & Living",
+      "description": "Home improvement.",
+      "imageUrl": "/images/categories/home.png",
+      "isPublished": true
+    },
+    "type": "home-living",
+    "isPublished": true,
+    "isNew": true,
+    "outOfStock": false,
+    "stock": 30,
+    "isAd": false,
+    "variations": [
+      "Drill Only",
+      "Full Tool Set (50pc)"
+    ],
+    "features": [
+      "18V Li-ion Battery",
+      "Keyless Chuck",
+      "LED Worklight",
+      "Variable Speed"
+    ],
+    "benefits": [
+      "Professional power",
+      "No cables in the way",
+      "Ergonomic balance"
+    ],
+    "specifications": [
+      "Torque: 45Nm",
+      "Battery: 2.0Ah",
+      "Weight: 1.2kg"
+    ],
+    "reviews": [
+      "Drilled through concrete effortlessly.",
+      "Batteries charge very fast."
+    ],
+    "faq": [
+      {
+        "questions": [
+          "Does it include drill bits?"
+        ],
+        "answers": [
+          "Yes, the kit comes with 6 basic bits and a driver set."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "elec-38",
+    "title": "Sonic-Blast Waterproof Speaker",
+    "subtitle": "Rugged sound for the great outdoors.",
+    "description": "With IPX7 waterproofing and 24-hour battery life, the Sonic-Blast is the ultimate adventure companion. It floats in water and features a heavy-duty carabiner clip.",
+    "imageUrl": "https://images.unsplash.com/photo-1608156639585-b3a032ef9689?q=80&w=800",
+    "videoUrl": "https://example.com/videos/elec-38.mp4",
+    "price": "890.00",
+    "currencySymbol": "R",
+    "category": {
+      "id": "electronics",
+      "title": "Electronics",
+      "description": "Audio.",
+      "imageUrl": "/images/categories/elec.png",
+      "isPublished": true
+    },
+    "type": "electronics",
+    "isPublished": true,
+    "isNew": false,
+    "outOfStock": false,
+    "stock": 200,
+    "isAd": false,
+    "variations": [
+      "Camouflage",
+      "Electric Blue",
+      "Lava Red"
+    ],
+    "features": [
+      "IPX7 Waterproof",
+      "TWS Pairing",
+      "Powerbank Function",
+      "Built-in Mic"
+    ],
+    "benefits": [
+      "Pool-proof",
+      "Charge your phone",
+      "Huge bass"
+    ],
+    "specifications": [
+      "Output: 20W",
+      "Battery: 5200mAh",
+      "Bluetooth: 5.0"
+    ],
+    "reviews": [
+      "Actually floats! Perfect for the beach.",
+      "Volume is louder than expected."
+    ],
+    "faq": [
+      {
+        "questions": [
+          "Can I link two speakers?"
+        ],
+        "answers": [
+          "Yes, TWS mode allows you to pair two for stereo sound."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "home-40",
+    "title": "Hydro-Grow Smart Indoor Garden",
+    "subtitle": "Fresh herbs, zero dirt.",
+    "description": "Grow your own salads and herbs year-round with our hydroponic system. High-performance LED grow lights automatically cycle to provide the perfect spectrum for rapid growth.",
+    "imageUrl": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?q=80&w=800",
+    "videoUrl": "https://example.com/videos/home-40.mp4",
+    "price": "1650.00",
+    "currencySymbol": "R",
+    "category": {
+      "id": "home-living",
+      "title": "Home & Living",
+      "description": "Home tech.",
+      "imageUrl": "/images/categories/home.png",
+      "isPublished": true
+    },
+    "type": "home-living",
+    "isPublished": true,
+    "isNew": true,
+    "outOfStock": false,
+    "stock": 25,
+    "isAd": false,
+    "variations": [
+      "6-Pod System",
+      "12-Pod Deluxe"
+    ],
+    "features": [
+      "LED Grow Light",
+      "Water Pump",
+      "Touch Panel",
+      "Height Adjustable"
+    ],
+    "benefits": [
+      "Fresh herbs in kitchen",
+      "Fast 3x growth",
+      "Educational for kids"
+    ],
+    "specifications": [
+      "Power: 24W",
+      "Height: up to 45cm",
+      "Pod count: 6"
+    ],
+    "reviews": [
+      "My basil is growing like a weed!",
+      "Simple to set up and very quiet."
+    ],
+    "faq": [
+      {
+        "questions": [
+          "Does it include seeds?"
+        ],
+        "answers": [
+          "No, it includes nutrient solution and sponges; seeds must be purchased separately."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "home-42",
+    "title": "Aura Essential Oil Diffuser",
+    "subtitle": "Create your sanctuary of calm.",
+    "description": "An ultrasonic diffuser that doubles as a minimalist decor piece. With 7 color LED options and a high-capacity tank, it provides hours of aromatic bliss.",
+    "imageUrl": "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?q=80&w=800",
+    "videoUrl": "https://example.com/videos/home-42.mp4",
+    "price": "480.00",
+    "currencySymbol": "R",
+    "category": {
+      "id": "home-living",
+      "title": "Home & Living",
+      "description": "Home scent.",
+      "imageUrl": "/images/categories/home.png",
+      "isPublished": true
+    },
+    "type": "home-living",
+    "isPublished": true,
+    "isNew": false,
+    "outOfStock": false,
+    "stock": 250,
+    "isAd": false,
+    "variations": [
+      "Light Wood",
+      "Dark Wood",
+      "White Marble"
+    ],
+    "features": [
+      "Ultrasonic Mist",
+      "Auto-off",
+      "7 Color LED",
+      "Timer Modes"
+    ],
+    "benefits": [
+      "Improves air quality",
+      "Relaxation support",
+      "Whisper quiet"
+    ],
+    "specifications": [
+      "Capacity: 300ml",
+      "Run time: 8 hours",
+      "BPA Free: Yes"
+    ],
+    "reviews": [
+      "Perfect for my nightstand.",
+      "The wood finish looks real."
+    ],
+    "faq": [
+      {
+        "questions": [
+          "Does it include oils?"
+        ],
+        "answers": [
+          "No, essential oils are sold separately."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fit-43",
+    "title": "Sky-Jump Smart Rope",
+    "subtitle": "Level up your cardio with every skip.",
+    "description": "Connect your jump rope to your phone via Bluetooth. Track your skip count, calories burned, and compete on global leaderboards through our fitness app.",
+    "imageUrl": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?q=80&w=800",
+    "videoUrl": "https://example.com/videos/fit-43.mp4",
+    "price": "390.00",
+    "currencySymbol": "R",
+    "category": {
+      "id": "fitness",
+      "title": "Fitness & Sports",
+      "description": "Training gear.",
+      "imageUrl": "/images/categories/fitness.png",
+      "isPublished": true
+    },
+    "type": "fitness",
+    "isPublished": true,
+    "isNew": true,
+    "outOfStock": false,
+    "stock": 110,
+    "isAd": false,
+    "variations": [
+      "Midnight Black",
+      "Neon Green"
+    ],
+    "features": [
+      "Bluetooth 5.0",
+      "LCD Handle",
+      "Adjustable length",
+      "Ball Bearing system"
+    ],
+    "benefits": [
+      "Data-driven fitness",
+      "Tangle-free",
+      "Smooth rotation"
+    ],
+    "specifications": [
+      "Length: 3m",
+      "Battery: CR2032",
+      "App: iOS/Android"
+    ],
+    "reviews": [
+      "The app sync is flawless.",
+      "Handle is very comfortable."
+    ],
+    "faq": [
+      {
+        "questions": [
+          "Is the rope too long?"
+        ],
+        "answers": [
+          "The rope is fully adjustable to any height up to 195cm."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "beauty-45",
+    "title": "Precision 5-in-1 Grooming Pro",
+    "subtitle": "Professional grooming from head to toe.",
+    "description": "A versatile trimmer with titanium-coated blades. Includes attachments for beard, nose, hair, and body grooming. Designed for wet or dry use.",
+    "imageUrl": "https://images.unsplash.com/photo-1621607512214-68297480165e?q=80&w=800",
+    "videoUrl": "https://example.com/videos/beauty-45.mp4",
+    "price": "750.00",
+    "currencySymbol": "R",
+    "category": {
+      "id": "beauty-care",
+      "title": "Beauty & Care",
+      "description": "Grooming.",
+      "imageUrl": "/images/categories/beauty.png",
+      "isPublished": true
+    },
+    "type": "beauty-care",
+    "isPublished": true,
+    "isNew": true,
+    "outOfStock": false,
+    "stock": 80,
+    "isAd": false,
+    "variations": [
+      "Chrome Finish",
+      "Matte Black"
+    ],
+    "features": [
+      "Self-sharpening blades",
+      "90min cordless use",
+      "Travel Lock",
+      "IPX6 Waterproof"
+    ],
+    "benefits": [
+      "One tool for everything",
+      "Skin friendly",
+      "No nicks or cuts"
+    ],
+    "specifications": [
+      "Charge: USB-C",
+      "Attachments: 5",
+      "Motor: 7000 RPM"
+    ],
+    "reviews": [
+      "Battery lasts for months.",
+      "The nose trimmer is excellent."
+    ],
+    "faq": [
+      {
+        "questions": [
+          "Is it okay for shower use?"
+        ],
+        "answers": [
+          "Yes, it is fully waterproof."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "garden-51",
+    "title": "Solar-Guard 100 LED Floodlight",
+    "subtitle": "Security powered by the sun.",
+    "description": "Illuminate your driveway or garden without adding to your electricity bill. These motion-activated floodlights feature a high-efficiency solar panel and a wide-angle sensor that detects movement up to 10 meters away.",
+    "imageUrl": "https://images.unsplash.com/photo-1563298723-dcfebaa392e3?q=80&w=800",
+    "videoUrl": "https://example.com/videos/garden-51.mp4",
+    "price": "450.00",
+    "currencySymbol": "R",
+    "category": {
+      "id": "home-living",
+      "title": "Home & Living",
+      "description": "Home improvement.",
+      "imageUrl": "/images/categories/home.png",
+      "isPublished": true
+    },
+    "type": "home-living",
+    "isPublished": true,
+    "isNew": false,
+    "outOfStock": false,
+    "stock": 150,
+    "isAd": false,
+    "variations": [
+      "Cold White",
+      "Warm Yellow"
+    ],
+    "features": [
+      "100 Bright LEDs",
+      "Motion Sensor",
+      "IP65 Weatherproof",
+      "Solar Powered"
+    ],
+    "benefits": [
+      "Zero running costs",
+      "Enhanced home security",
+      "No wiring required"
+    ],
+    "specifications": [
+      "Brightness: 1200 Lumens",
+      "Battery: 2200mAh",
+      "Angle: 270°"
+    ],
+    "reviews": [
+      "Very bright for solar lights.",
+      "Easy to mount on the fence."
+    ],
+    "faq": [
+      {
+        "questions": [
+          "Do they work in the rain?"
+        ],
+        "answers": [
+          "Yes, they are IP65 rated for all weather conditions."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "office-52",
+    "title": "Flex-Arm Dual Monitor Mount",
+    "subtitle": "Reclaim your desk, improve your posture.",
+    "description": "Ergonomic gas-spring monitor arms that allow you to tilt, swivel, and rotate your screens with a touch. Perfect for developers, designers, and traders who need a flexible multi-monitor setup.",
+    "imageUrl": "https://images.unsplash.com/photo-1593640408182-31c70c8268f5?q=80&w=800",
+    "videoUrl": "https://example.com/videos/office-52.mp4",
+    "price": "1250.00",
+    "currencySymbol": "R",
+    "category": {
+      "id": "electronics",
+      "title": "Electronics",
+      "description": "Office tech.",
+      "imageUrl": "/images/categories/elec.png",
+      "isPublished": true
+    },
+    "type": "electronics",
+    "isPublished": true,
+    "isNew": true,
+    "outOfStock": false,
+    "stock": 40,
+    "isAd": false,
+    "variations": [
+      "Single Arm",
+      "Dual Arm"
+    ],
+    "features": [
+      "Gas Spring Adjustment",
+      "Cable Management",
+      "C-Clamp/Grommet base",
+      "VESA Compatible"
+    ],
+    "benefits": [
+      "Reduces neck strain",
+      "Saves desk space",
+      "Fluid movement"
+    ],
+    "specifications": [
+      "Max Size: 32 inch",
+      "Weight Cap: 9kg per arm",
+      "Rotation: 360°"
+    ],
+    "reviews": [
+      "Held my heavy 27-inch monitors easily.",
+      "The cable hiding makes my desk look clean."
+    ],
+    "faq": [
+      {
+        "questions": [
+          "Does it fit all monitors?"
+        ],
+        "answers": [
+          "It fits any monitor with a VESA 75x75 or 100x100 mounting pattern."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hobby-53",
+    "title": "Canvas-Pro 12-inch Drawing Tablet",
+    "subtitle": "Bring your digital art to life.",
+    "description": "A professional-grade graphic tablet with 8192 levels of pressure sensitivity. The battery-free stylus feels like a real pen on paper, making it ideal for digital painting, photo editing, and 3D sculpting.",
+    "imageUrl": "https://images.unsplash.com/photo-1542744094-24638eff58bb?q=80&w=800",
+    "videoUrl": "https://example.com/videos/hobby-53.mp4",
+    "price": "2800.00",
+    "currencySymbol": "R",
+    "category": {
+      "id": "gaming",
+      "title": "Gaming",
+      "description": "Creative gear.",
+      "imageUrl": "/images/categories/gaming.png",
+      "isPublished": true
+    },
+    "type": "gaming",
+    "isPublished": true,
+    "isNew": false,
+    "outOfStock": false,
+    "stock": 35,
+    "isAd": false,
+    "variations": [
+      "Classic Black"
+    ],
+    "features": [
+      "8192 Pressure Levels",
+      "8 Express Keys",
+      "Battery-free Pen",
+      "USB-C Connection"
+    ],
+    "benefits": [
+      "Lag-free drawing",
+      "Portable and slim",
+      "Compatible with Photoshop/SAI"
+    ],
+    "specifications": [
+      "Area: 10x6 inch",
+      "Resolution: 5080 LPI",
+      "Report Rate: 266 PPS"
+    ],
+    "reviews": [
+      "Better than a Wacom for a fraction of the cost.",
+      "The texture is perfect."
+    ],
+    "faq": [
+      {
+        "questions": [
+          "Does it have a screen?"
+        ],
+        "answers": [
+          "No, this is a traditional graphic tablet; you view your work on your monitor."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "kitchen-55",
+    "title": "Smart-Grill Wireless Meat Probe",
+    "subtitle": "Perfect steaks, every single time.",
+    "description": "Stop guessing and start grilling. This completely wireless probe connects to your phone via Bluetooth, alerting you the exact second your meat reaches the perfect temperature.",
+    "imageUrl": "https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=800",
+    "videoUrl": "https://example.com/videos/kitchen-55.mp4",
+    "price": "1450.00",
+    "currencySymbol": "R",
+    "category": {
+      "id": "home-living",
+      "title": "Home & Living",
+      "description": "Kitchen tech.",
+      "imageUrl": "/images/categories/home.png",
+      "isPublished": true
+    },
+    "type": "home-living",
+    "isPublished": true,
+    "isNew": true,
+    "outOfStock": false,
+    "stock": 55,
+    "isAd": false,
+    "variations": [
+      "Single Probe",
+      "Dual Probe Pack"
+    ],
+    "features": [
+      "100% Wire-free",
+      "50m Bluetooth range",
+      "Dual Sensors",
+      "App Guided Cooking"
+    ],
+    "benefits": [
+      "No messy wires",
+      "Cooks to precision",
+      "Dishwasher safe"
+    ],
+    "specifications": [
+      "Internal Temp: 100°C",
+      "Ambient Temp: 275°C",
+      "Charging: 4h use from 5min charge"
+    ],
+    "reviews": [
+      "Perfect for my rotisserie.",
+      "The app estimates when it will be finished."
+    ],
+    "faq": [
+      {
+        "questions": [
+          "Does it work inside a closed oven?"
+        ],
+        "answers": [
+          "Yes, the Bluetooth signal transmits through the oven door to your phone."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "travel-56",
+    "title": "Pack-Master 6pc Cube Set",
+    "subtitle": "The secret to stress-free luggage.",
+    "description": "Maximize your suitcase space and keep your belongings organized. This 6-piece set includes various sizes to separate your clothes, laundry, and toiletries effortlessly.",
+    "imageUrl": "https://images.unsplash.com/photo-1527631746610-bca00a040d60?q=80&w=800",
+    "videoUrl": "https://example.com/videos/travel-56.mp4",
+    "price": "380.00",
+    "currencySymbol": "R",
+    "category": {
+      "id": "fashion-access",
+      "title": "Fashion & Accessories",
+      "description": "Travel essentials.",
+      "imageUrl": "/images/categories/fashion.png",
+      "isPublished": true
+    },
+    "type": "fashion-access",
+    "isPublished": true,
+    "isNew": false,
+    "outOfStock": false,
+    "stock": 200,
+    "isAd": false,
+    "variations": [
+      "Navy",
+      "Grey",
+      "Maroon"
+    ],
+    "features": [
+      "Breathable mesh",
+      "Double Zippers",
+      "Water-resistant Nylon",
+      "Laundry bag included"
+    ],
+    "benefits": [
+      "Find items instantly",
+      "Compresses clothing",
+      "Keeps clothes wrinkle-free"
+    ],
+    "specifications": [
+      "Material: 210D Oxford",
+      "Count: 6 Cubes",
+      "Weight: 350g total"
+    ],
+    "reviews": [
+      "I can fit twice as much in my carry-on.",
+      "Zippers are very sturdy."
+    ],
+    "faq": [
+      {
+        "questions": [
+          "Are they washable?"
+        ],
+        "answers": [
+          "Yes, hand wash or machine wash on delicate."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "elec-58",
+    "title": "Nova-Key Foldable Keyboard",
+    "subtitle": "The office that fits in your pocket.",
+    "description": "A tri-folding Bluetooth keyboard with a built-in touchpad. Perfect for digital nomads who need to type long emails or documents on their tablet or smartphone.",
+    "imageUrl": "https://images.unsplash.com/photo-1529236183275-4fdcf2bc987e?q=80&w=800",
+    "videoUrl": "https://example.com/videos/elec-58.mp4",
+    "price": "650.00",
+    "currencySymbol": "R",
+    "category": {
+      "id": "electronics",
+      "title": "Electronics",
+      "description": "Portable tech.",
+      "imageUrl": "/images/categories/elec.png",
+      "isPublished": true
+    },
+    "type": "electronics",
+    "isPublished": true,
+    "isNew": false,
+    "outOfStock": false,
+    "stock": 70,
+    "isAd": false,
+    "variations": [
+      "Space Grey"
+    ],
+    "features": [
+      "Tri-fold design",
+      "Built-in Touchpad",
+      "Multi-device pairing",
+      "Magnetic closure"
+    ],
+    "benefits": [
+      "Ultra-portable",
+      "Type faster on phones",
+      "Long battery life"
+    ],
+    "specifications": [
+      "Weight: 197g",
+      "Battery: 48h use",
+      "Bluetooth: 5.1"
+    ],
+    "reviews": [
+      "I use it with my iPad mini, it's perfect.",
+      "Keys feel surprisingly good."
+    ],
+    "faq": [
+      {
+        "questions": [
+          "Does the touchpad work on iPhone?"
+        ],
+        "answers": [
+          "Yes, on iOS 13 and above."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fit-61",
+    "title": "Iron-Pace Foldable Treadmill",
+    "subtitle": "Your daily run, rain or shine.",
+    "description": "A space-saving treadmill that fits under your sofa or bed. Features an LED display for tracking stats and a quiet 2.25HP motor for early morning workouts.",
+    "imageUrl": "https://images.unsplash.com/photo-1540497077202-7c8a3999166f?q=80&w=800",
+    "videoUrl": "https://example.com/videos/fit-61.mp4",
+    "price": "6800.00",
+    "currencySymbol": "R",
+    "category": {
+      "id": "fitness",
+      "title": "Fitness & Sports",
+      "description": "Home gym.",
+      "imageUrl": "/images/categories/fitness.png",
+      "isPublished": true
+    },
+    "type": "fitness",
+    "isPublished": true,
+    "isNew": true,
+    "outOfStock": false,
+    "stock": 10,
+    "isAd": false,
+    "variations": [
+      "Silver/Black"
+    ],
+    "features": [
+      "Foldable frame",
+      "Built-in Bluetooth",
+      "Emergency Stop",
+      "Phone Holder"
+    ],
+    "benefits": [
+      "Walk while you work",
+      "Easy to store",
+      "No more gym fees"
+    ],
+    "specifications": [
+      "Speed: 1-12km/h",
+      "Max Weight: 100kg",
+      "Motor: 2.25HP"
+    ],
+    "reviews": [
+      "Perfect for my small apartment.",
+      "Very quiet motor."
+    ],
+    "faq": [
+      {
+        "questions": [
+          "Does it require assembly?"
+        ],
+        "answers": [
+          "No, it comes 99% assembled out of the box."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "elec-62",
+    "title": "Nova-Pods ANC Earbuds",
+    "subtitle": "Silence the world, hear the soul.",
+    "description": "True wireless earbuds with Hybrid Active Noise Cancellation. Enjoy 30 hours of playtime and a low-latency gaming mode for immersive audio performance.",
+    "imageUrl": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?q=80&w=800",
+    "videoUrl": "https://example.com/videos/elec-62.mp4",
+    "price": "1100.00",
+    "currencySymbol": "R",
+    "category": {
+      "id": "electronics",
+      "title": "Electronics",
+      "description": "Audio.",
+      "imageUrl": "/images/categories/elec.png",
+      "isPublished": true
+    },
+    "type": "electronics",
+    "isPublished": true,
+    "isNew": false,
+    "outOfStock": false,
+    "stock": 150,
+    "isAd": false,
+    "variations": [
+      "Midnight Black",
+      "Frost White"
+    ],
+    "features": [
+      "Hybrid ANC",
+      "Wireless Charging",
+      "IPX5 Waterproof",
+      "6-Mic System"
+    ],
+    "benefits": [
+      "Clear calls in wind",
+      "Great for travel",
+      "Deep punchy bass"
+    ],
+    "specifications": [
+      "Driver: 10mm Graphene",
+      "Battery: 30h total",
+      "Bluetooth: 5.2"
+    ],
+    "reviews": [
+      "Better noise cancelling than my old Sony's.",
+      "Very comfortable for side sleepers."
+    ],
+    "faq": [
+      {
+        "questions": [
+          "Can I use just one earbud?"
+        ],
+        "answers": [
+          "Yes, each bud can be used in mono mode independently."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "kitchen-63",
+    "title": "Barista-Touch Milk Frother",
+    "subtitle": "Café quality foam in 60 seconds.",
+    "description": "Create hot dense foam, hot airy foam, or cold foam for your iced coffee. Induction heating technology ensures the milk never burns and cleanup is effortless.",
+    "imageUrl": "https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?q=80&w=800",
+    "videoUrl": "https://example.com/videos/kitchen-63.mp4",
+    "price": "850.00",
+    "currencySymbol": "R",
+    "category": {
+      "id": "home-living",
+      "title": "Home & Living",
+      "description": "Kitchen gear.",
+      "imageUrl": "/images/categories/home.png",
+      "isPublished": true
+    },
+    "type": "home-living",
+    "isPublished": true,
+    "isNew": false,
+    "outOfStock": false,
+    "stock": 60,
+    "isAd": false,
+    "variations": [
+      "Chrome",
+      "Black"
+    ],
+    "features": [
+      "4-in-1 Settings",
+      "Induction Heating",
+      "Dishwasher Safe Jug",
+      "Auto-off"
+    ],
+    "benefits": [
+      "Perfect hot chocolate",
+      "Saves café money",
+      "Quiet operation"
+    ],
+    "specifications": [
+      "Capacity: 240ml",
+      "Power: 500W",
+      "Material: Stainless Steel"
+    ],
+    "reviews": [
+      "Makes amazing cold foam for my brew.",
+      "Whisper quiet and easy to clean."
+    ],
+    "faq": [
+      {
+        "questions": [
+          "Does it work with oat milk?"
+        ],
+        "answers": [
+          "Yes, it works excellently with Barista-edition plant milks."
+        ]
+      }
+    ]
+  }
+]

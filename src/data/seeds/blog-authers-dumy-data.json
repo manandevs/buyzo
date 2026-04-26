@@ -1,0 +1,116 @@
+[
+  {
+    "id": "auth-01",
+    "name": "Sarah Jenkins",
+    "role": "Senior Tech Editor",
+    "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=400",
+    "bio": "Deep-diving into the intersection of lifestyle and consumer electronics for over a decade.",
+    "email": "sarah.j@example.com",
+    "twitter": "sarahj_tech",
+    "linkedin": "sarahjenkins",
+    "isVerified": true,
+    "createdAt": "2023-01-15T10:00:00Z"
+  },
+  {
+    "id": "auth-02",
+    "name": "David Chen",
+    "role": "Product Specialist",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=400",
+    "bio": "Focused on identifying the best value-for-money home and living essentials in the modern market.",
+    "email": "d.chen@example.com",
+    "website": "https://davidchen.me",
+    "linkedin": "davidchen-pro",
+    "isVerified": true,
+    "createdAt": "2023-02-10T14:30:00Z"
+  },
+  {
+    "id": "auth-03",
+    "name": "Elena Rodriguez",
+    "role": "Fashion Lead",
+    "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=400",
+    "bio": "Exploring sustainable fashion trends and the future of ethical retail design.",
+    "email": "elena.rod@example.com",
+    "twitter": "elena_styles",
+    "linkedin": "elena-rod",
+    "isVerified": false,
+    "createdAt": "2023-03-05T09:15:00Z"
+  },
+  {
+    "id": "auth-04",
+    "name": "Marcus Thorne",
+    "role": "Outdoor Gear Reviewer",
+    "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=400",
+    "bio": "An avid mountaineer and gear junkie testing products in the harshest environments.",
+    "email": "m.thorne@example.com",
+    "twitter": "thorne_outdoors",
+    "isVerified": true,
+    "createdAt": "2023-04-12T16:45:00Z"
+  },
+  {
+    "id": "auth-05",
+    "name": "Dr. Aria Gupta",
+    "role": "Wellness Columnist",
+    "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=400",
+    "bio": "Dermatologist and wellness expert focusing on science-backed beauty and health routines.",
+    "email": "dr.aria@example.com",
+    "website": "https://ariagupta.health",
+    "linkedin": "aria-gupta-md",
+    "isVerified": true,
+    "createdAt": "2023-05-20T11:20:00Z"
+  },
+  {
+    "id": "auth-06",
+    "name": "Leo Maxwell",
+    "role": "Toy & Gaming Expert",
+    "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=400",
+    "bio": "Reviewing the latest in interactive play and STEM education for children of all ages.",
+    "email": "leo.max@example.com",
+    "twitter": "leoplay_games",
+    "isVerified": false,
+    "createdAt": "2023-06-08T13:10:00Z"
+  },
+  {
+    "id": "auth-07",
+    "name": "Chloe Beaufort",
+    "role": "Interior Designer",
+    "avatar": "https://images.unsplash.com/photo-1554151228-14d9def656e4?q=80&w=400",
+    "bio": "Passionate about creating functional, beautiful spaces using smart home technology.",
+    "email": "chloe.b@example.com",
+    "linkedin": "chloe-beaufort-design",
+    "isVerified": true,
+    "createdAt": "2023-07-22T08:50:00Z"
+  },
+  {
+    "id": "auth-08",
+    "name": "Simon Vance",
+    "role": "Hardware Architect",
+    "avatar": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=400",
+    "bio": "Breaking down the specs and components that drive our favorite high-performance gadgets.",
+    "email": "svance@example.com",
+    "twitter": "vance_tech_specs",
+    "isVerified": false,
+    "createdAt": "2023-08-30T15:00:00Z"
+  },
+  {
+    "id": "auth-09",
+    "name": "Mia Nakamura",
+    "role": "Lifestyle Contributor",
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400",
+    "bio": "Curating minimal and functional lifestyle products inspired by Japanese design principles.",
+    "email": "mia.n@example.com",
+    "website": "https://nakamuralife.com",
+    "isVerified": true,
+    "createdAt": "2023-09-14T10:40:00Z"
+  },
+  {
+    "id": "auth-10",
+    "name": "Jackson Reed",
+    "role": "Consumer Trends Analyst",
+    "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=400",
+    "bio": "Tracking consumer habits and the fast-paced world of digital marketplaces.",
+    "email": "j.reed@example.com",
+    "linkedin": "jackson-reed-analyst",
+    "isVerified": false,
+    "createdAt": "2023-10-01T17:00:00Z"
+  }
+]

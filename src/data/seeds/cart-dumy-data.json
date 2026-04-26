@@ -1,0 +1,58 @@
+{
+  "items": [
+    {
+      "id": "cart-item-1",
+      "productId": "elec-01",
+      "quantity": 1,
+      "selectedVariation": "Black"
+    },
+    {
+      "id": "cart-item-2",
+      "productId": "elec-02",
+      "quantity": 1,
+      "selectedVariation": "16GB"
+    },
+    {
+      "id": "cart-item-3",
+      "productId": "elec-03",
+      "quantity": 2,
+      "selectedVariation": "Sport"
+    },
+    {
+      "id": "cart-item-4",
+      "productId": "elec-04",
+      "quantity": 1,
+      "selectedVariation": "Blue Switch"
+    },
+    {
+      "id": "cart-item-5",
+      "productId": "elec-05",
+      "quantity": 1,
+      "selectedVariation": "Standard"
+    },
+    {
+      "id": "cart-item-6",
+      "productId": "elec-06",
+      "quantity": 3,
+      "selectedVariation": "White"
+    },
+    {
+      "id": "cart-item-7",
+      "productId": "elec-07",
+      "quantity": 1,
+      "selectedVariation": "Standard"
+    },
+    {
+      "id": "cart-item-8",
+      "productId": "elec-01",
+      "quantity": 1,
+      "selectedVariation": "Silver"
+    }
+  ],
+  "subtotal": 49298.00,
+  "totalItems": 11,
+  "currencySymbol": "R",
+  "shippingFee": 150.00,
+  "tax": 7394.70,
+  "total": 56842.70
+}
